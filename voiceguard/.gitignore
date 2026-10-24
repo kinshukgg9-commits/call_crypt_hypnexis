@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+# downloaded by scripts/fetch_aasist.py
+ml/weights/*
+!ml/weights/.gitkeep
+# never commit recordings
+/data/
+*.wav
+*.mp3
+*.m4a

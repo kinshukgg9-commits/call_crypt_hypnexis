@@ -1,0 +1,1018 @@
+{
+ "mode": "text",
+ "summary": {
+  "calls": 57,
+  "scam_calls": 31,
+  "genuine_calls": 26,
+  "tp": 19,
+  "fp": 2,
+  "fn": 12,
+  "tn": 24,
+  "precision": 0.905,
+  "recall": 0.613,
+  "f1": 0.731,
+  "accuracy": 0.754,
+  "false_alarm_rate": 0.077,
+  "median_seconds_to_scam_verdict": 17.0,
+  "recall_by_scam_type": {
+   "digital_arrest": {
+    "caught": 13,
+    "total": 17
+   },
+   "family_emergency": {
+    "caught": 0,
+    "total": 1
+   },
+   "family_emergency_voice_clone": {
+    "caught": 0,
+    "total": 3
+   },
+   "official_impersonation": {
+    "caught": 5,
+    "total": 6
+   },
+   "official_impersonation_ai_voice": {
+    "caught": 1,
+    "total": 4
+   }
+  },
+  "by_language": {
+   "en": {
+    "correct": 31,
+    "total": 41
+   },
+   "hi": {
+    "correct": 4,
+    "total": 5
+   },
+   "hi-Latn": {
+    "correct": 8,
+    "total": 11
+   }
+  },
+  "errors": [
+   {
+    "id": "call-007",
+    "label": 1,
+    "verdict": "safe",
+    "scam_score": 0.59,
+    "reasons": [
+     "Money movement",
+     "Authority impersonation"
+    ]
+   },
+   {
+    "id": "call-011",
+    "label": 1,
+    "verdict": "safe",
+    "scam_score": 0.25,
+    "reasons": [
+     "Authority impersonation"
+    ]
+   },
+   {
+    "id": "call-014",
+    "label": 1,
+    "verdict": "safe",
+    "scam_score": 0.59,
+    "reasons": [
+     "Money movement",
+     "Authority impersonation"
+    ]
+   },
+   {
+    "id": "call-017",
+    "label": 1,
+    "verdict": "safe",
+    "scam_score": 0.59,
+    "reasons": [
+     "Money movement",
+     "Authority impersonation"
+    ]
+   },
+   {
+    "id": "call-018",
+    "label": 1,
+    "verdict": "safe",
+    "scam_score": 0.0,
+    "reasons": []
+   },
+   {
+    "id": "call-019",
+    "label": 1,
+    "verdict": "safe",
+    "scam_score": 0.0,
+    "reasons": []
+   },
+   {
+    "id": "call-020",
+    "label": 1,
+    "verdict": "safe",
+    "scam_score": 0.0,
+    "reasons": []
+   },
+   {
+    "id": "call-021",
+    "label": 1,
+    "verdict": "safe",
+    "scam_score": 0.25,
+    "reasons": [
+     "Authority impersonation"
+    ]
+   },
+   {
+    "id": "call-022",
+    "label": 1,
+    "verdict": "safe",
+    "scam_score": 0.0,
+    "reasons": []
+   },
+   {
+    "id": "call-023",
+    "label": 1,
+    "verdict": "safe",
+    "scam_score": 0.0,
+    "reasons": []
+   },
+   {
+    "id": "call-024",
+    "label": 1,
+    "verdict": "safe",
+    "scam_score": 0.25,
+    "reasons": [
+     "Authority impersonation"
+    ]
+   },
+   {
+    "id": "call-026",
+    "label": 1,
+    "verdict": "safe",
+    "scam_score": 0.25,
+    "reasons": [
+     "Authority impersonation"
+    ]
+   },
+   {
+    "id": "call-104",
+    "label": 0,
+    "verdict": "scam",
+    "scam_score": 0.65,
+    "reasons": [
+     "Known scam script"
+    ]
+   },
+   {
+    "id": "call-124",
+    "label": 0,
+    "verdict": "scam",
+    "scam_score": 0.74,
+    "reasons": [
+     "Known scam script",
+     "Authority impersonation"
+    ]
+   }
+  ]
+ },
+ "calls": [
+  {
+   "id": "call-001",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "en",
+   "incident_id": "IN-2025-001",
+   "verdict": "scam",
+   "scam_score": 0.86,
+   "reasons": [
+    "Known scam script",
+    "Money movement",
+    "Authority impersonation"
+   ],
+   "seconds": 50.6,
+   "first_scam_at": 21.2,
+   "pred": 1
+  },
+  {
+   "id": "call-002",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "en",
+   "incident_id": "IN-2025-002",
+   "verdict": "scam",
+   "scam_score": 0.91,
+   "reasons": [
+    "Known scam script",
+    "Money movement",
+    "Account or KYC threat",
+    "Authority impersonation"
+   ],
+   "seconds": 50.0,
+   "first_scam_at": 23.6,
+   "pred": 1
+  },
+  {
+   "id": "call-003",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "en",
+   "incident_id": "IN-2025-003",
+   "verdict": "scam",
+   "scam_score": 0.86,
+   "reasons": [
+    "Known scam script",
+    "Money movement",
+    "Authority impersonation"
+   ],
+   "seconds": 43.6,
+   "first_scam_at": 8.0,
+   "pred": 1
+  },
+  {
+   "id": "call-004",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "en",
+   "incident_id": "IN-2025-004",
+   "verdict": "scam",
+   "scam_score": 0.81,
+   "reasons": [
+    "Threat or confinement",
+    "Money movement",
+    "Authority impersonation"
+   ],
+   "seconds": 31.4,
+   "first_scam_at": 19.4,
+   "pred": 1
+  },
+  {
+   "id": "call-005",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "en",
+   "incident_id": "IN-2025-005",
+   "verdict": "scam",
+   "scam_score": 0.74,
+   "reasons": [
+    "Known scam script",
+    "Authority impersonation"
+   ],
+   "seconds": 44.8,
+   "first_scam_at": 18.4,
+   "pred": 1
+  },
+  {
+   "id": "call-006",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "en",
+   "incident_id": "IN-2025-006",
+   "verdict": "scam",
+   "scam_score": 0.74,
+   "reasons": [
+    "Known scam script",
+    "Authority impersonation"
+   ],
+   "seconds": 49.4,
+   "first_scam_at": 32.199999999999996,
+   "pred": 1
+  },
+  {
+   "id": "call-007",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "en",
+   "incident_id": "IN-2025-007",
+   "verdict": "safe",
+   "scam_score": 0.59,
+   "reasons": [
+    "Money movement",
+    "Authority impersonation"
+   ],
+   "seconds": 33.6,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-008",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "hi-Latn",
+   "incident_id": "IN-2025-001",
+   "verdict": "scam",
+   "scam_score": 0.74,
+   "reasons": [
+    "Known scam script",
+    "Authority impersonation"
+   ],
+   "seconds": 30.2,
+   "first_scam_at": 15.6,
+   "pred": 1
+  },
+  {
+   "id": "call-009",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "hi-Latn",
+   "incident_id": "IN-2025-002",
+   "verdict": "scam",
+   "scam_score": 0.65,
+   "reasons": [
+    "Known scam script"
+   ],
+   "seconds": 32.2,
+   "first_scam_at": 13.0,
+   "pred": 1
+  },
+  {
+   "id": "call-010",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "hi-Latn",
+   "incident_id": "IN-2025-003",
+   "verdict": "scam",
+   "scam_score": 0.74,
+   "reasons": [
+    "Known scam script",
+    "Authority impersonation"
+   ],
+   "seconds": 22.4,
+   "first_scam_at": 7.6,
+   "pred": 1
+  },
+  {
+   "id": "call-011",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "hi-Latn",
+   "incident_id": "IN-2025-004",
+   "verdict": "safe",
+   "scam_score": 0.25,
+   "reasons": [
+    "Authority impersonation"
+   ],
+   "seconds": 20.4,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-012",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "hi-Latn",
+   "incident_id": "IN-2025-005",
+   "verdict": "scam",
+   "scam_score": 0.86,
+   "reasons": [
+    "Known scam script",
+    "Money movement",
+    "Authority impersonation"
+   ],
+   "seconds": 29.2,
+   "first_scam_at": 14.0,
+   "pred": 1
+  },
+  {
+   "id": "call-013",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "hi-Latn",
+   "incident_id": "IN-2025-006",
+   "verdict": "scam",
+   "scam_score": 0.74,
+   "reasons": [
+    "Known scam script",
+    "Authority impersonation"
+   ],
+   "seconds": 25.0,
+   "first_scam_at": 17.0,
+   "pred": 1
+  },
+  {
+   "id": "call-014",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "hi-Latn",
+   "incident_id": "IN-2025-007",
+   "verdict": "safe",
+   "scam_score": 0.59,
+   "reasons": [
+    "Money movement",
+    "Authority impersonation"
+   ],
+   "seconds": 19.6,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-015",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "hi",
+   "incident_id": "IN-2025-002",
+   "verdict": "scam",
+   "scam_score": 0.87,
+   "reasons": [
+    "Known scam script",
+    "Money movement",
+    "Account or KYC threat"
+   ],
+   "seconds": 24.4,
+   "first_scam_at": 10.8,
+   "pred": 1
+  },
+  {
+   "id": "call-016",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "hi",
+   "incident_id": "IN-2025-005",
+   "verdict": "scam",
+   "scam_score": 0.86,
+   "reasons": [
+    "Known scam script",
+    "Money movement",
+    "Authority impersonation"
+   ],
+   "seconds": 22.0,
+   "first_scam_at": 10.8,
+   "pred": 1
+  },
+  {
+   "id": "call-017",
+   "label": 1,
+   "scam_type": "digital_arrest",
+   "language": "hi",
+   "incident_id": "IN-2025-007",
+   "verdict": "safe",
+   "scam_score": 0.59,
+   "reasons": [
+    "Money movement",
+    "Authority impersonation"
+   ],
+   "seconds": 17.8,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-018",
+   "label": 1,
+   "scam_type": "official_impersonation_ai_voice",
+   "language": "en",
+   "incident_id": "US-2025-001",
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 20.0,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-019",
+   "label": 1,
+   "scam_type": "official_impersonation_ai_voice",
+   "language": "en",
+   "incident_id": "US-2025-002",
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 22.6,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-020",
+   "label": 1,
+   "scam_type": "official_impersonation_ai_voice",
+   "language": "en",
+   "incident_id": "US-2025-003",
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 17.4,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-021",
+   "label": 1,
+   "scam_type": "family_emergency_voice_clone",
+   "language": "en",
+   "incident_id": "US-2025-004",
+   "verdict": "safe",
+   "scam_score": 0.25,
+   "reasons": [
+    "Authority impersonation"
+   ],
+   "seconds": 44.2,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-022",
+   "label": 1,
+   "scam_type": "family_emergency_voice_clone",
+   "language": "en",
+   "incident_id": "US-2025-005",
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 28.8,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-023",
+   "label": 1,
+   "scam_type": "family_emergency",
+   "language": "en",
+   "incident_id": "CA-2025-001",
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 23.4,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-024",
+   "label": 1,
+   "scam_type": "family_emergency_voice_clone",
+   "language": "en",
+   "incident_id": "CA-2025-002",
+   "verdict": "safe",
+   "scam_score": 0.25,
+   "reasons": [
+    "Authority impersonation"
+   ],
+   "seconds": 12.6,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-025",
+   "label": 1,
+   "scam_type": "official_impersonation_ai_voice",
+   "language": "en",
+   "incident_id": "IT-2025-001",
+   "verdict": "scam",
+   "scam_score": 0.7,
+   "reasons": [
+    "Money movement",
+    "Secrecy"
+   ],
+   "seconds": 27.2,
+   "first_scam_at": 27.2,
+   "pred": 1
+  },
+  {
+   "id": "call-026",
+   "label": 1,
+   "scam_type": "official_impersonation",
+   "language": "en",
+   "incident_id": "SG-2025-001",
+   "verdict": "safe",
+   "scam_score": 0.25,
+   "reasons": [
+    "Authority impersonation"
+   ],
+   "seconds": 26.6,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-027",
+   "label": 1,
+   "scam_type": "official_impersonation",
+   "language": "en",
+   "incident_id": "SG-2025-002",
+   "verdict": "scam",
+   "scam_score": 0.86,
+   "reasons": [
+    "Known scam script",
+    "Money movement",
+    "Authority impersonation"
+   ],
+   "seconds": 26.4,
+   "first_scam_at": 17.4,
+   "pred": 1
+  },
+  {
+   "id": "call-028",
+   "label": 1,
+   "scam_type": "official_impersonation",
+   "language": "en",
+   "incident_id": "SG-2025-003",
+   "verdict": "scam",
+   "scam_score": 0.65,
+   "reasons": [
+    "Known scam script"
+   ],
+   "seconds": 26.8,
+   "first_scam_at": 17.8,
+   "pred": 1
+  },
+  {
+   "id": "call-029",
+   "label": 1,
+   "scam_type": "official_impersonation",
+   "language": "en",
+   "incident_id": "SG-2025-004",
+   "verdict": "scam",
+   "scam_score": 0.74,
+   "reasons": [
+    "Known scam script",
+    "Authority impersonation"
+   ],
+   "seconds": 24.8,
+   "first_scam_at": 14.4,
+   "pred": 1
+  },
+  {
+   "id": "call-030",
+   "label": 1,
+   "scam_type": "official_impersonation",
+   "language": "en",
+   "incident_id": "SG-2025-005",
+   "verdict": "scam",
+   "scam_score": 0.65,
+   "reasons": [
+    "Known scam script"
+   ],
+   "seconds": 29.6,
+   "first_scam_at": 22.0,
+   "pred": 1
+  },
+  {
+   "id": "call-031",
+   "label": 1,
+   "scam_type": "official_impersonation",
+   "language": "en",
+   "incident_id": "SG-2025-006",
+   "verdict": "scam",
+   "scam_score": 0.74,
+   "reasons": [
+    "Known scam script",
+    "Authority impersonation"
+   ],
+   "seconds": 25.8,
+   "first_scam_at": 16.2,
+   "pred": 1
+  },
+  {
+   "id": "call-101",
+   "label": 0,
+   "scam_type": "bank_fraud_alert",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.35,
+   "reasons": [
+    "Account or KYC threat"
+   ],
+   "seconds": 28.4,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-102",
+   "label": 0,
+   "scam_type": "delivery",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 13.6,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-103",
+   "label": 0,
+   "scam_type": "family",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.25,
+   "reasons": [
+    "Authority impersonation"
+   ],
+   "seconds": 13.6,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-104",
+   "label": 0,
+   "scam_type": "conversation_about_scams",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "scam",
+   "scam_score": 0.65,
+   "reasons": [
+    "Known scam script"
+   ],
+   "seconds": 19.2,
+   "first_scam_at": 8.0,
+   "pred": 1
+  },
+  {
+   "id": "call-105",
+   "label": 0,
+   "scam_type": "police_genuine",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.25,
+   "reasons": [
+    "Authority impersonation"
+   ],
+   "seconds": 14.0,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-106",
+   "label": 0,
+   "scam_type": "utility_reminder",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 19.0,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-107",
+   "label": 0,
+   "scam_type": "bank_service",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 13.2,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-108",
+   "label": 0,
+   "scam_type": "appointment",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 10.4,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-109",
+   "label": 0,
+   "scam_type": "fee_reminder",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 13.6,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-110",
+   "label": 0,
+   "scam_type": "insurance_renewal",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 14.6,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-111",
+   "label": 0,
+   "scam_type": "tax_consultant",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.25,
+   "reasons": [
+    "Authority impersonation"
+   ],
+   "seconds": 13.6,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-112",
+   "label": 0,
+   "scam_type": "family_money",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 15.2,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-113",
+   "label": 0,
+   "scam_type": "telecom_reminder",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 9.6,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-114",
+   "label": 0,
+   "scam_type": "awareness_message",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.25,
+   "reasons": [
+    "Authority impersonation"
+   ],
+   "seconds": 18.2,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-115",
+   "label": 0,
+   "scam_type": "lawyer_genuine",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.25,
+   "reasons": [
+    "Authority impersonation"
+   ],
+   "seconds": 12.8,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-116",
+   "label": 0,
+   "scam_type": "family",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 11.2,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-117",
+   "label": 0,
+   "scam_type": "work_payment",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 11.8,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-118",
+   "label": 0,
+   "scam_type": "customer_care_genuine",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 15.8,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-119",
+   "label": 0,
+   "scam_type": "bank_fraud_alert",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 15.0,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-120",
+   "label": 0,
+   "scam_type": "police_genuine",
+   "language": "en",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.25,
+   "reasons": [
+    "Authority impersonation"
+   ],
+   "seconds": 10.0,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-121",
+   "label": 0,
+   "scam_type": "friend",
+   "language": "hi-Latn",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 7.2,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-122",
+   "label": 0,
+   "scam_type": "family",
+   "language": "hi-Latn",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 6.4,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-123",
+   "label": 0,
+   "scam_type": "delivery",
+   "language": "hi-Latn",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 5.6,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-124",
+   "label": 0,
+   "scam_type": "conversation_about_scams",
+   "language": "hi-Latn",
+   "incident_id": null,
+   "verdict": "scam",
+   "scam_score": 0.74,
+   "reasons": [
+    "Known scam script",
+    "Authority impersonation"
+   ],
+   "seconds": 11.2,
+   "first_scam_at": 4.0,
+   "pred": 1
+  },
+  {
+   "id": "call-125",
+   "label": 0,
+   "scam_type": "bank_service",
+   "language": "hi",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 9.2,
+   "first_scam_at": null,
+   "pred": 0
+  },
+  {
+   "id": "call-126",
+   "label": 0,
+   "scam_type": "family_money",
+   "language": "hi",
+   "incident_id": null,
+   "verdict": "safe",
+   "scam_score": 0.0,
+   "reasons": [],
+   "seconds": 6.4,
+   "first_scam_at": null,
+   "pred": 0
+  }
+ ]
+}

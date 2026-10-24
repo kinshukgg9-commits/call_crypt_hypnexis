@@ -1,0 +1,170 @@
+diff --git a/backend/storage/evaluation.py b/backend/storage/evaluation.py
+index 0e668a2..65a80e4 100644
+--- a/backend/storage/evaluation.py
++++ b/backend/storage/evaluation.py
+@@ -89,3 +89,64 @@ def save_run(conn, dataset_id: int, run: dict[str, Any], predictions: list[dict[
+         )
+     conn.commit()
+     return run_id
++
++
++def load_scam_benchmark(conn, incidents: list[dict], calls: list[dict], audio: dict | None,
++                        dataset: str = "vgsc25-calls", now_ts: float | None = None) -> dict[str, int]:
++    """Creates or replaces the VGSC-25 scam-call test set (benchmark/vgsc25). Returns row counts.
++    Loading it twice gives the same rows."""
++    now = utc(now_ts if now_ts is not None else time.time())
++    j = lambda v: json.dumps(v, ensure_ascii=False)
++    with conn.cursor() as cur:
++        cur.execute("SELECT dataset_id FROM vg_eval_datasets WHERE name = %s FOR UPDATE", (dataset,))
++        row = cur.fetchone()
++        if row:
++            dataset_id = int(row[0])
++            cur.execute("DELETE FROM vg_eval_calls WHERE dataset_id = %s", (dataset_id,))       # cascades to clips
++        else:
++            cur.execute("INSERT INTO vg_eval_datasets (name, description, frame_seconds, sample_rate, fake_source, "
++                        "created_at) VALUES (%s, %s, %s, %s, %s, %s)",
++                        (dataset, "VGSC-25: reconstructed 2025 scam calls and look-alike genuine calls",
++                         0.5, 16000, "offline stock TTS voices", now))
++            dataset_id = int(cur.lastrowid)
++        uids = [i["id"] for i in incidents]
++        if uids:
++            cur.execute(f"DELETE FROM vg_eval_incidents WHERE incident_uid IN ({', '.join(['%s'] * len(uids))})", uids)
++        ids = {}
++        for i in incidents:
++            cur.execute(
++                "INSERT INTO vg_eval_incidents (incident_uid, record_type, event_date, date_precision, country, region, "
++                "scam_type, claimed_identity, channel, ai_voice, victim_profile, loss_amount, currency, loss_usd_approx, "
++                "recovered_amount, outcome, tactics, summary, verification_level, note, created_at) "
++                "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
++                (i["id"], i["record_type"], i["date"], i["date_precision"], i["country"], i.get("region"),
++                 i["scam_type"], j(i["claimed_identity"]), j(i["channel"]), i["ai_voice"], i.get("victim_profile"),
++                 i.get("loss"), i.get("currency"), i.get("loss_usd_approx"), i.get("recovered"),
++                 (i.get("outcome") or "")[:500] or None, j(i["tactics"]), i["summary"], i["verification_level"],
++                 (i.get("note") or "")[:500] or None, now))
++            ids[i["id"]] = int(cur.lastrowid)
++            cur.executemany(
++                "INSERT INTO vg_eval_incident_sources (incident_id, source_index, url, publisher, source_type, published, "
++                "accessed, supports, note) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)",
++                [(ids[i["id"]], k, s["url"][:500], s["publisher"][:150], s["source_type"], s.get("published"),
++                  s.get("accessed"), j(s["supports"]), (s.get("note") or "")[:300] or None)
++                 for k, s in enumerate(i["sources"])])
++        call_ids = {}
++        for c in calls:
++            cur.execute(
++                "INSERT INTO vg_eval_calls (dataset_id, call_uid, incident_id, label, scam_type, language, turns, note, "
++                "created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)",
++                (dataset_id, c["id"], ids.get(c.get("incident_id")), c["label"], c["scam_type"], c["language"],
++                 j(c["turns"]), (c.get("note") or "")[:300] or None, now))
++            call_ids[c["id"]] = int(cur.lastrowid)
++        clips = (audio or {}).get("clips", [])
++        cur.executemany(
++            "INSERT INTO vg_eval_call_clips (call_id, clip_name, line_condition, file_path, sha256, duration_s, "
++            "voice_label, voices, turn_times, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
++            [(call_ids[k["call_id"]], k["id"], k["condition"], k["file"], k["sha256"], k["duration"], k["voice_label"],
++              j(sorted({t["voice"] for t in k["turns"]})),
++              j([{"speaker": t["speaker"], "start": t["start"], "end": t["end"]} for t in k["turns"]]), now)
++             for k in clips])
++    conn.commit()
++    return {"incidents": len(incidents), "sources": sum(len(i["sources"]) for i in incidents),
++            "calls": len(calls), "clips": len(clips), "dataset_id": dataset_id}
+diff --git a/backend/storage/schema.py b/backend/storage/schema.py
+index 4b5eb37..e610791 100644
+--- a/backend/storage/schema.py
++++ b/backend/storage/schema.py
+@@ -16,6 +16,12 @@ Evaluation tables (migration 2), outside the call lifecycle: no cap, no trash, n
+   vg_eval_runs           one localisation evaluation of a model (precision, recall, F1)
+   vg_eval_predictions    per-clip frame scores and counts of a run
+ 
++Scam-call test set (migration 3, VGSC-25, see benchmark/vgsc25/DATASHEET.md):
++  vg_eval_incidents         a documented real-world scam call, campaign or statistic, with its verification level
++  vg_eval_incident_sources  the sources behind each incident, and which facts each one supports
++  vg_eval_calls             a reconstructed call script (scam or genuine) and its labels
++  vg_eval_call_clips        a rendering of a call script as audio, per phone-line condition
++
+ A call keeps the same session_uid in whichever vg_sessions_* table it is in, so its verdict and
+ feedback never move: only the session row does. No audio is stored, ever.
+ 
+@@ -197,6 +203,83 @@ MIGRATIONS: list[tuple[int, str, list[str]]] = [
+             CONSTRAINT fk_eval_pred_clip FOREIGN KEY (clip_id) REFERENCES vg_eval_clips (clip_id) ON DELETE CASCADE
+         ) {_TABLE_OPTIONS} COMMENT='Per-clip frame scores and results of a run'""",
+     ]),
++    (3, "scam-call test set (incidents, call scripts, audio renderings)", [
++        f"""CREATE TABLE IF NOT EXISTS vg_eval_incidents (
++            incident_id        INT UNSIGNED  NOT NULL AUTO_INCREMENT,
++            incident_uid       VARCHAR(20)   NOT NULL COMMENT 'e.g. IN-2025-005',
++            record_type        ENUM('incident','campaign','enforcement','policy','statistic') NOT NULL,
++            event_date         VARCHAR(10)   NOT NULL COMMENT 'YYYY, YYYY-MM or YYYY-MM-DD',
++            date_precision     VARCHAR(10)   NOT NULL,
++            country            CHAR(2)       NOT NULL,
++            region             VARCHAR(100)  NULL,
++            scam_type          VARCHAR(50)   NOT NULL,
++            claimed_identity   JSON          NOT NULL,
++            channel            JSON          NOT NULL,
++            ai_voice           VARCHAR(30)   NOT NULL,
++            victim_profile     VARCHAR(150)  NULL COMMENT 'never a private name',
++            loss_amount        DECIMAL(16,2) NULL,
++            currency           CHAR(3)       NULL,
++            loss_usd_approx    DECIMAL(16,2) NULL,
++            recovered_amount   DECIMAL(16,2) NULL,
++            outcome            VARCHAR(500)  NULL,
++            tactics            JSON          NOT NULL,
++            summary            TEXT          NOT NULL,
++            verification_level ENUM('A','B','C') NOT NULL COMMENT 'A official source, B two independent sources, C one source',
++            note               VARCHAR(500)  NULL,
++            created_at         DATETIME(3)   NOT NULL,
++            PRIMARY KEY (incident_id),
++            UNIQUE KEY uq_eval_incident_uid (incident_uid),
++            KEY idx_eval_incident_type (scam_type, country)
++        ) {_TABLE_OPTIONS} COMMENT='Documented real-world scam calls behind the test set'""",
++        f"""CREATE TABLE IF NOT EXISTS vg_eval_incident_sources (
++            incident_id    INT UNSIGNED  NOT NULL,
++            source_index   TINYINT UNSIGNED NOT NULL,
++            url            VARCHAR(500)  NOT NULL,
++            publisher      VARCHAR(150)  NOT NULL,
++            source_type    ENUM('official','official_media','news','wire','database') NOT NULL,
++            published      VARCHAR(10)   NULL,
++            accessed       DATE          NULL COMMENT 'null: listed by another source, not read',
++            supports       JSON          NOT NULL COMMENT 'the incident fields this source backs',
++            note           VARCHAR(300)  NULL,
++            PRIMARY KEY (incident_id, source_index),
++            CONSTRAINT fk_eval_source_incident FOREIGN KEY (incident_id) REFERENCES vg_eval_incidents (incident_id)
++                ON DELETE CASCADE
++        ) {_TABLE_OPTIONS} COMMENT='Sources of each incident'""",
++        f"""CREATE TABLE IF NOT EXISTS vg_eval_calls (
++            call_id        INT UNSIGNED  NOT NULL AUTO_INCREMENT,
++            dataset_id     INT UNSIGNED  NOT NULL,
++            call_uid       VARCHAR(20)   NOT NULL,
++            incident_id    INT UNSIGNED  NULL COMMENT 'null for genuine calls',
++            label          TINYINT UNSIGNED NOT NULL COMMENT '1 scam, 0 genuine',
++            scam_type      VARCHAR(50)   NOT NULL,
++            language       VARCHAR(10)   NOT NULL COMMENT 'en, hi (Devanagari), hi-Latn (romanized Hinglish)',
++            turns          JSON          NOT NULL COMMENT '[{{speaker, text, basis}}]',
++            note           VARCHAR(300)  NULL,
++            created_at     DATETIME(3)   NOT NULL,
++            PRIMARY KEY (call_id),
++            UNIQUE KEY uq_eval_call (dataset_id, call_uid),
++            CONSTRAINT fk_eval_call_dataset FOREIGN KEY (dataset_id) REFERENCES vg_eval_datasets (dataset_id)
++                ON DELETE CASCADE,
++            CONSTRAINT fk_eval_call_incident FOREIGN KEY (incident_id) REFERENCES vg_eval_incidents (incident_id)
++                ON DELETE SET NULL
++        ) {_TABLE_OPTIONS} COMMENT='Reconstructed call scripts with labels'""",
++        f"""CREATE TABLE IF NOT EXISTS vg_eval_call_clips (
++            call_clip_id   INT UNSIGNED  NOT NULL AUTO_INCREMENT,
++            call_id        INT UNSIGNED  NOT NULL,
++            clip_name      VARCHAR(100)  NOT NULL,
++            line_condition VARCHAR(30)   NOT NULL COMMENT 'clean, g711_mulaw, phone_worst (ml/channel.py)',
++            file_path      VARCHAR(255)  NOT NULL COMMENT 'relative to benchmark/vgsc25/audio; audio is not in the database',
++            sha256         CHAR(64)      NOT NULL,
++            duration_s     DECIMAL(7,2)  NOT NULL,
++            voice_label    ENUM('synthetic','real') NOT NULL,
++            voices         JSON          NOT NULL,
++            turn_times     JSON          NOT NULL COMMENT '[{{speaker, start, end}}]',
++            created_at     DATETIME(3)   NOT NULL,
++            PRIMARY KEY (call_clip_id),
++            UNIQUE KEY uq_eval_call_clip (clip_name),
++            CONSTRAINT fk_eval_call_clip_call FOREIGN KEY (call_id) REFERENCES vg_eval_calls (call_id) ON DELETE CASCADE
++        ) {_TABLE_OPTIONS} COMMENT='Audio renderings of the call scripts'""",
++    ]),
+ ]
+ 
+ 

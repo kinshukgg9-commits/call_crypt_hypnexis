@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this test set, please cite it as below."
+title: "VGSC-25: VoiceGuard Scam Calls 2025, a held-out test set for scam-call detection"
+version: "1.0"
+date-released: 2026-10-24
+type: dataset
+authors:
+  - name: "VoiceGuard project"
+license: CC-BY-4.0
+keywords:
+  - scam calls
+  - voice phishing
+  - digital arrest
+  - synthetic speech
+  - benchmark

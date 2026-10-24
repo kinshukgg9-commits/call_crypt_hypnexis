@@ -1,0 +1,12 @@
+VGSC-25 test set, version 1.0 (2026-10-24)
+
+vgsc25/        the dataset. Start with vgsc25/README.md and vgsc25/DATASHEET.md.
+code/          to put in your VoiceGuard folder only when you decide to:
+  scripts/*.py                      new files, copy to scripts/
+  backend/storage/schema.py,        edited existing files (migration 3 and the loader);
+  backend/storage/evaluation.py     backend-storage-changes.patch shows exactly what changed
+Copy vgsc25/ to benchmark/vgsc25/ in the repository.
+
+Nothing here has been loaded into your database. To load later:
+  python scripts/load_scam_benchmark.py --dry-run
+  DATABASE_URL=mysql://user:pass@host:3306/voiceguard python scripts/load_scam_benchmark.py

@@ -1,0 +1,4444 @@
+{
+ "dataset": "partial-fakes-v2",
+ "description": "100 partial fakes (scam lines from 6 offline TTS engine families spliced into 3 LibriSpeech readers) + 30 genuine controls",
+ "frame_seconds": 0.5,
+ "sample_rate": 16000,
+ "seed": 2026,
+ "real_dir": "../real",
+ "fake_source": "espeak-mbrola+espeak-ng+festival-diphone+festival-hts+flite+pico",
+ "clips": [
+  {
+   "name": "pf_000",
+   "file": "clips/pf_000.flac",
+   "sha256": "e1e39235f407e99d47d591a80c6af4146c1d9356282d0890b11b3ef04035d736",
+   "duration": 5.92,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-mbrola",
+   "fake_seconds": 1.896,
+   "fake_share": 0.32,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.801,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 2.801,
+     "end": 4.697,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us1 [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 4.697,
+     "end": 5.92,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "000000111000"
+  },
+  {
+   "name": "pf_001",
+   "file": "clips/pf_001.flac",
+   "sha256": "061a12deeaa8a72ffe53138f6bc53726961d3463fe3435be16a911c609dd3ce2",
+   "duration": 8.51,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "espeak-ng",
+   "fake_seconds": 3.0,
+   "fake_share": 0.353,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.31,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 4.31,
+     "end": 7.31,
+     "label": "fake",
+     "source": "espeak-ng:en-us [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 7.31,
+     "end": 8.51,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "00000000011111100"
+  },
+  {
+   "name": "pf_002",
+   "file": "clips/pf_002.flac",
+   "sha256": "412cdc579bb99f87e32530c31688909d1e7bfc32c3e199cc333d778034c5e0d8",
+   "duration": 4.07,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "festival-diphone",
+   "fake_seconds": 2.035,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.799,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 0.799,
+     "end": 2.834,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 2.834,
+     "end": 4.07,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00111100"
+  },
+  {
+   "name": "pf_003",
+   "file": "clips/pf_003.flac",
+   "sha256": "c18fb27d0a5850dd9c70d3ded74ea73fc0e34494a63a146cdf6429bbc21c0aa7",
+   "duration": 8.83,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "festival-hts,flite",
+   "fake_seconds": 4.415,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.449,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 0.449,
+     "end": 2.656,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [bank_kyc]",
+     "text": "for security I need your card number and expiry date"
+    },
+    {
+     "start": 2.656,
+     "end": 3.777,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 3.777,
+     "end": 5.985,
+     "label": "fake",
+     "source": "flite:rms [digital_arrest]",
+     "text": "you are under digital arrest, do not disconnect this call"
+    },
+    {
+     "start": 5.985,
+     "end": 8.83,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "011110001111000000"
+  },
+  {
+   "name": "pf_004",
+   "file": "clips/pf_004.flac",
+   "sha256": "98cca4d5e2786cd4f290a731415c1cb61e228da29d99ff9b2dc8ae4e6e0c70a0",
+   "duration": 6.18,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "pico",
+   "fake_seconds": 3.0,
+   "fake_share": 0.485,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.371,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 2.371,
+     "end": 5.371,
+     "label": "fake",
+     "source": "pico:en-GB [bank_kyc]",
+     "text": "please read out the six digit OTP you just received"
+    },
+    {
+     "start": 5.371,
+     "end": 6.18,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "000001111110"
+  },
+  {
+   "name": "pf_005",
+   "file": "clips/pf_005.flac",
+   "sha256": "52f72592a354499e50e123e09de0a35ff457297e5427a487dad980be9270c2f8",
+   "duration": 6.39,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-mbrola",
+   "fake_seconds": 2.624,
+   "fake_share": 0.411,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.849,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 2.849,
+     "end": 5.473,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-en1 [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 5.473,
+     "end": 6.39,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0000001111100"
+  },
+  {
+   "name": "pf_006",
+   "file": "clips/pf_006.flac",
+   "sha256": "c775dc12c71622a76f7d252823118febdeb14fa3ca7c6a254bcefbfc5d7ad8af",
+   "duration": 8.59,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-ng,festival-diphone,festival-hts",
+   "fake_seconds": 4.296,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.334,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 0.334,
+     "end": 1.766,
+     "label": "fake",
+     "source": "espeak-ng:hi [utility_refund]",
+     "text": "your electricity will be cut tonight, pay the pending bill on this link"
+    },
+    {
+     "start": 1.766,
+     "end": 2.643,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 2.643,
+     "end": 4.075,
+     "label": "fake",
+     "source": "festival-diphone:kal_diphone [family_emergency]",
+     "text": "it's me, I've had an accident, please send money right now"
+    },
+    {
+     "start": 4.075,
+     "end": 5.269,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 5.269,
+     "end": 6.701,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [utility_refund]",
+     "text": "to receive your refund, enter your UPI PIN on the request"
+    },
+    {
+     "start": 6.701,
+     "end": 8.59,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "01110111000110000"
+  },
+  {
+   "name": "pf_007",
+   "file": "clips/pf_007.flac",
+   "sha256": "7a969db691081876b2f20de622fcc96920e6c3f3effacfb213f771bce8bc5c78",
+   "duration": 8.14,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "flite",
+   "fake_seconds": 2.646,
+   "fake_share": 0.325,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.99,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 4.99,
+     "end": 7.636,
+     "label": "fake",
+     "source": "flite:awb [family_emergency]",
+     "text": "don't tell mom and dad, I'll explain later"
+    },
+    {
+     "start": 7.636,
+     "end": 8.14,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0000000000111110"
+  },
+  {
+   "name": "pf_008",
+   "file": "clips/pf_008.flac",
+   "sha256": "3891a143b89cab83e8d0c356a7bdae4604aa0f284183c6a0ededd24aadb9ca73",
+   "duration": 4.51,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "pico",
+   "fake_seconds": 2.255,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.982,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 0.982,
+     "end": 3.237,
+     "label": "fake",
+     "source": "pico:en-US [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 3.237,
+     "end": 4.51,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "001111000"
+  },
+  {
+   "name": "pf_009",
+   "file": "clips/pf_009.flac",
+   "sha256": "7ec1c60f5ce82e68b7eb6a07bfc43f9f23bc50b1806c8b6fda2b6d2b6e901746",
+   "duration": 7.12,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-mbrola",
+   "fake_seconds": 3.0,
+   "fake_share": 0.421,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.522,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 1.522,
+     "end": 4.522,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us1 [family_emergency]",
+     "text": "it's me, I've had an accident, please send money right now"
+    },
+    {
+     "start": 4.522,
+     "end": 7.12,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00011111100000"
+  },
+  {
+   "name": "pf_010",
+   "file": "clips/pf_010.flac",
+   "sha256": "6121d780b7911c0ea31d6549624aed612f301f4452733f94e51c56dc44e43a7d",
+   "duration": 9.61,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "espeak-ng",
+   "fake_seconds": 3.0,
+   "fake_share": 0.312,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.26,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 2.26,
+     "end": 5.26,
+     "label": "fake",
+     "source": "espeak-ng:en-gb+f2 [digital_arrest]",
+     "text": "transfer the amount to the RBI verification account to clear your name"
+    },
+    {
+     "start": 5.26,
+     "end": 9.61,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0000011111100000000"
+  },
+  {
+   "name": "pf_011",
+   "file": "clips/pf_011.flac",
+   "sha256": "0a5b884f2b5719fc331e9e07cd2fe4dd315a67842c1c6b28c4f318058cb43176",
+   "duration": 6.99,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "festival-diphone,festival-hts",
+   "fake_seconds": 3.494,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.623,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 0.623,
+     "end": 2.37,
+     "label": "fake",
+     "source": "festival-diphone:kal_diphone [courier_customs]",
+     "text": "your parcel is held at customs, pay the clearance fee now"
+    },
+    {
+     "start": 2.37,
+     "end": 3.45,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 3.45,
+     "end": 5.197,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [family_emergency]",
+     "text": "don't tell mom and dad, I'll explain later"
+    },
+    {
+     "start": 5.197,
+     "end": 6.99,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "01111001110000"
+  },
+  {
+   "name": "pf_012",
+   "file": "clips/pf_012.flac",
+   "sha256": "6f9f0b0341bd5a315248091d1e11cfb1ecaebbf2070c1aedab3d8db815fe1779",
+   "duration": 4.2,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "flite",
+   "fake_seconds": 2.1,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.602,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 1.602,
+     "end": 3.702,
+     "label": "fake",
+     "source": "flite:slt [utility_refund]",
+     "text": "your electricity will be cut tonight, pay the pending bill on this link"
+    },
+    {
+     "start": 3.702,
+     "end": 4.2,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00011110"
+  },
+  {
+   "name": "pf_013",
+   "file": "clips/pf_013.flac",
+   "sha256": "161a6ae6fcd5f29ba9ba7f61cc4f05d20dbd698fc728bbd816915d833cb1f81d",
+   "duration": 6.9,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "pico",
+   "fake_seconds": 3.0,
+   "fake_share": 0.435,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.482,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 2.482,
+     "end": 5.482,
+     "label": "fake",
+     "source": "pico:en-US [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 5.482,
+     "end": 6.9,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "00000111111000"
+  },
+  {
+   "name": "pf_014",
+   "file": "clips/pf_014.flac",
+   "sha256": "a4374bef2b01f825b68b4e00fea8abb02bcf3aa92868ec1e0eec0e47861708e3",
+   "duration": 6.34,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-mbrola,espeak-ng",
+   "fake_seconds": 3.17,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.495,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.495,
+     "end": 3.08,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us1 [family_emergency]",
+     "text": "I lost my phone, send it to this new UPI number"
+    },
+    {
+     "start": 3.08,
+     "end": 3.686,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 3.686,
+     "end": 5.271,
+     "label": "fake",
+     "source": "espeak-ng:en-us [digital_arrest]",
+     "text": "you are under digital arrest, do not disconnect this call"
+    },
+    {
+     "start": 5.271,
+     "end": 6.34,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0001110111100"
+  },
+  {
+   "name": "pf_015",
+   "file": "clips/pf_015.flac",
+   "sha256": "69db76766a0a0a194bd3849db65db9bc5d8178f163ea98a57f23e7895f37c445",
+   "duration": 5.95,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "festival-diphone",
+   "fake_seconds": 2.975,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.192,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 2.192,
+     "end": 5.167,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [bank_kyc]",
+     "text": "for security I need your card number and expiry date"
+    },
+    {
+     "start": 5.167,
+     "end": 5.95,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "000011111100"
+  },
+  {
+   "name": "pf_016",
+   "file": "clips/pf_016.flac",
+   "sha256": "9bec9c0bb8d778581aa628dffde4ed1a8475f1895d1753c7cb4d9099fd201e46",
+   "duration": 9.09,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 2.934,
+   "fake_share": 0.323,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.567,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 2.567,
+     "end": 5.501,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [family_emergency]",
+     "text": "don't tell mom and dad, I'll explain later"
+    },
+    {
+     "start": 5.501,
+     "end": 9.09,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "000001111110000000"
+  },
+  {
+   "name": "pf_017",
+   "file": "clips/pf_017.flac",
+   "sha256": "487275a5f70035fcb7ad4f7669e9b3faa70ff2496ad68061b524b920a62c0940",
+   "duration": 9.77,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "flite,pico",
+   "fake_seconds": 4.885,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.192,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.192,
+     "end": 3.635,
+     "label": "fake",
+     "source": "flite:rms [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 3.635,
+     "end": 5.558,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 5.558,
+     "end": 8.0,
+     "label": "fake",
+     "source": "pico:en-GB [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 8.0,
+     "end": 9.77,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00111110000111110000"
+  },
+  {
+   "name": "pf_018",
+   "file": "clips/pf_018.flac",
+   "sha256": "a5454343ccb758188250e6e9ba4c12ca8ebcfe3bb7c3dae7285a6ac81343bd08",
+   "duration": 9.73,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-mbrola",
+   "fake_seconds": 3.0,
+   "fake_share": 0.308,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.162,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 4.162,
+     "end": 7.162,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us1 [digital_arrest]",
+     "text": "transfer the amount to the RBI verification account to clear your name"
+    },
+    {
+     "start": 7.162,
+     "end": 9.73,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0000000011111100000"
+  },
+  {
+   "name": "pf_019",
+   "file": "clips/pf_019.flac",
+   "sha256": "eabb81b4dfcdfa473119a6220e9a5c53838ea93a5df81029b69dbf1417ae98d4",
+   "duration": 5.66,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "espeak-ng",
+   "fake_seconds": 2.83,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.44,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 0.44,
+     "end": 3.27,
+     "label": "fake",
+     "source": "espeak-ng:en-gb+f2 [digital_arrest]",
+     "text": "this is the cyber crime branch, a case is registered against your Aadhaar number"
+    },
+    {
+     "start": 3.27,
+     "end": 5.66,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "01111110000"
+  },
+  {
+   "name": "pf_020",
+   "file": "clips/pf_020.flac",
+   "sha256": "f1e033a04ef33424fcfadf38ab75f006c965a56097c2970cd10088b9a7873d49",
+   "duration": 9.2,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "festival-diphone",
+   "fake_seconds": 3.0,
+   "fake_share": 0.326,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.429,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 0.429,
+     "end": 3.429,
+     "label": "fake",
+     "source": "festival-diphone:kal_diphone [bank_kyc]",
+     "text": "your account will be blocked today unless you update your KYC"
+    },
+    {
+     "start": 3.429,
+     "end": 9.2,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "011111100000000000"
+  },
+  {
+   "name": "pf_021",
+   "file": "clips/pf_021.flac",
+   "sha256": "1a9ba1330825dc29d17a9f8cf25250ead9a88ccf58a5694311d78c3cdd4accdc",
+   "duration": 4.56,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 2.28,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.854,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 1.854,
+     "end": 4.134,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [family_emergency]",
+     "text": "don't tell mom and dad, I'll explain later"
+    },
+    {
+     "start": 4.134,
+     "end": 4.56,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "000011110"
+  },
+  {
+   "name": "pf_022",
+   "file": "clips/pf_022.flac",
+   "sha256": "fcfe0894a4162e30599caac398149b59c2cf2dcd4688377b06b1a57f2885e83f",
+   "duration": 7.65,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "flite",
+   "fake_seconds": 3.0,
+   "fake_share": 0.392,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 3.06,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 3.06,
+     "end": 6.06,
+     "label": "fake",
+     "source": "flite:slt [utility_refund]",
+     "text": "to receive your refund, enter your UPI PIN on the request"
+    },
+    {
+     "start": 6.06,
+     "end": 7.65,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "000000111111000"
+  },
+  {
+   "name": "pf_023",
+   "file": "clips/pf_023.flac",
+   "sha256": "05acd698ea522a23199e725d386567cf281bed0ff593560d6217ecd6105f68ff",
+   "duration": 6.33,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-mbrola,pico",
+   "fake_seconds": 3.164,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.807,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 0.807,
+     "end": 2.389,
+     "label": "fake",
+     "source": "pico:en-US [utility_refund]",
+     "text": "to receive your refund, enter your UPI PIN on the request"
+    },
+    {
+     "start": 2.389,
+     "end": 3.484,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 3.484,
+     "end": 5.066,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us3 [utility_refund]",
+     "text": "to receive your refund, enter your UPI PIN on the request"
+    },
+    {
+     "start": 5.066,
+     "end": 6.33,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0011100111000"
+  },
+  {
+   "name": "pf_024",
+   "file": "clips/pf_024.flac",
+   "sha256": "222632354634d7550a327c49b8a92806f1b9dd5fd04dad97be0cbfcf90e302ca",
+   "duration": 7.51,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-ng,festival-diphone",
+   "fake_seconds": 3.755,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.821,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 1.821,
+     "end": 3.699,
+     "label": "fake",
+     "source": "espeak-ng:en-gb+f2 [courier_customs]",
+     "text": "your parcel is held at customs, pay the clearance fee now"
+    },
+    {
+     "start": 3.699,
+     "end": 5.199,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 5.199,
+     "end": 7.076,
+     "label": "fake",
+     "source": "festival-diphone:kal_diphone [bank_kyc]",
+     "text": "your account will be blocked today unless you update your KYC"
+    },
+    {
+     "start": 7.076,
+     "end": 7.51,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "000011100011110"
+  },
+  {
+   "name": "pf_025",
+   "file": "clips/pf_025.flac",
+   "sha256": "4f5bf07000fea131cf1d16f0386da9b1c3310a23d7b1d18cb7e93762bd3586ae",
+   "duration": 7.47,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 2.433,
+   "fake_share": 0.326,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 3.738,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 3.738,
+     "end": 6.171,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 6.171,
+     "end": 7.47,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "000000011111000"
+  },
+  {
+   "name": "pf_026",
+   "file": "clips/pf_026.flac",
+   "sha256": "725a167bc2283ca13660609d0dc274370538fe5da3b898a8cbb94a2f37e5875e",
+   "duration": 7.26,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "flite,pico",
+   "fake_seconds": 3.63,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.825,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.825,
+     "end": 3.64,
+     "label": "fake",
+     "source": "flite:kal16 [digital_arrest]",
+     "text": "this is the cyber crime branch, a case is registered against your Aadhaar number"
+    },
+    {
+     "start": 3.64,
+     "end": 4.875,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 4.875,
+     "end": 6.69,
+     "label": "fake",
+     "source": "pico:en-US [bank_kyc]",
+     "text": "please read out the six digit OTP you just received"
+    },
+    {
+     "start": 6.69,
+     "end": 7.26,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "000011100011100"
+  },
+  {
+   "name": "pf_027",
+   "file": "clips/pf_027.flac",
+   "sha256": "3f718521195e66a73fc9da9df3b09316a7bee91eb6ddda8e8f55bc4a80cf15ef",
+   "duration": 9.04,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-mbrola,espeak-ng",
+   "fake_seconds": 4.52,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 3.208,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 3.208,
+     "end": 5.468,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us3 [digital_arrest]",
+     "text": "transfer the amount to the RBI verification account to clear your name"
+    },
+    {
+     "start": 5.468,
+     "end": 6.345,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 6.345,
+     "end": 8.605,
+     "label": "fake",
+     "source": "espeak-ng:hi [digital_arrest]",
+     "text": "this is the cyber crime branch, a case is registered against your Aadhaar number"
+    },
+    {
+     "start": 8.605,
+     "end": 9.04,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "000000111110011110"
+  },
+  {
+   "name": "pf_028",
+   "file": "clips/pf_028.flac",
+   "sha256": "a2f34a0bc99dac1c58769bfc74056c2e7d9ad988a403b5a3e25d4b1d96e1c581",
+   "duration": 8.07,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "festival-diphone",
+   "fake_seconds": 3.0,
+   "fake_share": 0.372,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.81,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 2.81,
+     "end": 5.81,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [utility_refund]",
+     "text": "to receive your refund, enter your UPI PIN on the request"
+    },
+    {
+     "start": 5.81,
+     "end": 8.07,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0000001111110000"
+  },
+  {
+   "name": "pf_029",
+   "file": "clips/pf_029.flac",
+   "sha256": "3d17cdde9a202385aa6a92e2d638f42928859bc5c50b0ff98852c21033a26527",
+   "duration": 6.06,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 3.0,
+   "fake_share": 0.495,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.296,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 2.296,
+     "end": 5.296,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [utility_refund]",
+     "text": "to receive your refund, enter your UPI PIN on the request"
+    },
+    {
+     "start": 5.296,
+     "end": 6.06,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "000001111110"
+  },
+  {
+   "name": "pf_030",
+   "file": "clips/pf_030.flac",
+   "sha256": "a17940fe249787ec1194dad24df04b349bbb046878f2d693fd2695461b37f22d",
+   "duration": 5.13,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "flite",
+   "fake_seconds": 2.565,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.899,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 1.899,
+     "end": 4.464,
+     "label": "fake",
+     "source": "flite:awb [family_emergency]",
+     "text": "it's me, I've had an accident, please send money right now"
+    },
+    {
+     "start": 4.464,
+     "end": 5.13,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0000111110"
+  },
+  {
+   "name": "pf_031",
+   "file": "clips/pf_031.flac",
+   "sha256": "ab98a306930baecce4d59d2f937b8ca54803036b42349e1dc62a063d9365de32",
+   "duration": 8.77,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "pico",
+   "fake_seconds": 3.0,
+   "fake_share": 0.342,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.013,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 1.013,
+     "end": 4.013,
+     "label": "fake",
+     "source": "pico:en-GB [digital_arrest]",
+     "text": "transfer the amount to the RBI verification account to clear your name"
+    },
+    {
+     "start": 4.013,
+     "end": 8.77,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "001111110000000000"
+  },
+  {
+   "name": "pf_032",
+   "file": "clips/pf_032.flac",
+   "sha256": "959f9b43f64230082e5921bfbeadfc254a6def2667fd9da71581cb5254ef65ee",
+   "duration": 9.99,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-mbrola,espeak-ng",
+   "fake_seconds": 4.996,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.89,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 0.89,
+     "end": 3.388,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us3 [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 3.388,
+     "end": 5.349,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 5.349,
+     "end": 7.847,
+     "label": "fake",
+     "source": "espeak-ng:hi [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 7.847,
+     "end": 9.99,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00111110000111110000"
+  },
+  {
+   "name": "pf_033",
+   "file": "clips/pf_033.flac",
+   "sha256": "081de1b6e88acd12bf20e0667581adb6a2857ad8d3a3134ddb3a1f9b9b86c692",
+   "duration": 7.28,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "festival-diphone",
+   "fake_seconds": 2.27,
+   "fake_share": 0.312,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.687,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 2.687,
+     "end": 4.957,
+     "label": "fake",
+     "source": "festival-diphone:kal_diphone [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 4.957,
+     "end": 7.28,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "000001111100000"
+  },
+  {
+   "name": "pf_034",
+   "file": "clips/pf_034.flac",
+   "sha256": "af6abcc8f898a2478dfa9480c2a021ac58194051fc8d8bc37a20722e096a4b66",
+   "duration": 4.8,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 2.4,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.991,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 1.991,
+     "end": 4.391,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [utility_refund]",
+     "text": "your electricity will be cut tonight, pay the pending bill on this link"
+    },
+    {
+     "start": 4.391,
+     "end": 4.8,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0000111110"
+  },
+  {
+   "name": "pf_035",
+   "file": "clips/pf_035.flac",
+   "sha256": "b368748e8d4ff3231c12f21b016c1444a96a092eff06f14545985c7d6b7c1a9f",
+   "duration": 8.87,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "flite",
+   "fake_seconds": 2.204,
+   "fake_share": 0.248,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.178,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.178,
+     "end": 3.382,
+     "label": "fake",
+     "source": "flite:slt [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 3.382,
+     "end": 8.87,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "001111100000000000"
+  },
+  {
+   "name": "pf_036",
+   "file": "clips/pf_036.flac",
+   "sha256": "ad994c9670fcf6a2b4f8bcbb974d2ee43223c665d88c158286e43db0896b32c7",
+   "duration": 9.32,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-mbrola,pico",
+   "fake_seconds": 4.66,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.986,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 0.986,
+     "end": 3.316,
+     "label": "fake",
+     "source": "pico:en-US [digital_arrest]",
+     "text": "this is the cyber crime branch, a case is registered against your Aadhaar number"
+    },
+    {
+     "start": 3.316,
+     "end": 5.65,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 5.65,
+     "end": 7.98,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us3 [courier_customs]",
+     "text": "your parcel is held at customs, pay the clearance fee now"
+    },
+    {
+     "start": 7.98,
+     "end": 9.32,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0011111000011111000"
+  },
+  {
+   "name": "pf_037",
+   "file": "clips/pf_037.flac",
+   "sha256": "7c6ed7856980c3c6b1c1c90fabfc0008c34d85a5fa38ab90634eea7bd6f4d17e",
+   "duration": 6.29,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "espeak-ng,festival-diphone",
+   "fake_seconds": 3.145,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.721,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 1.721,
+     "end": 3.293,
+     "label": "fake",
+     "source": "espeak-ng:en-gb+f2 [family_emergency]",
+     "text": "I lost my phone, send it to this new UPI number"
+    },
+    {
+     "start": 3.293,
+     "end": 4.078,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 4.078,
+     "end": 5.651,
+     "label": "fake",
+     "source": "festival-diphone:kal_diphone [digital_arrest]",
+     "text": "transfer the amount to the RBI verification account to clear your name"
+    },
+    {
+     "start": 5.651,
+     "end": 6.29,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0001111011100"
+  },
+  {
+   "name": "pf_038",
+   "file": "clips/pf_038.flac",
+   "sha256": "fd49c474dd9ca48512d5d3387344c90a3ec7cb14752d330a95f0b6c2721242c8",
+   "duration": 8.67,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "festival-hts,flite",
+   "fake_seconds": 4.336,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.856,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.856,
+     "end": 4.024,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [digital_arrest]",
+     "text": "transfer the amount to the RBI verification account to clear your name"
+    },
+    {
+     "start": 4.024,
+     "end": 5.417,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 5.417,
+     "end": 7.585,
+     "label": "fake",
+     "source": "flite:awb [digital_arrest]",
+     "text": "you are under digital arrest, do not disconnect this call"
+    },
+    {
+     "start": 7.585,
+     "end": 8.67,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00001111000111100"
+  },
+  {
+   "name": "pf_039",
+   "file": "clips/pf_039.flac",
+   "sha256": "6fb765a59d9b17faf264f2e60d4d6ee2c5bb2cc2ec1e48413bd51ca7f4477b63",
+   "duration": 5.41,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "pico",
+   "fake_seconds": 2.705,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.918,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 0.918,
+     "end": 3.623,
+     "label": "fake",
+     "source": "pico:en-US [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 3.623,
+     "end": 5.41,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00111110000"
+  },
+  {
+   "name": "pf_040",
+   "file": "clips/pf_040.flac",
+   "sha256": "d5f240d237582e6386b684d88637b8a6826ad2f6207bc6e919c0066f32780512",
+   "duration": 7.8,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "espeak-mbrola",
+   "fake_seconds": 2.742,
+   "fake_share": 0.352,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 3.328,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 3.328,
+     "end": 6.07,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us3 [utility_refund]",
+     "text": "to receive your refund, enter your UPI PIN on the request"
+    },
+    {
+     "start": 6.07,
+     "end": 7.8,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0000000111110000"
+  },
+  {
+   "name": "pf_041",
+   "file": "clips/pf_041.flac",
+   "sha256": "3a06d120c13e2502ef895dc6d62457b269920d7ec0cad52713f8d0202cbb3301",
+   "duration": 9.45,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-ng,festival-diphone",
+   "fake_seconds": 4.725,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.147,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.147,
+     "end": 3.51,
+     "label": "fake",
+     "source": "espeak-ng:en-gb+f2 [digital_arrest]",
+     "text": "transfer the amount to the RBI verification account to clear your name"
+    },
+    {
+     "start": 3.51,
+     "end": 4.056,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 4.056,
+     "end": 6.418,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [utility_refund]",
+     "text": "your electricity will be cut tonight, pay the pending bill on this link"
+    },
+    {
+     "start": 6.418,
+     "end": 9.45,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0011111011111000000"
+  },
+  {
+   "name": "pf_042",
+   "file": "clips/pf_042.flac",
+   "sha256": "60363cdab24f4853f915c3d81d4a3d99ea8f966eb34d589e2d9750a4fc0d4d35",
+   "duration": 9.0,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "festival-hts,flite",
+   "fake_seconds": 4.5,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.309,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 2.309,
+     "end": 4.559,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [digital_arrest]",
+     "text": "this is the cyber crime branch, a case is registered against your Aadhaar number"
+    },
+    {
+     "start": 4.559,
+     "end": 5.096,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 5.096,
+     "end": 7.346,
+     "label": "fake",
+     "source": "flite:awb [utility_refund]",
+     "text": "your electricity will be cut tonight, pay the pending bill on this link"
+    },
+    {
+     "start": 7.346,
+     "end": 9.0,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "000001111011111000"
+  },
+  {
+   "name": "pf_043",
+   "file": "clips/pf_043.flac",
+   "sha256": "fdad7b73066f6c5cb1eaad487036d85fb024165a2db8cc0b30fdc2e568a37e74",
+   "duration": 7.09,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "pico",
+   "fake_seconds": 3.0,
+   "fake_share": 0.423,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.844,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 0.844,
+     "end": 3.844,
+     "label": "fake",
+     "source": "pico:en-US [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 3.844,
+     "end": 7.09,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "00111111000000"
+  },
+  {
+   "name": "pf_044",
+   "file": "clips/pf_044.flac",
+   "sha256": "8fecb412539d63d86a9547b22210ba6aa401062a6ad74e046d48b18b247747d8",
+   "duration": 9.66,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-mbrola,espeak-ng",
+   "fake_seconds": 4.83,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.531,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.531,
+     "end": 3.946,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us2 [utility_refund]",
+     "text": "to receive your refund, enter your UPI PIN on the request"
+    },
+    {
+     "start": 3.946,
+     "end": 5.179,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 5.179,
+     "end": 7.594,
+     "label": "fake",
+     "source": "espeak-ng:en-gb+f2 [utility_refund]",
+     "text": "your electricity will be cut tonight, pay the pending bill on this link"
+    },
+    {
+     "start": 7.594,
+     "end": 9.66,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0001111100111110000"
+  },
+  {
+   "name": "pf_045",
+   "file": "clips/pf_045.flac",
+   "sha256": "68fe8a32324d8909bd6bc56d13dd4c0fb392163c6226d46ee5b8b26b3c736f54",
+   "duration": 9.93,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "festival-diphone,festival-hts",
+   "fake_seconds": 4.965,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.551,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 0.551,
+     "end": 3.034,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [digital_arrest]",
+     "text": "you are under digital arrest, do not disconnect this call"
+    },
+    {
+     "start": 3.034,
+     "end": 6.045,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 6.045,
+     "end": 8.527,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [digital_arrest]",
+     "text": "you are under digital arrest, do not disconnect this call"
+    },
+    {
+     "start": 8.527,
+     "end": 9.93,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "01111100000011111000"
+  },
+  {
+   "name": "pf_046",
+   "file": "clips/pf_046.flac",
+   "sha256": "8a107f979cebe428fa40110b1ae1371026ab440edc4da2f86b45478c6148b634",
+   "duration": 4.8,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "flite",
+   "fake_seconds": 2.4,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.962,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 0.962,
+     "end": 3.362,
+     "label": "fake",
+     "source": "flite:rms [digital_arrest]",
+     "text": "you are under digital arrest, do not disconnect this call"
+    },
+    {
+     "start": 3.362,
+     "end": 4.8,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0011111000"
+  },
+  {
+   "name": "pf_047",
+   "file": "clips/pf_047.flac",
+   "sha256": "16884008f4b50f179c1b4e6282e864aa241d715190e68b438a0429b96863d64f",
+   "duration": 5.82,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "pico",
+   "fake_seconds": 2.91,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.876,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.876,
+     "end": 4.786,
+     "label": "fake",
+     "source": "pico:en-GB [bank_kyc]",
+     "text": "for security I need your card number and expiry date"
+    },
+    {
+     "start": 4.786,
+     "end": 5.82,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "000011111100"
+  },
+  {
+   "name": "pf_048",
+   "file": "clips/pf_048.flac",
+   "sha256": "bab090f0288295353c1eabd0738b817e6f9e01d6f776dd3ee3f369c80921664a",
+   "duration": 9.89,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-mbrola",
+   "fake_seconds": 2.631,
+   "fake_share": 0.266,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.506,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 1.506,
+     "end": 4.137,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us3 [family_emergency]",
+     "text": "I lost my phone, send it to this new UPI number"
+    },
+    {
+     "start": 4.137,
+     "end": 9.89,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00011111000000000000"
+  },
+  {
+   "name": "pf_049",
+   "file": "clips/pf_049.flac",
+   "sha256": "2826b894c9d740d23504240d799a2cd3b6602338a21e1a0d56a910c0f42cf8c4",
+   "duration": 8.56,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "espeak-ng,festival-diphone",
+   "fake_seconds": 4.28,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.875,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 1.875,
+     "end": 4.015,
+     "label": "fake",
+     "source": "espeak-ng:en-gb+f2 [utility_refund]",
+     "text": "your electricity will be cut tonight, pay the pending bill on this link"
+    },
+    {
+     "start": 4.015,
+     "end": 5.386,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 5.386,
+     "end": 7.526,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [courier_customs]",
+     "text": "your parcel is held at customs, pay the clearance fee now"
+    },
+    {
+     "start": 7.526,
+     "end": 8.56,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "00001111000111100"
+  },
+  {
+   "name": "pf_050",
+   "file": "clips/pf_050.flac",
+   "sha256": "3d8543f8ff4947f3869f5214295d3ad19b92bdd583b8544ba5ddd9455109c0c2",
+   "duration": 4.82,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 2.41,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.414,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.414,
+     "end": 3.824,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [utility_refund]",
+     "text": "to receive your refund, enter your UPI PIN on the request"
+    },
+    {
+     "start": 3.824,
+     "end": 4.82,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0001111100"
+  },
+  {
+   "name": "pf_051",
+   "file": "clips/pf_051.flac",
+   "sha256": "7bbc31c3bb27425b6f1b9b93e2b1bc7e7e4aab029ea55db0cdf269eae68c3314",
+   "duration": 4.91,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "flite",
+   "fake_seconds": 2.455,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.82,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 0.82,
+     "end": 3.275,
+     "label": "fake",
+     "source": "flite:awb [courier_customs]",
+     "text": "your parcel is held at customs, pay the clearance fee now"
+    },
+    {
+     "start": 3.275,
+     "end": 4.91,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0011111000"
+  },
+  {
+   "name": "pf_052",
+   "file": "clips/pf_052.flac",
+   "sha256": "6c5815bd6c0c0c88ab68c4be1b34bbac03ca21b05a6b05b106fc06c91b6d335e",
+   "duration": 9.65,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "pico",
+   "fake_seconds": 2.257,
+   "fake_share": 0.234,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.567,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 1.567,
+     "end": 3.824,
+     "label": "fake",
+     "source": "pico:en-GB [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 3.824,
+     "end": 9.65,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0001111100000000000"
+  },
+  {
+   "name": "pf_053",
+   "file": "clips/pf_053.flac",
+   "sha256": "aef34998498c2db7a2934cdde709c718a5abbb740844a626e78c56926ac0a3a6",
+   "duration": 8.51,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-mbrola",
+   "fake_seconds": 2.684,
+   "fake_share": 0.315,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.989,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 2.989,
+     "end": 5.673,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-en1 [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 5.673,
+     "end": 8.51,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00000011111000000"
+  },
+  {
+   "name": "pf_054",
+   "file": "clips/pf_054.flac",
+   "sha256": "9c61752a8355551f49391c93279764db7f3e5d7a23860af35133844e42b7cf76",
+   "duration": 6.79,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-ng",
+   "fake_seconds": 3.0,
+   "fake_share": 0.442,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.486,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 0.486,
+     "end": 3.486,
+     "label": "fake",
+     "source": "espeak-ng:en-gb+f2 [courier_customs]",
+     "text": "your parcel is held at customs, pay the clearance fee now"
+    },
+    {
+     "start": 3.486,
+     "end": 6.79,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "01111110000000"
+  },
+  {
+   "name": "pf_055",
+   "file": "clips/pf_055.flac",
+   "sha256": "692e7ef5130706e8e0c8defa43371f4ba2df544b67e6bc9cc48b3a16855b278d",
+   "duration": 7.52,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "festival-diphone",
+   "fake_seconds": 3.0,
+   "fake_share": 0.399,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.958,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 1.958,
+     "end": 4.958,
+     "label": "fake",
+     "source": "festival-diphone:kal_diphone [courier_customs]",
+     "text": "your parcel is held at customs, pay the clearance fee now"
+    },
+    {
+     "start": 4.958,
+     "end": 7.52,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "000011111100000"
+  },
+  {
+   "name": "pf_056",
+   "file": "clips/pf_056.flac",
+   "sha256": "f22726f4648dc17ca60ca2bc6b68f03e4782373a4fc555fc41b24aa95b0e4674",
+   "duration": 5.2,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 2.433,
+   "fake_share": 0.468,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.107,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.107,
+     "end": 3.54,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 3.54,
+     "end": 5.2,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0011111000"
+  },
+  {
+   "name": "pf_057",
+   "file": "clips/pf_057.flac",
+   "sha256": "cd47a6f9cc048e33bee987e14952b41f007320f526b8681a5f988fdb4ac520a5",
+   "duration": 8.33,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "flite,pico",
+   "fake_seconds": 4.165,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.472,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 0.472,
+     "end": 2.554,
+     "label": "fake",
+     "source": "flite:awb [digital_arrest]",
+     "text": "transfer the amount to the RBI verification account to clear your name"
+    },
+    {
+     "start": 2.554,
+     "end": 5.783,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 5.783,
+     "end": 7.866,
+     "label": "fake",
+     "source": "pico:en-GB [bank_kyc]",
+     "text": "your account will be blocked today unless you update your KYC"
+    },
+    {
+     "start": 7.866,
+     "end": 8.33,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "01111000000011110"
+  },
+  {
+   "name": "pf_058",
+   "file": "clips/pf_058.flac",
+   "sha256": "8718cd9677c376ac0b2f62a419fcef3c401d92f2fab897db29ba3c38c9bd27db",
+   "duration": 5.72,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "espeak-mbrola",
+   "fake_seconds": 2.363,
+   "fake_share": 0.413,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.745,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 2.745,
+     "end": 5.108,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-en1 [bank_kyc]",
+     "text": "please read out the six digit OTP you just received"
+    },
+    {
+     "start": 5.108,
+     "end": 5.72,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "00000111110"
+  },
+  {
+   "name": "pf_059",
+   "file": "clips/pf_059.flac",
+   "sha256": "487ee4191295f924c638d7b4cf9ece2951bed53be817316c0da296b45da420e8",
+   "duration": 6.93,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-ng",
+   "fake_seconds": 3.0,
+   "fake_share": 0.433,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.557,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.557,
+     "end": 4.557,
+     "label": "fake",
+     "source": "espeak-ng:en-us [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 4.557,
+     "end": 6.93,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00011111100000"
+  },
+  {
+   "name": "pf_060",
+   "file": "clips/pf_060.flac",
+   "sha256": "db07d59df2ef7e1c2c15fc04fef8e80576123ae99550c928088ad207e498d0cc",
+   "duration": 9.58,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "festival-diphone,festival-hts",
+   "fake_seconds": 4.79,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.254,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 2.254,
+     "end": 4.649,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [utility_refund]",
+     "text": "your electricity will be cut tonight, pay the pending bill on this link"
+    },
+    {
+     "start": 4.649,
+     "end": 5.657,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 5.657,
+     "end": 8.052,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [digital_arrest]",
+     "text": "transfer the amount to the RBI verification account to clear your name"
+    },
+    {
+     "start": 8.052,
+     "end": 9.58,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0000011110011111000"
+  },
+  {
+   "name": "pf_061",
+   "file": "clips/pf_061.flac",
+   "sha256": "b5bf9dbc201f83311b509cb5d801670671e9afa90159ec6864715bb715810cc6",
+   "duration": 7.54,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "flite,pico",
+   "fake_seconds": 3.77,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.411,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 0.411,
+     "end": 2.296,
+     "label": "fake",
+     "source": "flite:kal16 [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 2.296,
+     "end": 4.84,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 4.84,
+     "end": 6.725,
+     "label": "fake",
+     "source": "pico:en-GB [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 6.725,
+     "end": 7.54,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "011110000011100"
+  },
+  {
+   "name": "pf_062",
+   "file": "clips/pf_062.flac",
+   "sha256": "39160d1d275e5cb098cd3a48dfef4b759cb891b7a68d080fcc5c27dafb9d7b96",
+   "duration": 4.16,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-mbrola",
+   "fake_seconds": 2.08,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.408,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.408,
+     "end": 3.488,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us1 [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 3.488,
+     "end": 4.16,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00011110"
+  },
+  {
+   "name": "pf_063",
+   "file": "clips/pf_063.flac",
+   "sha256": "abd1ca28884709982e5b17069d83ee2055a651d488a94422ed2d053f6c048f4c",
+   "duration": 8.52,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-ng",
+   "fake_seconds": 3.0,
+   "fake_share": 0.352,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.616,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 2.616,
+     "end": 5.616,
+     "label": "fake",
+     "source": "espeak-ng:en-gb+f2 [utility_refund]",
+     "text": "your electricity will be cut tonight, pay the pending bill on this link"
+    },
+    {
+     "start": 5.616,
+     "end": 8.52,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00000111111000000"
+  },
+  {
+   "name": "pf_064",
+   "file": "clips/pf_064.flac",
+   "sha256": "f37665ad4756065b8241852b6acd30ef850e8de9ac8c8ca7f9a3b4862c1988c9",
+   "duration": 8.3,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "festival-diphone,festival-hts",
+   "fake_seconds": 4.15,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.392,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 0.392,
+     "end": 2.467,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 2.467,
+     "end": 3.016,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 3.016,
+     "end": 5.091,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [family_emergency]",
+     "text": "it's me, I've had an accident, please send money right now"
+    },
+    {
+     "start": 5.091,
+     "end": 8.3,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "01111011110000000"
+  },
+  {
+   "name": "pf_065",
+   "file": "clips/pf_065.flac",
+   "sha256": "6e4a6ec9f2a6ce04674f180ed7a86cdd69eff66a03fff0227698947b09ca79f5",
+   "duration": 6.31,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "flite,pico",
+   "fake_seconds": 3.154,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.761,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.761,
+     "end": 3.338,
+     "label": "fake",
+     "source": "flite:awb [digital_arrest]",
+     "text": "this is the cyber crime branch, a case is registered against your Aadhaar number"
+    },
+    {
+     "start": 3.338,
+     "end": 3.894,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 3.894,
+     "end": 5.471,
+     "label": "fake",
+     "source": "pico:en-GB [digital_arrest]",
+     "text": "you are under digital arrest, do not disconnect this call"
+    },
+    {
+     "start": 5.471,
+     "end": 6.31,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0000111011100"
+  },
+  {
+   "name": "pf_066",
+   "file": "clips/pf_066.flac",
+   "sha256": "029eb812b9efebc5a3e8d91904b151f76a0c3d4ada465b51dfedc5c955f88115",
+   "duration": 9.72,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-mbrola,espeak-ng",
+   "fake_seconds": 4.854,
+   "fake_share": 0.499,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.982,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 2.982,
+     "end": 5.406,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us2 [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 5.406,
+     "end": 6.929,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 6.929,
+     "end": 9.359,
+     "label": "fake",
+     "source": "espeak-ng:en-gb+f2 [family_emergency]",
+     "text": "it's me, I've had an accident, please send money right now"
+    },
+    {
+     "start": 9.359,
+     "end": 9.72,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0000001111100011111"
+  },
+  {
+   "name": "pf_067",
+   "file": "clips/pf_067.flac",
+   "sha256": "e8559ab5c0d164ecf39fa35ccb218b6cc040df990493a9f21b51ee178612e212",
+   "duration": 5.47,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "festival-diphone",
+   "fake_seconds": 2.176,
+   "fake_share": 0.398,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.528,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 0.528,
+     "end": 2.704,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 2.704,
+     "end": 5.47,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "01111000000"
+  },
+  {
+   "name": "pf_068",
+   "file": "clips/pf_068.flac",
+   "sha256": "9492c5585c6ca648d01c03d2eae3a114646e27f9d70d1ac090b8ef41fee823b2",
+   "duration": 9.62,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 2.934,
+   "fake_share": 0.305,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.465,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 2.465,
+     "end": 5.399,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [family_emergency]",
+     "text": "don't tell mom and dad, I'll explain later"
+    },
+    {
+     "start": 5.399,
+     "end": 9.62,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0000011111100000000"
+  },
+  {
+   "name": "pf_069",
+   "file": "clips/pf_069.flac",
+   "sha256": "c1dc08302355b937eeb73b86cad0feb8feda84e26969bba3ef9f99b998d15334",
+   "duration": 9.05,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "flite,pico",
+   "fake_seconds": 4.467,
+   "fake_share": 0.494,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.57,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 0.57,
+     "end": 2.774,
+     "label": "fake",
+     "source": "flite:slt [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 2.774,
+     "end": 4.158,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 4.158,
+     "end": 6.421,
+     "label": "fake",
+     "source": "pico:en-GB [bank_kyc]",
+     "text": "your account will be blocked today unless you update your KYC"
+    },
+    {
+     "start": 6.421,
+     "end": 9.05,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "011111001111100000"
+  },
+  {
+   "name": "pf_070",
+   "file": "clips/pf_070.flac",
+   "sha256": "add87196f57a710add2c2994472f3c1cacc2adf31f2e6647fe55cb04c42eaed8",
+   "duration": 4.43,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "espeak-mbrola",
+   "fake_seconds": 2.215,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.386,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 0.386,
+     "end": 2.601,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us2 [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 2.601,
+     "end": 4.43,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "011110000"
+  },
+  {
+   "name": "pf_071",
+   "file": "clips/pf_071.flac",
+   "sha256": "144b9a1edbaabb90e0a6598f60c6d6e63cdd4666c4c115c218f59d8b883bf017",
+   "duration": 5.37,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-ng",
+   "fake_seconds": 2.685,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.162,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.162,
+     "end": 3.847,
+     "label": "fake",
+     "source": "espeak-ng:en-gb+f2 [bank_kyc]",
+     "text": "your account will be blocked today unless you update your KYC"
+    },
+    {
+     "start": 3.847,
+     "end": 5.37,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00111111000"
+  },
+  {
+   "name": "pf_072",
+   "file": "clips/pf_072.flac",
+   "sha256": "6d7bf91b135675e5b81270d516840f1d1a70cbf64cd364bed2839f81bebdd6e6",
+   "duration": 6.65,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "festival-diphone",
+   "fake_seconds": 3.0,
+   "fake_share": 0.451,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.607,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 2.607,
+     "end": 5.607,
+     "label": "fake",
+     "source": "festival-diphone:kal_diphone [courier_customs]",
+     "text": "your parcel is held at customs, pay the clearance fee now"
+    },
+    {
+     "start": 5.607,
+     "end": 6.65,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0000011111100"
+  },
+  {
+   "name": "pf_073",
+   "file": "clips/pf_073.flac",
+   "sha256": "7207831b0557314fd69e0042650ec48942acd8a02b25ed32894aae9c0863a911",
+   "duration": 5.67,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 2.835,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.466,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 0.466,
+     "end": 3.301,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [bank_kyc]",
+     "text": "your account will be blocked today unless you update your KYC"
+    },
+    {
+     "start": 3.301,
+     "end": 5.67,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "01111110000"
+  },
+  {
+   "name": "pf_074",
+   "file": "clips/pf_074.flac",
+   "sha256": "5bdffc362d3ce3d9624800fc40d14283064d33a0f5c419ee4f2b0791bc43b9c9",
+   "duration": 9.89,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "flite,pico",
+   "fake_seconds": 4.946,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.245,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.245,
+     "end": 3.718,
+     "label": "fake",
+     "source": "flite:kal16 [utility_refund]",
+     "text": "your electricity will be cut tonight, pay the pending bill on this link"
+    },
+    {
+     "start": 3.718,
+     "end": 5.852,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 5.852,
+     "end": 8.325,
+     "label": "fake",
+     "source": "pico:en-US [family_emergency]",
+     "text": "don't tell mom and dad, I'll explain later"
+    },
+    {
+     "start": 8.325,
+     "end": 9.89,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00111110000011111000"
+  },
+  {
+   "name": "pf_075",
+   "file": "clips/pf_075.flac",
+   "sha256": "069435bc9347d0847b084f99075e7246d9547da8ba2b653376dfa8e664d6534c",
+   "duration": 9.79,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-mbrola,espeak-ng",
+   "fake_seconds": 4.894,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.079,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 1.079,
+     "end": 3.526,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us3 [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 3.526,
+     "end": 6.218,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 6.218,
+     "end": 8.665,
+     "label": "fake",
+     "source": "espeak-ng:hi [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 8.665,
+     "end": 9.79,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00111110000011111000"
+  },
+  {
+   "name": "pf_076",
+   "file": "clips/pf_076.flac",
+   "sha256": "572ecb8a5cbf5cc1928f4d3ea8dbece89aab4db9a0fa9b358b88517ec1845715",
+   "duration": 7.57,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "festival-diphone",
+   "fake_seconds": 3.0,
+   "fake_share": 0.396,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 3.136,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 3.136,
+     "end": 6.136,
+     "label": "fake",
+     "source": "festival-diphone:kal_diphone [bank_kyc]",
+     "text": "please read out the six digit OTP you just received"
+    },
+    {
+     "start": 6.136,
+     "end": 7.57,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "000000111111000"
+  },
+  {
+   "name": "pf_077",
+   "file": "clips/pf_077.flac",
+   "sha256": "525f7742b152c1dfe6b4f437d267c039ab7a565333e37de9c8c14df1f1215ce2",
+   "duration": 5.46,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 2.73,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.444,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 0.444,
+     "end": 3.174,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 3.174,
+     "end": 5.46,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "01111100000"
+  },
+  {
+   "name": "pf_078",
+   "file": "clips/pf_078.flac",
+   "sha256": "1d57cd05915db48ce0b3096eac2c36a520cdfe05dba1871b5e9bd8d5860ab806",
+   "duration": 7.68,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "flite",
+   "fake_seconds": 3.0,
+   "fake_share": 0.391,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.169,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 4.169,
+     "end": 7.169,
+     "label": "fake",
+     "source": "flite:rms [bank_kyc]",
+     "text": "please read out the six digit OTP you just received"
+    },
+    {
+     "start": 7.169,
+     "end": 7.68,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "000000001111110"
+  },
+  {
+   "name": "pf_079",
+   "file": "clips/pf_079.flac",
+   "sha256": "55a1aaac4a4a6795cb015ca65474a803f617fccce38f16b1462bad435f7bcfc2",
+   "duration": 7.8,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "pico",
+   "fake_seconds": 3.0,
+   "fake_share": 0.385,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.164,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 2.164,
+     "end": 5.164,
+     "label": "fake",
+     "source": "pico:en-US [bank_kyc]",
+     "text": "your account will be blocked today unless you update your KYC"
+    },
+    {
+     "start": 5.164,
+     "end": 7.8,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0000111111000000"
+  },
+  {
+   "name": "pf_080",
+   "file": "clips/pf_080.flac",
+   "sha256": "2d6145d88af99ed6911c93170b9b9d0ce321923012e77ca4f1cb9d957a06bdbc",
+   "duration": 9.07,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-mbrola",
+   "fake_seconds": 2.843,
+   "fake_share": 0.313,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.462,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 4.462,
+     "end": 7.305,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-en1 [utility_refund]",
+     "text": "to receive your refund, enter your UPI PIN on the request"
+    },
+    {
+     "start": 7.305,
+     "end": 9.07,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "000000000111111000"
+  },
+  {
+   "name": "pf_081",
+   "file": "clips/pf_081.flac",
+   "sha256": "1ef074462953f36721aa05fd9d3786cbf63f51abfc2b65c0b1c82726faa22703",
+   "duration": 6.82,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-ng,festival-diphone",
+   "fake_seconds": 3.41,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.395,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 1.395,
+     "end": 3.1,
+     "label": "fake",
+     "source": "espeak-ng:en-us [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 3.1,
+     "end": 4.464,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 4.464,
+     "end": 6.169,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [utility_refund]",
+     "text": "to receive your refund, enter your UPI PIN on the request"
+    },
+    {
+     "start": 6.169,
+     "end": 6.82,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00011100011100"
+  },
+  {
+   "name": "pf_082",
+   "file": "clips/pf_082.flac",
+   "sha256": "11a4e6b538486a897e60aed2125fcac8384a3173a3135f505f9af670e133fc4e",
+   "duration": 4.22,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 2.11,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.312,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 1.312,
+     "end": 3.422,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [digital_arrest]",
+     "text": "this is the cyber crime branch, a case is registered against your Aadhaar number"
+    },
+    {
+     "start": 3.422,
+     "end": 4.22,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "00011110"
+  },
+  {
+   "name": "pf_083",
+   "file": "clips/pf_083.flac",
+   "sha256": "c68c25f412876d93e3f144cd7c20fa80d5c4cba194e0fcf527ea2518667005c7",
+   "duration": 6.67,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "flite,pico",
+   "fake_seconds": 3.335,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.359,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 0.359,
+     "end": 2.026,
+     "label": "fake",
+     "source": "flite:slt [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 2.026,
+     "end": 2.615,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 2.615,
+     "end": 4.283,
+     "label": "fake",
+     "source": "pico:en-GB [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 4.283,
+     "end": 6.67,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0111011110000"
+  },
+  {
+   "name": "pf_084",
+   "file": "clips/pf_084.flac",
+   "sha256": "45e3d33b0e626b99f8b6caaab1e823710ad9d6e77545d134bc0d274bdae2840b",
+   "duration": 6.32,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "espeak-mbrola,espeak-ng",
+   "fake_seconds": 3.16,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.63,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 1.63,
+     "end": 3.21,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us2 [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 3.21,
+     "end": 4.016,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 4.016,
+     "end": 5.596,
+     "label": "fake",
+     "source": "espeak-ng:hi [bank_kyc]",
+     "text": "your account will be blocked today unless you update your KYC"
+    },
+    {
+     "start": 5.596,
+     "end": 6.32,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0001110011100"
+  },
+  {
+   "name": "pf_085",
+   "file": "clips/pf_085.flac",
+   "sha256": "6a9bacbf9c701589eea0dfa503d32a6832f3943e7aa74434765ff5d16539f740",
+   "duration": 9.34,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "festival-diphone",
+   "fake_seconds": 3.0,
+   "fake_share": 0.321,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.871,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 0.871,
+     "end": 3.871,
+     "label": "fake",
+     "source": "festival-diphone:kal_diphone [family_emergency]",
+     "text": "don't tell mom and dad, I'll explain later"
+    },
+    {
+     "start": 3.871,
+     "end": 9.34,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0011111100000000000"
+  },
+  {
+   "name": "pf_086",
+   "file": "clips/pf_086.flac",
+   "sha256": "3957a0b204ca1704e957a747b0b442a33c93b7d8290e941598aca71a9cddf749",
+   "duration": 8.96,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "festival-hts,flite",
+   "fake_seconds": 4.48,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.909,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 0.909,
+     "end": 3.149,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [digital_arrest]",
+     "text": "transfer the amount to the RBI verification account to clear your name"
+    },
+    {
+     "start": 3.149,
+     "end": 5.531,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 5.531,
+     "end": 7.771,
+     "label": "fake",
+     "source": "flite:slt [bank_kyc]",
+     "text": "please read out the six digit OTP you just received"
+    },
+    {
+     "start": 7.771,
+     "end": 8.96,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "001111000001111100"
+  },
+  {
+   "name": "pf_087",
+   "file": "clips/pf_087.flac",
+   "sha256": "964be0fc4cc819805155e3ce2255db73df37e2abb2b055b85e0ba24f376cec18",
+   "duration": 8.52,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "pico",
+   "fake_seconds": 3.0,
+   "fake_share": 0.352,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.75,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 2.75,
+     "end": 5.75,
+     "label": "fake",
+     "source": "pico:en-GB [family_emergency]",
+     "text": "it's me, I've had an accident, please send money right now"
+    },
+    {
+     "start": 5.75,
+     "end": 8.52,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00000111111100000"
+  },
+  {
+   "name": "pf_088",
+   "file": "clips/pf_088.flac",
+   "sha256": "6c530652e748dffc29b19a41593af200b732333f01d180abc9e8552fcdf81671",
+   "duration": 6.85,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "espeak-mbrola,espeak-ng,festival-diphone",
+   "fake_seconds": 3.426,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.999,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 0.999,
+     "end": 2.141,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-en1 [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 2.141,
+     "end": 3.17,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 3.17,
+     "end": 4.312,
+     "label": "fake",
+     "source": "espeak-ng:hi [investment_job]",
+     "text": "guaranteed double returns in thirty days, invest today"
+    },
+    {
+     "start": 4.312,
+     "end": 5.256,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 5.256,
+     "end": 6.398,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [courier_customs]",
+     "text": "your parcel is held at customs, pay the clearance fee now"
+    },
+    {
+     "start": 6.398,
+     "end": 6.85,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "00110011100110"
+  },
+  {
+   "name": "pf_089",
+   "file": "clips/pf_089.flac",
+   "sha256": "68b0f7118a6bb80906e67f16b709487c55cf426b166434adf85deaba59ee0d0f",
+   "duration": 8.54,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 3.0,
+   "fake_share": 0.351,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.898,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 4.898,
+     "end": 7.898,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 7.898,
+     "end": 8.54,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00000000001111110"
+  },
+  {
+   "name": "pf_090",
+   "file": "clips/pf_090.flac",
+   "sha256": "36e6fe273521c81ff7a30e5d9db44f96a89263e96fd176967a3ba0f414a1b3a7",
+   "duration": 5.87,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "flite",
+   "fake_seconds": 2.935,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.46,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 0.46,
+     "end": 3.395,
+     "label": "fake",
+     "source": "flite:awb [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 3.395,
+     "end": 5.87,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "011111100000"
+  },
+  {
+   "name": "pf_091",
+   "file": "clips/pf_091.flac",
+   "sha256": "37b8a3d0babd3dcdaccb361899826c4e5f8247bc9b0455a112d39a5498b9bd81",
+   "duration": 8.93,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "espeak-mbrola,pico",
+   "fake_seconds": 4.465,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.538,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 2.538,
+     "end": 4.771,
+     "label": "fake",
+     "source": "pico:en-US [bank_kyc]",
+     "text": "please read out the six digit OTP you just received"
+    },
+    {
+     "start": 4.771,
+     "end": 6.364,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 6.364,
+     "end": 8.596,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us2 [family_emergency]",
+     "text": "it's me, I've had an accident, please send money right now"
+    },
+    {
+     "start": 8.596,
+     "end": 8.93,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "000001111100011110"
+  },
+  {
+   "name": "pf_092",
+   "file": "clips/pf_092.flac",
+   "sha256": "e12cfecd63fc4b3169e75cf2e5dc66cbe2d5a523b9deb93842b41425c7595961",
+   "duration": 5.66,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-ng",
+   "fake_seconds": 2.83,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.502,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 1.502,
+     "end": 4.332,
+     "label": "fake",
+     "source": "espeak-ng:en-us [digital_arrest]",
+     "text": "you are under digital arrest, do not disconnect this call"
+    },
+    {
+     "start": 4.332,
+     "end": 5.66,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00011111100"
+  },
+  {
+   "name": "pf_093",
+   "file": "clips/pf_093.flac",
+   "sha256": "c223f0f622d7db754f131ad00d9239771d478e5f33b742570fc7de7bf389b8a8",
+   "duration": 8.94,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "festival-diphone,festival-hts",
+   "fake_seconds": 4.47,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.694,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 0.694,
+     "end": 2.929,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 2.929,
+     "end": 4.205,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 4.205,
+     "end": 6.44,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [courier_customs]",
+     "text": "your parcel is held at customs, pay the clearance fee now"
+    },
+    {
+     "start": 6.44,
+     "end": 8.94,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "011111001111100000"
+  },
+  {
+   "name": "pf_094",
+   "file": "clips/pf_094.flac",
+   "sha256": "74c2d4f87136ed4808513b0a2a8126b6aa903a7c7011b23ee60cc35f8df69d75",
+   "duration": 7.74,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "flite,pico",
+   "fake_seconds": 3.87,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.09,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 1.09,
+     "end": 3.025,
+     "label": "fake",
+     "source": "flite:slt [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 3.025,
+     "end": 5.074,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 5.074,
+     "end": 7.009,
+     "label": "fake",
+     "source": "pico:en-GB [family_emergency]",
+     "text": "don't tell mom and dad, I'll explain later"
+    },
+    {
+     "start": 7.009,
+     "end": 7.74,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "001111000011110"
+  },
+  {
+   "name": "pf_095",
+   "file": "clips/pf_095.flac",
+   "sha256": "d22f53f6dc0b8289e84ab00e034b5098fc7a1d7ece9cacf24f9447272b23ecc4",
+   "duration": 6.36,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-mbrola,espeak-ng,festival-diphone",
+   "fake_seconds": 3.18,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.546,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 0.546,
+     "end": 1.606,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us1 [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 1.606,
+     "end": 2.337,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 2.337,
+     "end": 3.397,
+     "label": "fake",
+     "source": "espeak-ng:hi [family_emergency]",
+     "text": "it's me, I've had an accident, please send money right now"
+    },
+    {
+     "start": 3.397,
+     "end": 4.687,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 4.687,
+     "end": 5.747,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [digital_arrest]",
+     "text": "this is the cyber crime branch, a case is registered against your Aadhaar number"
+    },
+    {
+     "start": 5.747,
+     "end": 6.36,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0110011001100"
+  },
+  {
+   "name": "pf_096",
+   "file": "clips/pf_096.flac",
+   "sha256": "851772a21421469476dece0813379ad8ac14db04c50b4ee24eb60cedefcd1a93",
+   "duration": 6.83,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "festival-hts",
+   "fake_seconds": 3.0,
+   "fake_share": 0.439,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 1.153,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 1.153,
+     "end": 4.153,
+     "label": "fake",
+     "source": "festival-hts:cmu_us_slt_arctic_hts [utility_refund]",
+     "text": "to receive your refund, enter your UPI PIN on the request"
+    },
+    {
+     "start": 4.153,
+     "end": 6.83,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00111111000000"
+  },
+  {
+   "name": "pf_097",
+   "file": "clips/pf_097.flac",
+   "sha256": "b2c453920eabd0fb9cb0046160440c364497b6b452231dd93c81e16125b1efc2",
+   "duration": 6.54,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": "flite",
+   "fake_seconds": 2.646,
+   "fake_share": 0.405,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.699,
+     "label": "real",
+     "source": "librispeech-3436"
+    },
+    {
+     "start": 0.699,
+     "end": 3.345,
+     "label": "fake",
+     "source": "flite:awb [family_emergency]",
+     "text": "don't tell mom and dad, I'll explain later"
+    },
+    {
+     "start": 3.345,
+     "end": 6.54,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0111111000000"
+  },
+  {
+   "name": "pf_098",
+   "file": "clips/pf_098.flac",
+   "sha256": "f0e275cb53509cbc4c07c78ae73f5f8bb7140e1f2f35040f314247e4ada8a03a",
+   "duration": 6.11,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": "espeak-mbrola,espeak-ng,pico",
+   "fake_seconds": 3.054,
+   "fake_share": 0.5,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 0.634,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 0.634,
+     "end": 1.652,
+     "label": "fake",
+     "source": "pico:en-US [courier_customs]",
+     "text": "press one to speak to the customs officer"
+    },
+    {
+     "start": 1.652,
+     "end": 2.768,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 2.768,
+     "end": 3.786,
+     "label": "fake",
+     "source": "espeak-mbrola:mb-us3 [family_emergency]",
+     "text": "I lost my phone, send it to this new UPI number"
+    },
+    {
+     "start": 3.786,
+     "end": 4.768,
+     "label": "real",
+     "source": "librispeech-5703"
+    },
+    {
+     "start": 4.768,
+     "end": 5.786,
+     "label": "fake",
+     "source": "espeak-ng:en-gb+f2 [investment_job]",
+     "text": "pay the registration fee to confirm your work from home job"
+    },
+    {
+     "start": 5.786,
+     "end": 6.11,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "011000110011"
+  },
+  {
+   "name": "pf_099",
+   "file": "clips/pf_099.flac",
+   "sha256": "37848a5ffb8141e1dafe8fc75f810af0e8a7105d4c2c13c10d66eba679afadf8",
+   "duration": 8.82,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": "festival-diphone",
+   "fake_seconds": 3.0,
+   "fake_share": 0.34,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 2.408,
+     "label": "real",
+     "source": "librispeech-198"
+    },
+    {
+     "start": 2.408,
+     "end": 5.408,
+     "label": "fake",
+     "source": "festival-diphone:don_diphone [bank_kyc]",
+     "text": "for security I need your card number and expiry date"
+    },
+    {
+     "start": 5.408,
+     "end": 8.82,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "000001111110000000"
+  },
+  {
+   "name": "gen_000",
+   "file": "clips/gen_000.flac",
+   "sha256": "1aac884c37d7699b8ae37a5ed5205d4b8bcc84f8a0ca34dfd56d77f94a935234",
+   "duration": 8.43,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 8.43,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "00000000000000000"
+  },
+  {
+   "name": "gen_001",
+   "file": "clips/gen_001.flac",
+   "sha256": "e47f1c1fe65847a30eaa36066628c2d0cdfbe483c41033dbc06ab53b5a3aa186",
+   "duration": 9.88,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.88,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00000000000000000000"
+  },
+  {
+   "name": "gen_002",
+   "file": "clips/gen_002.flac",
+   "sha256": "44ad688ef9d4a704cabba8f30e1a699caa81f941478ba10a6060440ccbe29ba2",
+   "duration": 4.11,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.11,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00000000"
+  },
+  {
+   "name": "gen_003",
+   "file": "clips/gen_003.flac",
+   "sha256": "f9bc5fa40ff3e740ffb7fc8295702363592108307492dce0b06a22e79851a5e0",
+   "duration": 8.62,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 8.62,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "00000000000000000"
+  },
+  {
+   "name": "gen_004",
+   "file": "clips/gen_004.flac",
+   "sha256": "5db2d67070fc31cb6902b368aceefaffaf7a2d27cab668ba43785b2e8164a293",
+   "duration": 8.61,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 8.61,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00000000000000000"
+  },
+  {
+   "name": "gen_005",
+   "file": "clips/gen_005.flac",
+   "sha256": "f029cc4a3248c1faa3eba611a8284de69dbca749517746bd215c2941d69c5636",
+   "duration": 6.96,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 6.96,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00000000000000"
+  },
+  {
+   "name": "gen_006",
+   "file": "clips/gen_006.flac",
+   "sha256": "1ef83b9af98a86eff8f6ed45a14942bfa553f939e5bf1664ff144a3f31347cb1",
+   "duration": 4.2,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.2,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "00000000"
+  },
+  {
+   "name": "gen_007",
+   "file": "clips/gen_007.flac",
+   "sha256": "ff3abb9a77d510c41f307c5d06fa5406964e9b8f6f24ab156fcc2508546ca122",
+   "duration": 7.15,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 7.15,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00000000000000"
+  },
+  {
+   "name": "gen_008",
+   "file": "clips/gen_008.flac",
+   "sha256": "b3494f014cb598dd933fed2ffcfdcb2d000c46d9b24a467f2516e77b096ffd98",
+   "duration": 9.38,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.38,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0000000000000000000"
+  },
+  {
+   "name": "gen_009",
+   "file": "clips/gen_009.flac",
+   "sha256": "31edc68b60a47651e58774c8c2f1e9e6a032b1efa36379d33fa0ad577eefba29",
+   "duration": 5.83,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 5.83,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "000000000000"
+  },
+  {
+   "name": "gen_010",
+   "file": "clips/gen_010.flac",
+   "sha256": "a455853bf8d851ee2a10604281dad90aff360f6a6bb092ae9a9a284c7a5618ca",
+   "duration": 4.5,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.5,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "000000000"
+  },
+  {
+   "name": "gen_011",
+   "file": "clips/gen_011.flac",
+   "sha256": "efcca7499de81f32fbfb828d25a36373edf87ef9c05ff888ed797ba061af9ddc",
+   "duration": 4.17,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.17,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00000000"
+  },
+  {
+   "name": "gen_012",
+   "file": "clips/gen_012.flac",
+   "sha256": "3ad126c2fc1291418b44a4d1d44da8cf954e6e918bd6db0cc3806703b0b9a585",
+   "duration": 9.69,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.69,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0000000000000000000"
+  },
+  {
+   "name": "gen_013",
+   "file": "clips/gen_013.flac",
+   "sha256": "f95b809aecc915d9a7e04efaef13ce40ea0e4d39e364c65cee32f3852c6913c8",
+   "duration": 7.78,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 7.78,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0000000000000000"
+  },
+  {
+   "name": "gen_014",
+   "file": "clips/gen_014.flac",
+   "sha256": "e0428bdf94550bc4dd8866b7cbe1e307e1ae8b5a27e152a3506d21186ed1bff5",
+   "duration": 5.0,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 5.0,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0000000000"
+  },
+  {
+   "name": "gen_015",
+   "file": "clips/gen_015.flac",
+   "sha256": "9d6deca8cf6d6c9bdc4685847d9eb09367fdcc3255e5090d471291d77f058df3",
+   "duration": 9.78,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.78,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "00000000000000000000"
+  },
+  {
+   "name": "gen_016",
+   "file": "clips/gen_016.flac",
+   "sha256": "38c7de27c7fca64c4ea03acb57da2067111ff1925f8a57c25c2b68c6a36db982",
+   "duration": 9.45,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.45,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0000000000000000000"
+  },
+  {
+   "name": "gen_017",
+   "file": "clips/gen_017.flac",
+   "sha256": "3e585ae94816b56d01ad2555af66050d37dadcecd8c930866af1c6f9ec40692d",
+   "duration": 9.48,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.48,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0000000000000000000"
+  },
+  {
+   "name": "gen_018",
+   "file": "clips/gen_018.flac",
+   "sha256": "a7543029fa502a0d35f34140fee1ca76d1211d054ac962cc8c08b56e1f068691",
+   "duration": 6.51,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 6.51,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0000000000000"
+  },
+  {
+   "name": "gen_019",
+   "file": "clips/gen_019.flac",
+   "sha256": "b6c4a05149dc2b08c1c4f926ceaf3c8356ed282a942475ce8865feb29c4ef598",
+   "duration": 8.69,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 8.69,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00000000000000000"
+  },
+  {
+   "name": "gen_020",
+   "file": "clips/gen_020.flac",
+   "sha256": "e7c98240e6d49676eb598bcc5c3c0e3463fa940696355e5521ea01349c4d1501",
+   "duration": 6.85,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 6.85,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "00000000000000"
+  },
+  {
+   "name": "gen_021",
+   "file": "clips/gen_021.flac",
+   "sha256": "451f59791ece6b8f5a55d6796257f5e3ae78da0a2dd5753c036e913cb80d8a66",
+   "duration": 7.51,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 7.51,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "000000000000000"
+  },
+  {
+   "name": "gen_022",
+   "file": "clips/gen_022.flac",
+   "sha256": "02588ff1609f02e9c9f2f005da0048201e32f4c7fcb61ff78709cbc11deb3958",
+   "duration": 8.41,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 8.41,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00000000000000000"
+  },
+  {
+   "name": "gen_023",
+   "file": "clips/gen_023.flac",
+   "sha256": "783b56dcdb615d5bd342f23c0142c010ef83054b78c240d806055c1d417b0e57",
+   "duration": 9.04,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.04,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "000000000000000000"
+  },
+  {
+   "name": "gen_024",
+   "file": "clips/gen_024.flac",
+   "sha256": "0179cef264cae9127f2fea34617fee33458eeb067b784dfd5e24c1e4206e80f9",
+   "duration": 7.07,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 7.07,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "00000000000000"
+  },
+  {
+   "name": "gen_025",
+   "file": "clips/gen_025.flac",
+   "sha256": "7ef2c8f51d92c28697a0ae4acdf4e5fcdb1a1570a6d138a5e073a5359aa5292d",
+   "duration": 4.81,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 4.81,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "0000000000"
+  },
+  {
+   "name": "gen_026",
+   "file": "clips/gen_026.flac",
+   "sha256": "e6cb6ad418c90745e8690984e5cb53c88e18b7ceca221ccbcb53c4af753096e9",
+   "duration": 9.49,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 9.49,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0000000000000000000"
+  },
+  {
+   "name": "gen_027",
+   "file": "clips/gen_027.flac",
+   "sha256": "f28353b94794727c6a1ba178d74f0b608168868882f1d42b44786f32542d3187",
+   "duration": 7.99,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-3436",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 7.99,
+     "label": "real",
+     "source": "librispeech-3436"
+    }
+   ],
+   "frame_labels": "0000000000000000"
+  },
+  {
+   "name": "gen_028",
+   "file": "clips/gen_028.flac",
+   "sha256": "ddce1d72066cae1a367505154a09e55bf454d44b74ea574aa97a8db2de40a765",
+   "duration": 5.56,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-5703",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 5.56,
+     "label": "real",
+     "source": "librispeech-5703"
+    }
+   ],
+   "frame_labels": "00000000000"
+  },
+  {
+   "name": "gen_029",
+   "file": "clips/gen_029.flac",
+   "sha256": "54f503178954ade3b97ef3093d714c34ea4e6cbb8a6ea7685ee9d0a0bfffa2d1",
+   "duration": 6.54,
+   "sample_rate": 16000,
+   "real_speaker": "librispeech-198",
+   "fake_engine": null,
+   "fake_seconds": 0,
+   "fake_share": 0.0,
+   "segments": [
+    {
+     "start": 0.0,
+     "end": 6.54,
+     "label": "real",
+     "source": "librispeech-198"
+    }
+   ],
+   "frame_labels": "0000000000000"
+  }
+ ]
+}

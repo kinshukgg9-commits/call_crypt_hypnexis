@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#06222e">
+<title>VoiceGuard</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230e4258'/%3E%3Cg fill='%236ee7b7'%3E%3Crect x='5' y='13' width='3' height='6' rx='1.5'/%3E%3Crect x='10' y='9' width='3' height='14' rx='1.5'/%3E%3Crect x='15' y='5' width='3' height='22' rx='1.5'/%3E%3Crect x='20' y='10' width='3' height='12' rx='1.5'/%3E%3Crect x='25' y='14' width='3' height='4' rx='1.5'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="styles.css">
+<script src="config.js"></script>
+<script type="module" src="app.js"></script>
+</head>
+<body data-level="calm">
+
+<!-- Icons (one stroke style, so everything lines up) -->
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><path d="M12 19v3"/></symbol>
+  <symbol id="i-screen" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></symbol>
+  <symbol id="i-upload" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m17 8-5-5-5 5"/><path d="M12 3v12"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M6 3.5v17l14-8.5z"/></symbol>
+  <symbol id="i-stop" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2.5"/></symbol>
+  <symbol id="i-reset" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m20 6-11 11-5-5"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></symbol>
+  <symbol id="i-voice" viewBox="0 0 24 24"><path d="M2 10v4"/><path d="M6 6v12"/><path d="M10 3v18"/><path d="M14 8v8"/><path d="M18 5v14"/><path d="M22 10v4"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></symbol>
+  <symbol id="i-dots" viewBox="0 0 24 24"><path d="M5 12h.01"/><path d="M12 12h.01"/><path d="M19 12h.01"/></symbol>
+  <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 21v-7"/><path d="M4 10V3"/><path d="M12 21v-9"/><path d="M12 8V3"/><path d="M20 21v-5"/><path d="M20 12V3"/><path d="M2 14h4"/><path d="M10 8h4"/><path d="M18 16h4"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></symbol>
+  <symbol id="i-hangup" viewBox="0 0 24 24"><path d="M7.86 2h8.28L22 7.86v8.28L16.14 22H7.86L2 16.14V7.86z"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><path d="M4 22v-7"/></symbol>
+</svg>
+
+<div id="bgwrap" aria-hidden="true">
+  <div data-t="calm" class="on"></div>
+  <div data-t="watch"></div>
+  <div data-t="elevated"></div>
+  <div data-t="high"></div>
+</div>
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<header class="hero">
+  <div class="hero-in">
+    <div class="hero-brand">
+      <svg class="wave" viewBox="0 0 84 56" aria-hidden="true">
+        <rect x="4" y="21" width="6" height="14" rx="3"/>
+        <rect x="14" y="13" width="6" height="30" rx="3"/>
+        <rect x="24" y="5" width="6" height="46" rx="3"/>
+        <rect x="34" y="16" width="6" height="24" rx="3"/>
+        <rect x="44" y="2" width="6" height="52" rx="3"/>
+        <rect x="54" y="10" width="6" height="36" rx="3"/>
+        <rect x="64" y="19" width="6" height="18" rx="3"/>
+        <rect x="74" y="8" width="6" height="40" rx="3"/>
+      </svg>
+      <div class="hero-text">
+        <h1>VoiceGuard</h1>
+        <p class="sub">Scam-call and AI-voice check · active only with your consent</p>
+      </div>
+    </div>
+    <div class="hero-tools">
+      <span id="conn" class="conn" data-state="connecting" role="status"><i></i><span id="conn-text">Connecting</span></span>
+      <button id="menu-btn" class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="panel reveal" style="--i:0" aria-labelledby="c-h">
+    <div class="panel-head">
+      <h2 id="c-h">Before you start</h2>
+      <span class="badge" id="mode" aria-live="polite">Connecting to the server…</span>
+    </div>
+    <label class="consent">
+      <input type="checkbox" id="consent">
+      <span>I have permission to analyse this audio, and everyone speaking knows it is being checked. Audio is sent to the VoiceGuard server for analysis, kept in memory only for this session, and never stored. Only the result (never the audio) may be saved for 10 days, so you can look back at past checks, and is erased soon after.</span>
+    </label>
+
+    <div class="controls">
+      <button id="start" class="btn primary" disabled><svg class="ic"><use href="#i-mic"/></svg>Start listening</button>
+      <button id="share" class="btn" disabled hidden><svg class="ic"><use href="#i-screen"/></svg><span class="wide">Share tab audio</span><span class="narrow">Tab audio</span></button>
+      <label class="btn" id="file-btn"><svg class="ic"><use href="#i-upload"/></svg><span class="wide">Upload recording</span><span class="narrow">Upload</span><input type="file" id="file" accept="audio/*,video/webm" disabled></label>
+      <button id="demo" class="btn" disabled><svg class="ic"><use href="#i-play"/></svg>Run demo</button>
+      <span class="controls-gap"></span>
+      <button id="stop" class="btn danger" disabled><svg class="ic"><use href="#i-stop"/></svg>Stop</button>
+      <button id="clear" class="btn ghost"><svg class="ic"><use href="#i-reset"/></svg>Clear</button>
+    </div>
+
+    <div class="live-row">
+      <span id="listen" class="listen" data-state="idle"><i></i><span id="listen-text">Idle</span><time id="listen-time"></time></span>
+      <canvas id="viz" aria-hidden="true"></canvas>
+    </div>
+    <div id="progress" class="progress" hidden><i></i></div>
+    <p id="status" class="status" aria-live="polite">Tick the box to enable the controls.</p>
+    <p class="hint">The microphone is enough to check what is said. Telling an AI voice from a real one needs the caller's sound unchanged: share the tab's audio, or upload a recording.</p>
+  </section>
+
+  <div class="split">
+    <section id="banner" class="verdict reveal" style="--i:1" data-level="idle" aria-labelledby="b-title">
+      <div class="verdict-top">
+        <span class="v-icon" aria-hidden="true"><svg class="ic"><use id="b-icon" href="#i-shield"/></svg></span>
+        <div class="verdict-text" aria-live="polite">
+          <span class="overline" id="b-stage">Result</span>
+          <h2 id="b-title">No result yet</h2>
+          <p id="b-text">Start a session to see the result here.</p>
+        </div>
+      </div>
+      <ul class="outcomes" aria-label="The three possible results">
+        <li data-kind="safe"><svg class="ic"><use href="#i-check"/></svg>Not a scam call</li>
+        <li data-kind="ai_voice"><svg class="ic"><use href="#i-voice"/></svg>AI voice, likely not a scam</li>
+        <li data-kind="scam"><svg class="ic"><use href="#i-alert"/></svg>Scam call detected</li>
+      </ul>
+      <p class="verdict-meta" id="b-meta">Results are automated risk indicators, not proof.</p>
+    </section>
+
+    <section class="panel reveal" style="--i:2" aria-labelledby="t-h">
+      <div class="panel-head">
+        <h2 id="t-h">Transcript</h2>
+        <span class="badge" id="t-count">Waiting</span>
+      </div>
+      <ul id="transcript" aria-live="polite"></ul>
+    </section>
+  </div>
+
+  <div class="grid">
+    <section class="panel check reveal" style="--i:3" id="v-panel" data-level="calm" aria-labelledby="v-h">
+      <div class="panel-head">
+        <h2 id="v-h">Voice check</h2>
+        <span class="badge">Acoustic model</span>
+      </div>
+      <div class="score"><span class="num" id="v-num">–</span><span class="num-cap" id="v-cap">of the speech looks synthetic</span></div>
+      <div class="track" role="img" aria-label="Share of speech that looks synthetic">
+        <div class="fill" id="v-fill"></div>
+        <div class="tick" id="v-tick"></div>
+      </div>
+      <div class="meta">
+        <span>Natural</span>
+        <span id="v-label">Waiting for speech</span>
+        <span>Synthetic</span>
+      </div>
+      <p class="note" id="v-note">The line marks where the voice is called AI-generated; one strongly flagged moment is enough too. A flag means "sounds synthetic to this model", not proof of a fake. New voice generators and poor audio can fool it.</p>
+    </section>
+
+    <section class="panel check reveal" style="--i:4" id="s-panel" data-level="calm" aria-labelledby="s-h">
+      <div class="panel-head">
+        <h2 id="s-h">Scam language check</h2>
+        <span class="badge">Scam-tactic rules</span>
+      </div>
+      <div class="score"><span class="num" id="s-num">–</span><span class="num-cap">evidence score, 0 to 1</span></div>
+      <div class="track" role="img" aria-label="Scam evidence score">
+        <div class="fill" id="s-fill"></div>
+        <div class="tick" id="s-tick"></div>
+      </div>
+      <div class="meta">
+        <span>Ordinary</span>
+        <span id="s-label">Waiting for speech</span>
+        <span>Scam-like</span>
+      </div>
+      <p class="note">Based on what is said, not on who is speaking. A real voice can still run a scam. The line marks where a call is called a scam.</p>
+      <h3 class="subhead">Matched cues</h3>
+      <div class="chips" id="reasons"><span class="empty">None yet</span></div>
+    </section>
+  </div>
+
+  <section class="panel reveal" style="--i:5" aria-labelledby="lim-h">
+    <div class="panel-head">
+      <h2 id="lim-h">What to do if you are suspicious</h2>
+      <span class="badge badge-alert">Act straight away</span>
+    </div>
+    <div class="limits-grid">
+      <div class="limit-card">
+        <span class="limit-icon"><svg class="ic"><use href="#i-key"/></svg></span>
+        <div>
+          <strong>Never share secrets</strong>
+          <p>Do not give OTPs, PINs, bank details or passwords to a caller, whatever they say.</p>
+        </div>
+      </div>
+      <div class="limit-card">
+        <span class="limit-icon"><svg class="ic"><use href="#i-hangup"/></svg></span>
+        <div>
+          <strong>Hang up and verify</strong>
+          <p>Scammers invent urgency and authority. Hang up and call back on an official number you already trust.</p>
+        </div>
+      </div>
+      <div class="limit-card">
+        <span class="limit-icon"><svg class="ic"><use href="#i-flag"/></svg></span>
+        <div>
+          <strong>Report quickly</strong>
+          <p>In India, call <b>1930</b> or file a report at <a href="https://cybercrime.gov.in" target="_blank" rel="noopener">cybercrime.gov.in</a>.</p>
+        </div>
+      </div>
+    </div>
+    <p class="disclaimer" id="disclaimer">Results are automated risk indicators, not proof. When in doubt, hang up and verify.</p>
+  </section>
+</main>
+
+<div id="drawer-backdrop" class="drawer-backdrop"></div>
+<aside id="drawer" class="drawer" aria-label="VoiceGuard menu" inert>
+  <div class="drawer-header">
+    <h3>VoiceGuard</h3>
+    <button id="drawer-close" class="icon-btn" aria-label="Close menu"><svg class="ic"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="drawer-badge">Prototype</div>
+  <ul class="drawer-menu">
+    <li><button class="drawer-item" data-action="status"><span class="drawer-icon"><svg class="ic"><use href="#i-shield"/></svg></span><span><strong>Protection status</strong><small id="d-status">Checking the server…</small></span></button></li>
+    <li><button class="drawer-item" data-action="thresholds"><span class="drawer-icon"><svg class="ic"><use href="#i-sliders"/></svg></span><span><strong>Detection thresholds</strong><small id="d-thresholds">Set on the server</small></span></button></li>
+    <li><button class="drawer-item" data-action="audio"><span class="drawer-icon"><svg class="ic"><use href="#i-mic"/></svg></span><span><strong>Audio sources</strong><small>Microphone, tab audio or a recording</small></span></button></li>
+    <li><button class="drawer-item" data-action="privacy"><span class="drawer-icon"><svg class="ic"><use href="#i-lock"/></svg></span><span><strong>Privacy and retention</strong><small>Audio is never stored; results for up to 10 days</small></span></button></li>
+    <li><button class="drawer-item" data-action="emergency"><span class="drawer-icon"><svg class="ic"><use href="#i-phone"/></svg></span><span><strong>Fraud helplines</strong><small>National Cyber Crime Helpline: 1930</small></span></button></li>
+    <li><button class="drawer-item" data-action="about"><span class="drawer-icon"><svg class="ic"><use href="#i-info"/></svg></span><span><strong>About</strong><small id="d-about">VoiceGuard prototype</small></span></button></li>
+  </ul>
+  <div class="drawer-footer">Audio is analysed on the VoiceGuard server and never stored.</div>
+</aside>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<div id="modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" inert>
+  <div class="modal-card">
+    <div class="modal-head">
+      <h3 id="modal-title"></h3>
+      <button id="modal-close" class="icon-btn" aria-label="Close"><svg class="ic"><use href="#i-x"/></svg></button>
+    </div>
+    <div class="modal-body" id="modal-body"></div>
+    <div class="modal-foot"><button id="modal-ok" class="btn primary">Understood</button></div>
+  </div>
+</div>
+</body>
+</html>

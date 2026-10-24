@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "voiceguard-backend",
+      "runtimeExecutable": "C:\\Hackathon Career\\HYPNEXIS_VOICEGUARD\\voiceguard\\.venv\\Scripts\\python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "backend.app:app", "--app-dir", "C:\\Hackathon Career\\HYPNEXIS_VOICEGUARD\\voiceguard", "--port", "8000", "--workers", "1"],
+      "port": 8000
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# A local MySQL 8 for development:  docker compose -f database/docker-compose.mysql.yml up -d
+# Then:  DATABASE_URL=mysql://voiceguard:voiceguard@127.0.0.1:3306/voiceguard
+# (the backend creates the tables itself on first start)
+services:
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: voiceguard
+      MYSQL_USER: voiceguard
+      MYSQL_PASSWORD: voiceguard
+      MYSQL_ROOT_PASSWORD: change-me
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci", "--innodb-buffer-pool-size=64M"]
+    ports: ["3306:3306"]
+    volumes: ["voiceguard-mysql:/var/lib/mysql"]
+volumes:
+  voiceguard-mysql:

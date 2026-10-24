@@ -1,0 +1,129 @@
+{
+ "model": "antideepfake-w2v-small.onnx",
+ "date": "2026-10-25",
+ "clips": {
+  "real": 108,
+  "espeak": 135,
+  "festival": 76,
+  "flite": 32,
+  "pico": 18
+ },
+ "conditions": {
+  "clean": {
+   "eer": {
+    "all": 0.0,
+    "espeak": 0.0,
+    "festival": 0.0,
+    "flite": 0.0,
+    "pico": 0.0
+   },
+   "unscored": 1
+  },
+  "resample_8k": {
+   "eer": {
+    "all": 0.0,
+    "espeak": 0.0,
+    "festival": 0.0,
+    "flite": 0.0,
+    "pico": 0.0
+   },
+   "unscored": 1
+  },
+  "g711_mulaw": {
+   "eer": {
+    "all": 0.0,
+    "espeak": 0.0,
+    "festival": 0.0,
+    "flite": 0.0,
+    "pico": 0.0
+   },
+   "unscored": 1
+  },
+  "amr_nb": {
+   "eer": {
+    "all": 0.0,
+    "espeak": 0.0,
+    "festival": 0.0,
+    "flite": 0.0,
+    "pico": 0.0
+   },
+   "unscored": 5
+  },
+  "noise_10db": {
+   "eer": {
+    "all": 0.1595,
+    "espeak": 0.1042,
+    "festival": 0.1987,
+    "flite": 0.1686,
+    "pico": 0.2675
+   },
+   "unscored": 3
+  },
+  "phone_worst": {
+   "eer": {
+    "all": 0.2762,
+    "espeak": 0.246,
+    "festival": 0.2805,
+    "flite": 0.3507,
+    "pico": 0.4153
+   },
+   "unscored": 10
+  }
+ },
+ "phone_line": {
+  "clean_eer": 0.0,
+  "worst_condition": "noise_10db",
+  "worst_eer": 0.1595,
+  "ratio": null,
+  "target_ratio": 2.5,
+  "pass": false
+ },
+ "phase1_streaming": {
+  "update_seconds": 0.5,
+  "window_eer": {
+   "all": 0.0,
+   "espeak": 0.0,
+   "festival": 0.0,
+   "flite": 0.0,
+   "pico": 0.0
+  },
+  "streaming_eer": {
+   "all": 0.0,
+   "espeak": 0.0,
+   "festival": 0.0,
+   "flite": 0.0,
+   "pico": 0.0
+  },
+  "unscored": 2,
+  "change": {
+   "all": 0.0,
+   "espeak": 0.0,
+   "festival": 0.0,
+   "flite": 0.0,
+   "pico": 0.0
+  },
+  "max_change": 0.02,
+  "pass": true
+ },
+ "phase1_baseline": {
+  "baseline_date": "2026-10-25",
+  "baseline_model": "antideepfake-w2v-small.onnx",
+  "baseline_eer": {
+   "all": 0.0,
+   "espeak": 0.0,
+   "festival": 0.0,
+   "flite": 0.0,
+   "pico": 0.0
+  },
+  "rise": {
+   "all": 0.0,
+   "espeak": 0.0,
+   "festival": 0.0,
+   "flite": 0.0,
+   "pico": 0.0
+  },
+  "max_rise": 0.02,
+  "pass": true
+ },
+ "pass": false
+}

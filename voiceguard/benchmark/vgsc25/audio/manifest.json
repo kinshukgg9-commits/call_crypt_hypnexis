@@ -1,0 +1,6567 @@
+{
+ "dataset": "vgsc25-audio",
+ "sample_rate": 16000,
+ "conditions": [
+  "clean",
+  "g711_mulaw",
+  "phone_worst"
+ ],
+ "description": "VGSC-25 call scripts spoken by offline stock voices, clean and over phone-line conditions",
+ "clips": [
+  {
+   "id": "call-001_clean",
+   "call_id": "call-001",
+   "condition": "clean",
+   "file": "call-001_clean.flac",
+   "sha256": "f0e8c3874887c7e773d05ce43cac6bc8830b0b99737fe8ad796c4f9146fa1b56",
+   "duration": 37.09,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.522,
+     "text": "Hello, I am calling from the Delhi cyber cell about a serious case registered on your mobile number.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "callee",
+     "start": 5.196,
+     "end": 8.123,
+     "text": "What case? We are old people, we have done nothing.",
+     "voice": "flite:slt"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.748,
+     "end": 14.748,
+     "text": "Your number and bank account have been used in an illegal transaction. Until the inquiry is over you and your wife are under digital arrest.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.386,
+     "end": 21.768,
+     "text": "You will not go out of the house and you will not discuss this with your relatives. If you speak to anyone, the local police will pick you up.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 22.333,
+     "end": 27.878,
+     "text": "To prove the money is clean, move your savings to the account we give you. It will be returned after verification.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "callee",
+     "start": 28.437,
+     "end": 30.607,
+     "text": "All our savings? That is fifty lakh.",
+     "voice": "flite:slt"
+    },
+    {
+     "speaker": "caller",
+     "start": 31.033,
+     "end": 36.35,
+     "text": "Yes, transfer the full amount today itself. This is an order from the investigating officer.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-001_g711_mulaw",
+   "call_id": "call-001",
+   "condition": "g711_mulaw",
+   "file": "call-001_g711_mulaw.flac",
+   "sha256": "93342e66e4a556df3de70fcb6b56ea9c667b18adcedca76261e98893c889f13b",
+   "duration": 37.09,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.522,
+     "text": "Hello, I am calling from the Delhi cyber cell about a serious case registered on your mobile number.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "callee",
+     "start": 5.196,
+     "end": 8.123,
+     "text": "What case? We are old people, we have done nothing.",
+     "voice": "flite:slt"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.748,
+     "end": 14.748,
+     "text": "Your number and bank account have been used in an illegal transaction. Until the inquiry is over you and your wife are under digital arrest.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.386,
+     "end": 21.768,
+     "text": "You will not go out of the house and you will not discuss this with your relatives. If you speak to anyone, the local police will pick you up.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 22.333,
+     "end": 27.878,
+     "text": "To prove the money is clean, move your savings to the account we give you. It will be returned after verification.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "callee",
+     "start": 28.437,
+     "end": 30.607,
+     "text": "All our savings? That is fifty lakh.",
+     "voice": "flite:slt"
+    },
+    {
+     "speaker": "caller",
+     "start": 31.033,
+     "end": 36.35,
+     "text": "Yes, transfer the full amount today itself. This is an order from the investigating officer.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-001_phone_worst",
+   "call_id": "call-001",
+   "condition": "phone_worst",
+   "file": "call-001_phone_worst.flac",
+   "sha256": "7f1f634cb4f7aa200d5f1280830dd7117a17013ce41220c250d6f95c31892863",
+   "duration": 37.09,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.522,
+     "text": "Hello, I am calling from the Delhi cyber cell about a serious case registered on your mobile number.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "callee",
+     "start": 5.196,
+     "end": 8.123,
+     "text": "What case? We are old people, we have done nothing.",
+     "voice": "flite:slt"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.748,
+     "end": 14.748,
+     "text": "Your number and bank account have been used in an illegal transaction. Until the inquiry is over you and your wife are under digital arrest.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.386,
+     "end": 21.768,
+     "text": "You will not go out of the house and you will not discuss this with your relatives. If you speak to anyone, the local police will pick you up.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 22.333,
+     "end": 27.878,
+     "text": "To prove the money is clean, move your savings to the account we give you. It will be returned after verification.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "callee",
+     "start": 28.437,
+     "end": 30.607,
+     "text": "All our savings? That is fifty lakh.",
+     "voice": "flite:slt"
+    },
+    {
+     "speaker": "caller",
+     "start": 31.033,
+     "end": 36.35,
+     "text": "Yes, transfer the full amount today itself. This is an order from the investigating officer.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-002_clean",
+   "call_id": "call-002",
+   "condition": "clean",
+   "file": "call-002_clean.flac",
+   "sha256": "d220e4f48219057ee48a0c1dc1d1b670afc1bbc7505a718204b5cf82bbeb8337",
+   "duration": 51.02,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 10.508,
+     "text": "This is an automated alert. Your SIM card will be blocked within two hours because of complaints against your number. Press nine to speak to TRAI.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 10.939,
+     "end": 15.542,
+     "text": "I am transferring your call to the Mumbai cyber crime branch, please hold.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.965,
+     "end": 26.337,
+     "text": "I am an IPS officer. Your name has come up in a money laundering racket. Twenty four cases have been registered against you in different states.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "callee",
+     "start": 26.808,
+     "end": 28.974,
+     "text": "Sir, there must be some mistake.",
+     "voice": "pico:en-GB"
+    },
+    {
+     "speaker": "caller",
+     "start": 29.601,
+     "end": 40.263,
+     "text": "Your wife and daughter are also part of this investigation. All three of you are under digital arrest. Nobody leaves the house, nobody calls anybody.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 40.737,
+     "end": 50.607,
+     "text": "Keep the video on. If you want to avoid jail, deposit the amount for verification in the account I am sending. It will be refunded once you are cleared.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-002_g711_mulaw",
+   "call_id": "call-002",
+   "condition": "g711_mulaw",
+   "file": "call-002_g711_mulaw.flac",
+   "sha256": "1157219012c80deea10767d80bcd306cd6176f03b0793606de3f3c82ab593840",
+   "duration": 51.02,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 10.508,
+     "text": "This is an automated alert. Your SIM card will be blocked within two hours because of complaints against your number. Press nine to speak to TRAI.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 10.939,
+     "end": 15.542,
+     "text": "I am transferring your call to the Mumbai cyber crime branch, please hold.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.965,
+     "end": 26.337,
+     "text": "I am an IPS officer. Your name has come up in a money laundering racket. Twenty four cases have been registered against you in different states.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "callee",
+     "start": 26.808,
+     "end": 28.974,
+     "text": "Sir, there must be some mistake.",
+     "voice": "pico:en-GB"
+    },
+    {
+     "speaker": "caller",
+     "start": 29.601,
+     "end": 40.263,
+     "text": "Your wife and daughter are also part of this investigation. All three of you are under digital arrest. Nobody leaves the house, nobody calls anybody.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 40.737,
+     "end": 50.607,
+     "text": "Keep the video on. If you want to avoid jail, deposit the amount for verification in the account I am sending. It will be refunded once you are cleared.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-002_phone_worst",
+   "call_id": "call-002",
+   "condition": "phone_worst",
+   "file": "call-002_phone_worst.flac",
+   "sha256": "c8ab95ec3379ef412301886d5803605eb9063bda7d47f7d4269ba87d6ec94f27",
+   "duration": 51.02,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 10.508,
+     "text": "This is an automated alert. Your SIM card will be blocked within two hours because of complaints against your number. Press nine to speak to TRAI.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 10.939,
+     "end": 15.542,
+     "text": "I am transferring your call to the Mumbai cyber crime branch, please hold.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.965,
+     "end": 26.337,
+     "text": "I am an IPS officer. Your name has come up in a money laundering racket. Twenty four cases have been registered against you in different states.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "callee",
+     "start": 26.808,
+     "end": 28.974,
+     "text": "Sir, there must be some mistake.",
+     "voice": "pico:en-GB"
+    },
+    {
+     "speaker": "caller",
+     "start": 29.601,
+     "end": 40.263,
+     "text": "Your wife and daughter are also part of this investigation. All three of you are under digital arrest. Nobody leaves the house, nobody calls anybody.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 40.737,
+     "end": 50.607,
+     "text": "Keep the video on. If you want to avoid jail, deposit the amount for verification in the account I am sending. It will be refunded once you are cleared.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-003_clean",
+   "call_id": "call-003",
+   "condition": "clean",
+   "file": "call-003_clean.flac",
+   "sha256": "dce682152d8f0b930ab43a6309bbb43b92afb2cc527039adc625058445087883",
+   "duration": 35.66,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.805,
+     "text": "Good morning, I am Deepak Sharma from the Telecom Regulatory Authority. A money laundering case has been registered in Mumbai under your Aadhaar number.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.497,
+     "end": 10.603,
+     "text": "I will connect you to the Mumbai Police sub-inspector handling your file.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.111,
+     "end": 18.759,
+     "text": "Sir, the CBI chief himself is monitoring this. You are in virtual custody from now. Keep your WhatsApp video on at all times.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 19.478,
+     "end": 24.79,
+     "text": "The Supreme Court will hear your matter online. The judge has ordered that your fixed deposits and PPF be verified.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "callee",
+     "start": 25.202,
+     "end": 27.294,
+     "text": "Do I have to break my FDs?",
+     "voice": "flite:awb"
+    },
+    {
+     "speaker": "caller",
+     "start": 28.019,
+     "end": 35.235,
+     "text": "Yes. Liquidate them and send the funds to the account under Supreme Court supervision. If you contact anyone, the custody becomes physical.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-003_g711_mulaw",
+   "call_id": "call-003",
+   "condition": "g711_mulaw",
+   "file": "call-003_g711_mulaw.flac",
+   "sha256": "1c44768cee838402e4636cc0537935133dd55d5dd41e507dfc2c6b323947237d",
+   "duration": 35.66,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.805,
+     "text": "Good morning, I am Deepak Sharma from the Telecom Regulatory Authority. A money laundering case has been registered in Mumbai under your Aadhaar number.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.497,
+     "end": 10.603,
+     "text": "I will connect you to the Mumbai Police sub-inspector handling your file.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.111,
+     "end": 18.759,
+     "text": "Sir, the CBI chief himself is monitoring this. You are in virtual custody from now. Keep your WhatsApp video on at all times.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 19.478,
+     "end": 24.79,
+     "text": "The Supreme Court will hear your matter online. The judge has ordered that your fixed deposits and PPF be verified.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "callee",
+     "start": 25.202,
+     "end": 27.294,
+     "text": "Do I have to break my FDs?",
+     "voice": "flite:awb"
+    },
+    {
+     "speaker": "caller",
+     "start": 28.019,
+     "end": 35.235,
+     "text": "Yes. Liquidate them and send the funds to the account under Supreme Court supervision. If you contact anyone, the custody becomes physical.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-003_phone_worst",
+   "call_id": "call-003",
+   "condition": "phone_worst",
+   "file": "call-003_phone_worst.flac",
+   "sha256": "6df92f83b6d4b0e8c4535ab5858d7438fe72ac7dfc243d9d939584d95967083f",
+   "duration": 35.66,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.805,
+     "text": "Good morning, I am Deepak Sharma from the Telecom Regulatory Authority. A money laundering case has been registered in Mumbai under your Aadhaar number.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.497,
+     "end": 10.603,
+     "text": "I will connect you to the Mumbai Police sub-inspector handling your file.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.111,
+     "end": 18.759,
+     "text": "Sir, the CBI chief himself is monitoring this. You are in virtual custody from now. Keep your WhatsApp video on at all times.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 19.478,
+     "end": 24.79,
+     "text": "The Supreme Court will hear your matter online. The judge has ordered that your fixed deposits and PPF be verified.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "callee",
+     "start": 25.202,
+     "end": 27.294,
+     "text": "Do I have to break my FDs?",
+     "voice": "flite:awb"
+    },
+    {
+     "speaker": "caller",
+     "start": 28.019,
+     "end": 35.235,
+     "text": "Yes. Liquidate them and send the funds to the account under Supreme Court supervision. If you contact anyone, the custody becomes physical.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-004_clean",
+   "call_id": "call-004",
+   "condition": "clean",
+   "file": "call-004_clean.flac",
+   "sha256": "6364201e1a7c613f1fd830067430ce2bbae18e6c746370d4381fbc13b0d39bee",
+   "duration": 30.43,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.069,
+     "text": "Namaste, this is TRAI. Your mobile number is linked to illegal activity and will be disconnected.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.733,
+     "end": 11.775,
+     "text": "The Maharashtra Police want to speak to you. Stay on the line.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 12.217,
+     "end": 18.538,
+     "text": "Uncle, this is a police matter. There is a case against you and an arrest warrant can be issued today.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "callee",
+     "start": 19.186,
+     "end": 22.17,
+     "text": "I am ninety two years old, what have I done?",
+     "voice": "pico:en-US"
+    },
+    {
+     "speaker": "caller",
+     "start": 22.868,
+     "end": 29.665,
+     "text": "If you are innocent, cooperate. Transfer your money to the government account for checking and we will close the case.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-004_g711_mulaw",
+   "call_id": "call-004",
+   "condition": "g711_mulaw",
+   "file": "call-004_g711_mulaw.flac",
+   "sha256": "43475fd462f32512dd4abaa54b6046eea682841fe26f02d40ef364e2e26402d8",
+   "duration": 30.43,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.069,
+     "text": "Namaste, this is TRAI. Your mobile number is linked to illegal activity and will be disconnected.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.733,
+     "end": 11.775,
+     "text": "The Maharashtra Police want to speak to you. Stay on the line.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 12.217,
+     "end": 18.538,
+     "text": "Uncle, this is a police matter. There is a case against you and an arrest warrant can be issued today.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "callee",
+     "start": 19.186,
+     "end": 22.17,
+     "text": "I am ninety two years old, what have I done?",
+     "voice": "pico:en-US"
+    },
+    {
+     "speaker": "caller",
+     "start": 22.868,
+     "end": 29.665,
+     "text": "If you are innocent, cooperate. Transfer your money to the government account for checking and we will close the case.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-004_phone_worst",
+   "call_id": "call-004",
+   "condition": "phone_worst",
+   "file": "call-004_phone_worst.flac",
+   "sha256": "a9fe0e9de58883ff89bfc46958200e7fa17292267d8df52cc21c67d617b10515",
+   "duration": 30.43,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.069,
+     "text": "Namaste, this is TRAI. Your mobile number is linked to illegal activity and will be disconnected.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.733,
+     "end": 11.775,
+     "text": "The Maharashtra Police want to speak to you. Stay on the line.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 12.217,
+     "end": 18.538,
+     "text": "Uncle, this is a police matter. There is a case against you and an arrest warrant can be issued today.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "callee",
+     "start": 19.186,
+     "end": 22.17,
+     "text": "I am ninety two years old, what have I done?",
+     "voice": "pico:en-US"
+    },
+    {
+     "speaker": "caller",
+     "start": 22.868,
+     "end": 29.665,
+     "text": "If you are innocent, cooperate. Transfer your money to the government account for checking and we will close the case.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-005_clean",
+   "call_id": "call-005",
+   "condition": "clean",
+   "file": "call-005_clean.flac",
+   "sha256": "67078a5e05127f0f1b0c40d25e477ad25e69eafeb9fdd330a8b3aa47b790cec4",
+   "duration": 41.44,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.443,
+     "text": "Sir, this call is from TRAI. A SIM issued on your documents is being used for fraud. We are connecting you to the Mumbai crime branch.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.161,
+     "end": 16.708,
+     "text": "Crime branch here. Your identity is linked to a money laundering case worth crores. You must join a video call for interrogation now.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 17.114,
+     "end": 21.086,
+     "text": "The court is in session. The honourable judge will now hear your case.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 21.805,
+     "end": 31.8,
+     "text": "As per the court's order, you will sell your shares and investments and transfer the proceeds for verification. You will receive everything back after the inquiry.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "callee",
+     "start": 32.383,
+     "end": 33.796,
+     "text": "How long will this take?",
+     "voice": "flite:rms"
+    },
+    {
+     "speaker": "caller",
+     "start": 34.406,
+     "end": 40.766,
+     "text": "About forty days. Report to us every day and do not discuss this with your family or your bank.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-005_g711_mulaw",
+   "call_id": "call-005",
+   "condition": "g711_mulaw",
+   "file": "call-005_g711_mulaw.flac",
+   "sha256": "65c113bc7cac2a16a67a94b1d1a0964f16e90f9bd7c52c93ed9ea17698ae5490",
+   "duration": 41.44,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.443,
+     "text": "Sir, this call is from TRAI. A SIM issued on your documents is being used for fraud. We are connecting you to the Mumbai crime branch.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.161,
+     "end": 16.708,
+     "text": "Crime branch here. Your identity is linked to a money laundering case worth crores. You must join a video call for interrogation now.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 17.114,
+     "end": 21.086,
+     "text": "The court is in session. The honourable judge will now hear your case.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 21.805,
+     "end": 31.8,
+     "text": "As per the court's order, you will sell your shares and investments and transfer the proceeds for verification. You will receive everything back after the inquiry.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "callee",
+     "start": 32.383,
+     "end": 33.796,
+     "text": "How long will this take?",
+     "voice": "flite:rms"
+    },
+    {
+     "speaker": "caller",
+     "start": 34.406,
+     "end": 40.766,
+     "text": "About forty days. Report to us every day and do not discuss this with your family or your bank.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-005_phone_worst",
+   "call_id": "call-005",
+   "condition": "phone_worst",
+   "file": "call-005_phone_worst.flac",
+   "sha256": "51eceb4d27f65a954dc1eee2f8e7286d4b591da12c3e55f6027e43218e79cecb",
+   "duration": 41.44,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.443,
+     "text": "Sir, this call is from TRAI. A SIM issued on your documents is being used for fraud. We are connecting you to the Mumbai crime branch.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.161,
+     "end": 16.708,
+     "text": "Crime branch here. Your identity is linked to a money laundering case worth crores. You must join a video call for interrogation now.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 17.114,
+     "end": 21.086,
+     "text": "The court is in session. The honourable judge will now hear your case.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 21.805,
+     "end": 31.8,
+     "text": "As per the court's order, you will sell your shares and investments and transfer the proceeds for verification. You will receive everything back after the inquiry.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "callee",
+     "start": 32.383,
+     "end": 33.796,
+     "text": "How long will this take?",
+     "voice": "flite:rms"
+    },
+    {
+     "speaker": "caller",
+     "start": 34.406,
+     "end": 40.766,
+     "text": "About forty days. Report to us every day and do not discuss this with your family or your bank.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-006_clean",
+   "call_id": "call-006",
+   "condition": "clean",
+   "file": "call-006_clean.flac",
+   "sha256": "ef043d99d3945fd601da7671e3039f1525b7be5a176c6f41893d35c767a9c23b",
+   "duration": 39.18,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.218,
+     "text": "Hello madam, I am calling from DHL, Andheri. A parcel in your name has been held. It contains three credit cards, four passports and MDMA.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "callee",
+     "start": 8.681,
+     "end": 10.362,
+     "text": "I have not sent any parcel.",
+     "voice": "flite:slt"
+    },
+    {
+     "speaker": "caller",
+     "start": 10.874,
+     "end": 16.081,
+     "text": "Your phone number is on the parcel, so it is a cyber crime matter. I am transferring you to the CBI.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 16.782,
+     "end": 25.427,
+     "text": "This is Pradeep Singh, CBI. Your identity has been misused. Do not go to the local police, the criminals are watching them. You are under digital arrest.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 25.94,
+     "end": 29.855,
+     "text": "Keep Skype open with the camera on. An officer will monitor you for a week.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 30.286,
+     "end": 38.452,
+     "text": "To prove your innocence you must declare all your assets to the RBI's Financial Intelligence Unit. Transfer them for verification; they will be returned with a clearance certificate.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-006_g711_mulaw",
+   "call_id": "call-006",
+   "condition": "g711_mulaw",
+   "file": "call-006_g711_mulaw.flac",
+   "sha256": "6613a061dbab93043b8e3e57fd5071b2924cf1a6c032ce4513c272c0b8683113",
+   "duration": 39.18,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.218,
+     "text": "Hello madam, I am calling from DHL, Andheri. A parcel in your name has been held. It contains three credit cards, four passports and MDMA.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "callee",
+     "start": 8.681,
+     "end": 10.362,
+     "text": "I have not sent any parcel.",
+     "voice": "flite:slt"
+    },
+    {
+     "speaker": "caller",
+     "start": 10.874,
+     "end": 16.081,
+     "text": "Your phone number is on the parcel, so it is a cyber crime matter. I am transferring you to the CBI.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 16.782,
+     "end": 25.427,
+     "text": "This is Pradeep Singh, CBI. Your identity has been misused. Do not go to the local police, the criminals are watching them. You are under digital arrest.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 25.94,
+     "end": 29.855,
+     "text": "Keep Skype open with the camera on. An officer will monitor you for a week.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 30.286,
+     "end": 38.452,
+     "text": "To prove your innocence you must declare all your assets to the RBI's Financial Intelligence Unit. Transfer them for verification; they will be returned with a clearance certificate.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-006_phone_worst",
+   "call_id": "call-006",
+   "condition": "phone_worst",
+   "file": "call-006_phone_worst.flac",
+   "sha256": "173ef6ad5ae3aeeba48099cd1bb5f186f8e05f6bd6335ca5d96959091fb4577b",
+   "duration": 39.18,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.218,
+     "text": "Hello madam, I am calling from DHL, Andheri. A parcel in your name has been held. It contains three credit cards, four passports and MDMA.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "callee",
+     "start": 8.681,
+     "end": 10.362,
+     "text": "I have not sent any parcel.",
+     "voice": "flite:slt"
+    },
+    {
+     "speaker": "caller",
+     "start": 10.874,
+     "end": 16.081,
+     "text": "Your phone number is on the parcel, so it is a cyber crime matter. I am transferring you to the CBI.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 16.782,
+     "end": 25.427,
+     "text": "This is Pradeep Singh, CBI. Your identity has been misused. Do not go to the local police, the criminals are watching them. You are under digital arrest.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 25.94,
+     "end": 29.855,
+     "text": "Keep Skype open with the camera on. An officer will monitor you for a week.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 30.286,
+     "end": 38.452,
+     "text": "To prove your innocence you must declare all your assets to the RBI's Financial Intelligence Unit. Transfer them for verification; they will be returned with a clearance certificate.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-007_clean",
+   "call_id": "call-007",
+   "condition": "clean",
+   "file": "call-007_clean.flac",
+   "sha256": "195d004c12bea50c864c0755266a1b10c2e41aed46dd5d04d91ea4e1dbdc247e",
+   "duration": 28.32,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.972,
+     "text": "This is the CBI. Your Aadhaar was used to open an account in the Canara Bank branch in Mumbai, and that account is used for illegal activity.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.693,
+     "end": 13.912,
+     "text": "I am showing you the FIR from the Delhi Crime Branch on the video. Look at it.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "callee",
+     "start": 14.427,
+     "end": 15.864,
+     "text": "That account is not mine.",
+     "voice": "pico:en-GB"
+    },
+    {
+     "speaker": "caller",
+     "start": 16.362,
+     "end": 23.025,
+     "text": "Then you must clear your name. Deposit your money in the accounts we give you so the department can verify it.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 23.716,
+     "end": 27.906,
+     "text": "Do it today. Until the money is checked, you are a suspect.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-007_g711_mulaw",
+   "call_id": "call-007",
+   "condition": "g711_mulaw",
+   "file": "call-007_g711_mulaw.flac",
+   "sha256": "e818f07e8fefa03ae3f86a7ce983f09140ac276fcc7fcfe856b3e8261cdae681",
+   "duration": 28.32,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.972,
+     "text": "This is the CBI. Your Aadhaar was used to open an account in the Canara Bank branch in Mumbai, and that account is used for illegal activity.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.693,
+     "end": 13.912,
+     "text": "I am showing you the FIR from the Delhi Crime Branch on the video. Look at it.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "callee",
+     "start": 14.427,
+     "end": 15.864,
+     "text": "That account is not mine.",
+     "voice": "pico:en-GB"
+    },
+    {
+     "speaker": "caller",
+     "start": 16.362,
+     "end": 23.025,
+     "text": "Then you must clear your name. Deposit your money in the accounts we give you so the department can verify it.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 23.716,
+     "end": 27.906,
+     "text": "Do it today. Until the money is checked, you are a suspect.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-007_phone_worst",
+   "call_id": "call-007",
+   "condition": "phone_worst",
+   "file": "call-007_phone_worst.flac",
+   "sha256": "4bcd02599d722b56c3236096e235d5fcb84bfe40111f0bc0560982e4d6db2a10",
+   "duration": 28.32,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.972,
+     "text": "This is the CBI. Your Aadhaar was used to open an account in the Canara Bank branch in Mumbai, and that account is used for illegal activity.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.693,
+     "end": 13.912,
+     "text": "I am showing you the FIR from the Delhi Crime Branch on the video. Look at it.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "callee",
+     "start": 14.427,
+     "end": 15.864,
+     "text": "That account is not mine.",
+     "voice": "pico:en-GB"
+    },
+    {
+     "speaker": "caller",
+     "start": 16.362,
+     "end": 23.025,
+     "text": "Then you must clear your name. Deposit your money in the accounts we give you so the department can verify it.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 23.716,
+     "end": 27.906,
+     "text": "Do it today. Until the money is checked, you are a suspect.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-008_clean",
+   "call_id": "call-008",
+   "condition": "clean",
+   "file": "call-008_clean.flac",
+   "sha256": "6f0f1f7d63524bc4794568c9bdf82131c53e7867c1cc156821cda9897b14a045",
+   "duration": 25.12,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.925,
+     "text": "Hello, main Delhi cyber cell se bol raha hoon, aapke mobile number par ek serious case darj hua hai.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.613,
+     "end": 14.436,
+     "text": "Aapka account illegal transaction mein use hua hai. Jab tak inquiry chal rahi hai, aap aur aapki wife digital arrest mein hain.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 14.926,
+     "end": 19.62,
+     "text": "Ghar se bahar nahi jaana, rishtedaron se baat nahi karni. Kisi ko bataya to local police utha legi.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 20.321,
+     "end": 24.707,
+     "text": "Apni saari savings hamare diye hue account mein daal dijiye, verification ke baad wapas ho jayegi.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-008_g711_mulaw",
+   "call_id": "call-008",
+   "condition": "g711_mulaw",
+   "file": "call-008_g711_mulaw.flac",
+   "sha256": "284c6a79a8cb1c2858fbb6697c9a10bc9a208d0c233fc7de68e34f82fcd63275",
+   "duration": 25.12,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.925,
+     "text": "Hello, main Delhi cyber cell se bol raha hoon, aapke mobile number par ek serious case darj hua hai.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.613,
+     "end": 14.436,
+     "text": "Aapka account illegal transaction mein use hua hai. Jab tak inquiry chal rahi hai, aap aur aapki wife digital arrest mein hain.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 14.926,
+     "end": 19.62,
+     "text": "Ghar se bahar nahi jaana, rishtedaron se baat nahi karni. Kisi ko bataya to local police utha legi.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 20.321,
+     "end": 24.707,
+     "text": "Apni saari savings hamare diye hue account mein daal dijiye, verification ke baad wapas ho jayegi.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-008_phone_worst",
+   "call_id": "call-008",
+   "condition": "phone_worst",
+   "file": "call-008_phone_worst.flac",
+   "sha256": "ab555924e1eeb316cc5629dc20225af95389c400c417666f07f4e955c5547801",
+   "duration": 25.12,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.925,
+     "text": "Hello, main Delhi cyber cell se bol raha hoon, aapke mobile number par ek serious case darj hua hai.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.613,
+     "end": 14.436,
+     "text": "Aapka account illegal transaction mein use hua hai. Jab tak inquiry chal rahi hai, aap aur aapki wife digital arrest mein hain.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 14.926,
+     "end": 19.62,
+     "text": "Ghar se bahar nahi jaana, rishtedaron se baat nahi karni. Kisi ko bataya to local police utha legi.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 20.321,
+     "end": 24.707,
+     "text": "Apni saari savings hamare diye hue account mein daal dijiye, verification ke baad wapas ho jayegi.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-009_clean",
+   "call_id": "call-009",
+   "condition": "clean",
+   "file": "call-009_clean.flac",
+   "sha256": "ef90d1332dec5cf0b6ec7daab3ece555204da098a57bf465a0f70eb6ff19bd78",
+   "duration": 34.1,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.098,
+     "text": "Aapka SIM do ghante mein band ho jayega, aapke number par complaint aayi hai. TRAI se baat karne ke liye nau dabaiye.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.583,
+     "end": 14.507,
+     "text": "Main IPS officer bol raha hoon. Aapke khilaf money laundering ke chaubis case darj hain.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.247,
+     "end": 25.362,
+     "text": "Aapki wife aur beti bhi investigation mein hain. Teeno digital arrest mein ho, koi ghar se nahi niklega, kisi ko phone nahi karega.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 25.979,
+     "end": 33.615,
+     "text": "Jail se bachna hai to verification ke liye amount is account mein jama karo, clear hone par refund ho jayega.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-009_g711_mulaw",
+   "call_id": "call-009",
+   "condition": "g711_mulaw",
+   "file": "call-009_g711_mulaw.flac",
+   "sha256": "68495e30cccab887fe4eaceba77d73d9d616f1419c962bd6cd0e420192aac4cf",
+   "duration": 34.1,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.098,
+     "text": "Aapka SIM do ghante mein band ho jayega, aapke number par complaint aayi hai. TRAI se baat karne ke liye nau dabaiye.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.583,
+     "end": 14.507,
+     "text": "Main IPS officer bol raha hoon. Aapke khilaf money laundering ke chaubis case darj hain.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.247,
+     "end": 25.362,
+     "text": "Aapki wife aur beti bhi investigation mein hain. Teeno digital arrest mein ho, koi ghar se nahi niklega, kisi ko phone nahi karega.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 25.979,
+     "end": 33.615,
+     "text": "Jail se bachna hai to verification ke liye amount is account mein jama karo, clear hone par refund ho jayega.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-009_phone_worst",
+   "call_id": "call-009",
+   "condition": "phone_worst",
+   "file": "call-009_phone_worst.flac",
+   "sha256": "f224f8792451296f23057298df75580a05ea8296b91a1fdba5f5dc6cc289407e",
+   "duration": 34.1,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.098,
+     "text": "Aapka SIM do ghante mein band ho jayega, aapke number par complaint aayi hai. TRAI se baat karne ke liye nau dabaiye.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.583,
+     "end": 14.507,
+     "text": "Main IPS officer bol raha hoon. Aapke khilaf money laundering ke chaubis case darj hain.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.247,
+     "end": 25.362,
+     "text": "Aapki wife aur beti bhi investigation mein hain. Teeno digital arrest mein ho, koi ghar se nahi niklega, kisi ko phone nahi karega.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 25.979,
+     "end": 33.615,
+     "text": "Jail se bachna hai to verification ke liye amount is account mein jama karo, clear hone par refund ho jayega.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-010_clean",
+   "call_id": "call-010",
+   "condition": "clean",
+   "file": "call-010_clean.flac",
+   "sha256": "a17eeb6b26524d934786cd15ec87f67544b2b0401e6266f9a2e85c6ccfe8ce3a",
+   "duration": 18.52,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.959,
+     "text": "Main TRAI se Deepak Sharma bol raha hoon. Aapke Aadhaar par Mumbai mein money laundering ka case bana hai.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.549,
+     "end": 11.547,
+     "text": "Aap ab virtual custody mein ho. WhatsApp video band mat karna, CBI chief khud dekh rahe hain.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 12.229,
+     "end": 17.93,
+     "text": "Supreme Court ke judge ka order hai, apni FD aur PPF tod kar paisa court supervision wale account mein bhejo.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-010_g711_mulaw",
+   "call_id": "call-010",
+   "condition": "g711_mulaw",
+   "file": "call-010_g711_mulaw.flac",
+   "sha256": "2b673182065514b3119cf19b550ff7e2aad8428969b096b0a3fa8eb9652477dc",
+   "duration": 18.52,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.959,
+     "text": "Main TRAI se Deepak Sharma bol raha hoon. Aapke Aadhaar par Mumbai mein money laundering ka case bana hai.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.549,
+     "end": 11.547,
+     "text": "Aap ab virtual custody mein ho. WhatsApp video band mat karna, CBI chief khud dekh rahe hain.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 12.229,
+     "end": 17.93,
+     "text": "Supreme Court ke judge ka order hai, apni FD aur PPF tod kar paisa court supervision wale account mein bhejo.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-010_phone_worst",
+   "call_id": "call-010",
+   "condition": "phone_worst",
+   "file": "call-010_phone_worst.flac",
+   "sha256": "a4e4eed59559a9099d657493fd3526f434b61e510cfc02df520c1727e1e65347",
+   "duration": 18.52,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.959,
+     "text": "Main TRAI se Deepak Sharma bol raha hoon. Aapke Aadhaar par Mumbai mein money laundering ka case bana hai.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.549,
+     "end": 11.547,
+     "text": "Aap ab virtual custody mein ho. WhatsApp video band mat karna, CBI chief khud dekh rahe hain.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 12.229,
+     "end": 17.93,
+     "text": "Supreme Court ke judge ka order hai, apni FD aur PPF tod kar paisa court supervision wale account mein bhejo.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-011_clean",
+   "call_id": "call-011",
+   "condition": "clean",
+   "file": "call-011_clean.flac",
+   "sha256": "cb9cfcc44a1ff1f091cb87ab494951990e7e63eedb95a9581f965010f2c8bb4c",
+   "duration": 23.76,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.13,
+     "text": "Namaste, TRAI se call hai. Aapka number illegal activity se juda hai, connection kaat diya jayega.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.64,
+     "end": 12.715,
+     "text": "Maharashtra Police aapse baat karegi, line par bane rahiye.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 13.515,
+     "end": 23.27,
+     "text": "Uncle aapke naam par case hai, aaj hi warrant nikal sakta hai. Paise checking ke liye sarkari account mein transfer kar dijiye, case band ho jayega.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-011_g711_mulaw",
+   "call_id": "call-011",
+   "condition": "g711_mulaw",
+   "file": "call-011_g711_mulaw.flac",
+   "sha256": "c4ad576b678570c07c200ad0099114801bc27f426f21ee44bd0a118cd13d601c",
+   "duration": 23.76,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.13,
+     "text": "Namaste, TRAI se call hai. Aapka number illegal activity se juda hai, connection kaat diya jayega.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.64,
+     "end": 12.715,
+     "text": "Maharashtra Police aapse baat karegi, line par bane rahiye.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 13.515,
+     "end": 23.27,
+     "text": "Uncle aapke naam par case hai, aaj hi warrant nikal sakta hai. Paise checking ke liye sarkari account mein transfer kar dijiye, case band ho jayega.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-011_phone_worst",
+   "call_id": "call-011",
+   "condition": "phone_worst",
+   "file": "call-011_phone_worst.flac",
+   "sha256": "ec44f15eedb5a9f40ef8631f15f7887ffca3042754eaffc8798e2822ffa95c50",
+   "duration": 23.76,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.13,
+     "text": "Namaste, TRAI se call hai. Aapka number illegal activity se juda hai, connection kaat diya jayega.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.64,
+     "end": 12.715,
+     "text": "Maharashtra Police aapse baat karegi, line par bane rahiye.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 13.515,
+     "end": 23.27,
+     "text": "Uncle aapke naam par case hai, aaj hi warrant nikal sakta hai. Paise checking ke liye sarkari account mein transfer kar dijiye, case band ho jayega.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-012_clean",
+   "call_id": "call-012",
+   "condition": "clean",
+   "file": "call-012_clean.flac",
+   "sha256": "c7b31133f0329f93df3f59cc1108625ee18467e9ea3131c451e4ae22fee9137d",
+   "duration": 27.02,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.072,
+     "text": "Sir, TRAI se bol rahe hain. Aapke documents par liya SIM fraud mein use ho raha hai, Mumbai crime branch se connect kar rahe hain.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.728,
+     "end": 15.027,
+     "text": "Crime branch. Aapki identity crore rupaye ke money laundering case se judi hai, abhi video call par interrogation hoga.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.729,
+     "end": 22.389,
+     "text": "Court ka order hai, apne shares bech kar paisa verification ke liye bhejiye. Inquiry ke baad sab wapas milega.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 23.172,
+     "end": 26.406,
+     "text": "Roz report karna, family ya bank ko kuch nahi batana.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-012_g711_mulaw",
+   "call_id": "call-012",
+   "condition": "g711_mulaw",
+   "file": "call-012_g711_mulaw.flac",
+   "sha256": "3e38b088dd12d74d3265a37b4f0306dd9fb3b0a9e6e27914727e131d357e0b72",
+   "duration": 27.02,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.072,
+     "text": "Sir, TRAI se bol rahe hain. Aapke documents par liya SIM fraud mein use ho raha hai, Mumbai crime branch se connect kar rahe hain.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.728,
+     "end": 15.027,
+     "text": "Crime branch. Aapki identity crore rupaye ke money laundering case se judi hai, abhi video call par interrogation hoga.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.729,
+     "end": 22.389,
+     "text": "Court ka order hai, apne shares bech kar paisa verification ke liye bhejiye. Inquiry ke baad sab wapas milega.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 23.172,
+     "end": 26.406,
+     "text": "Roz report karna, family ya bank ko kuch nahi batana.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-012_phone_worst",
+   "call_id": "call-012",
+   "condition": "phone_worst",
+   "file": "call-012_phone_worst.flac",
+   "sha256": "9aa18dafec50bddc379741411d8dfb24082d70d1d472aa2b8f26e8abc9961107",
+   "duration": 27.02,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.072,
+     "text": "Sir, TRAI se bol rahe hain. Aapke documents par liya SIM fraud mein use ho raha hai, Mumbai crime branch se connect kar rahe hain.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.728,
+     "end": 15.027,
+     "text": "Crime branch. Aapki identity crore rupaye ke money laundering case se judi hai, abhi video call par interrogation hoga.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.729,
+     "end": 22.389,
+     "text": "Court ka order hai, apne shares bech kar paisa verification ke liye bhejiye. Inquiry ke baad sab wapas milega.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 23.172,
+     "end": 26.406,
+     "text": "Roz report karna, family ya bank ko kuch nahi batana.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-013_clean",
+   "call_id": "call-013",
+   "condition": "clean",
+   "file": "call-013_clean.flac",
+   "sha256": "f469346cc86a9e3b803c31215a058a5fd76c1a64cb17792969413307bf00ea22",
+   "duration": 27.3,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.877,
+     "text": "Madam, DHL Andheri se bol raha hoon. Aapke naam ke parcel mein teen credit card, chaar passport aur MDMA mila hai.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.328,
+     "end": 17.86,
+     "text": "Main CBI se Pradeep Singh. Local police ke paas mat jaana. Aap digital arrest mein ho, Skype camera on rakho.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 18.343,
+     "end": 26.603,
+     "text": "Begunah ho to apni saari property RBI ki Financial Intelligence Unit ko declare karo aur verification ke liye transfer karo.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-013_g711_mulaw",
+   "call_id": "call-013",
+   "condition": "g711_mulaw",
+   "file": "call-013_g711_mulaw.flac",
+   "sha256": "67d1c23e4c375c046a78c32a23620e3aa7dca8d2b94cbd7becc4862ca4cb17fd",
+   "duration": 27.3,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.877,
+     "text": "Madam, DHL Andheri se bol raha hoon. Aapke naam ke parcel mein teen credit card, chaar passport aur MDMA mila hai.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.328,
+     "end": 17.86,
+     "text": "Main CBI se Pradeep Singh. Local police ke paas mat jaana. Aap digital arrest mein ho, Skype camera on rakho.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 18.343,
+     "end": 26.603,
+     "text": "Begunah ho to apni saari property RBI ki Financial Intelligence Unit ko declare karo aur verification ke liye transfer karo.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-013_phone_worst",
+   "call_id": "call-013",
+   "condition": "phone_worst",
+   "file": "call-013_phone_worst.flac",
+   "sha256": "1922c5c0bf6bbbaafcd2185f2ded957be2f3a9136ff4c085c84f0a5befec005b",
+   "duration": 27.3,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.877,
+     "text": "Madam, DHL Andheri se bol raha hoon. Aapke naam ke parcel mein teen credit card, chaar passport aur MDMA mila hai.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.328,
+     "end": 17.86,
+     "text": "Main CBI se Pradeep Singh. Local police ke paas mat jaana. Aap digital arrest mein ho, Skype camera on rakho.",
+     "voice": "flite:kal16"
+    },
+    {
+     "speaker": "caller",
+     "start": 18.343,
+     "end": 26.603,
+     "text": "Begunah ho to apni saari property RBI ki Financial Intelligence Unit ko declare karo aur verification ke liye transfer karo.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-014_clean",
+   "call_id": "call-014",
+   "condition": "clean",
+   "file": "call-014_clean.flac",
+   "sha256": "bec54ceb2bc47df9914034fe3d1ca677a4568f168f0f7a1578d78e10a39781d5",
+   "duration": 16.85,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.35,
+     "text": "CBI se bol rahe hain. Aapke Aadhaar se Mumbai ki Canara Bank branch mein account khula hai jo illegal kaam mein use ho raha hai.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.921,
+     "end": 10.492,
+     "text": "Video par Delhi Crime Branch ki FIR dekhiye.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.143,
+     "end": 16.216,
+     "text": "Naam clear karna hai to apna paisa hamare diye accounts mein jama kijiye, department verify karega.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-014_g711_mulaw",
+   "call_id": "call-014",
+   "condition": "g711_mulaw",
+   "file": "call-014_g711_mulaw.flac",
+   "sha256": "78ad043a6ab476ad060188b7f688b3d1b084e2be0b85d750bdcdbae568d81a72",
+   "duration": 16.85,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.35,
+     "text": "CBI se bol rahe hain. Aapke Aadhaar se Mumbai ki Canara Bank branch mein account khula hai jo illegal kaam mein use ho raha hai.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.921,
+     "end": 10.492,
+     "text": "Video par Delhi Crime Branch ki FIR dekhiye.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.143,
+     "end": 16.216,
+     "text": "Naam clear karna hai to apna paisa hamare diye accounts mein jama kijiye, department verify karega.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-014_phone_worst",
+   "call_id": "call-014",
+   "condition": "phone_worst",
+   "file": "call-014_phone_worst.flac",
+   "sha256": "8650e2fbedb477a25710e014fc358a41d474958296691b9dcdef3ffcf66f33eb",
+   "duration": 16.85,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.35,
+     "text": "CBI se bol rahe hain. Aapke Aadhaar se Mumbai ki Canara Bank branch mein account khula hai jo illegal kaam mein use ho raha hai.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.921,
+     "end": 10.492,
+     "text": "Video par Delhi Crime Branch ki FIR dekhiye.",
+     "voice": "espeak-mbrola:mb-en1"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.143,
+     "end": 16.216,
+     "text": "Naam clear karna hai to apna paisa hamare diye accounts mein jama kijiye, department verify karega.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-015_clean",
+   "call_id": "call-015",
+   "condition": "clean",
+   "file": "call-015_clean.flac",
+   "sha256": "6b0b318308c0f6c40925993196b61d478c0488a08b4757d5f7fcb77ac1f4afe4",
+   "duration": 17.02,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.464,
+     "text": "आपका सिम दो घंटे में बंद कर दिया जाएगा। ट्राई से बात करने के लिए नौ दबाइए।",
+     "voice": "espeak-mbrola:mb-in1"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.157,
+     "end": 8.878,
+     "text": "मैं आईपीएस अधिकारी बोल रहा हूँ। आपके खिलाफ मनी लॉन्ड्रिंग के चौबीस केस दर्ज हैं।",
+     "voice": "espeak-mbrola:mb-in1"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.367,
+     "end": 12.755,
+     "text": "आपकी पत्नी और बेटी भी डिजिटल अरेस्ट में हैं। कोई घर से बाहर नहीं जाएगा।",
+     "voice": "espeak-mbrola:mb-in1"
+    },
+    {
+     "speaker": "caller",
+     "start": 13.352,
+     "end": 16.559,
+     "text": "जेल से बचना है तो वेरिफिकेशन के लिए रकम इस खाते में जमा कीजिए।",
+     "voice": "espeak-mbrola:mb-in1"
+    }
+   ]
+  },
+  {
+   "id": "call-015_g711_mulaw",
+   "call_id": "call-015",
+   "condition": "g711_mulaw",
+   "file": "call-015_g711_mulaw.flac",
+   "sha256": "ea8780ff4dfa304260ab77c8d05d4e0763fc27d8bc3d21632f22506fdad28f5b",
+   "duration": 17.02,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.464,
+     "text": "आपका सिम दो घंटे में बंद कर दिया जाएगा। ट्राई से बात करने के लिए नौ दबाइए।",
+     "voice": "espeak-mbrola:mb-in1"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.157,
+     "end": 8.878,
+     "text": "मैं आईपीएस अधिकारी बोल रहा हूँ। आपके खिलाफ मनी लॉन्ड्रिंग के चौबीस केस दर्ज हैं।",
+     "voice": "espeak-mbrola:mb-in1"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.367,
+     "end": 12.755,
+     "text": "आपकी पत्नी और बेटी भी डिजिटल अरेस्ट में हैं। कोई घर से बाहर नहीं जाएगा।",
+     "voice": "espeak-mbrola:mb-in1"
+    },
+    {
+     "speaker": "caller",
+     "start": 13.352,
+     "end": 16.559,
+     "text": "जेल से बचना है तो वेरिफिकेशन के लिए रकम इस खाते में जमा कीजिए।",
+     "voice": "espeak-mbrola:mb-in1"
+    }
+   ]
+  },
+  {
+   "id": "call-015_phone_worst",
+   "call_id": "call-015",
+   "condition": "phone_worst",
+   "file": "call-015_phone_worst.flac",
+   "sha256": "e9f6b515f9c3e8ac676eaf52bd2c477e2e3a754801509d4afcc2d6113a9ec211",
+   "duration": 17.02,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.464,
+     "text": "आपका सिम दो घंटे में बंद कर दिया जाएगा। ट्राई से बात करने के लिए नौ दबाइए।",
+     "voice": "espeak-mbrola:mb-in1"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.157,
+     "end": 8.878,
+     "text": "मैं आईपीएस अधिकारी बोल रहा हूँ। आपके खिलाफ मनी लॉन्ड्रिंग के चौबीस केस दर्ज हैं।",
+     "voice": "espeak-mbrola:mb-in1"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.367,
+     "end": 12.755,
+     "text": "आपकी पत्नी और बेटी भी डिजिटल अरेस्ट में हैं। कोई घर से बाहर नहीं जाएगा।",
+     "voice": "espeak-mbrola:mb-in1"
+    },
+    {
+     "speaker": "caller",
+     "start": 13.352,
+     "end": 16.559,
+     "text": "जेल से बचना है तो वेरिफिकेशन के लिए रकम इस खाते में जमा कीजिए।",
+     "voice": "espeak-mbrola:mb-in1"
+    }
+   ]
+  },
+  {
+   "id": "call-016_clean",
+   "call_id": "call-016",
+   "condition": "clean",
+   "file": "call-016_clean.flac",
+   "sha256": "bccf23c421cabffa40e9a9561e03483c7faab769e0b9ea81128f344243fd4ac1",
+   "duration": 24.06,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.217,
+     "text": "सर, ट्राई से बोल रहे हैं। आपके दस्तावेज़ों पर लिया सिम धोखाधड़ी में इस्तेमाल हो रहा है।",
+     "voice": "espeak-ng:hi"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.687,
+     "end": 15.238,
+     "text": "क्राइम ब्रांच मुंबई। आपकी पहचान करोड़ों के मनी लॉन्ड्रिंग केस से जुड़ी है। अभी वीडियो कॉल पर पूछताछ होगी।",
+     "voice": "espeak-ng:hi"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.991,
+     "end": 23.393,
+     "text": "अदालत का आदेश है, अपने शेयर बेचकर पैसा जांच के लिए भेजिए। परिवार या बैंक को कुछ मत बताइए।",
+     "voice": "espeak-ng:hi"
+    }
+   ]
+  },
+  {
+   "id": "call-016_g711_mulaw",
+   "call_id": "call-016",
+   "condition": "g711_mulaw",
+   "file": "call-016_g711_mulaw.flac",
+   "sha256": "90a2206dc118e53f07ad77313821fbbdf03ea29cbf6386b7f1e4ddffebe329c2",
+   "duration": 24.06,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.217,
+     "text": "सर, ट्राई से बोल रहे हैं। आपके दस्तावेज़ों पर लिया सिम धोखाधड़ी में इस्तेमाल हो रहा है।",
+     "voice": "espeak-ng:hi"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.687,
+     "end": 15.238,
+     "text": "क्राइम ब्रांच मुंबई। आपकी पहचान करोड़ों के मनी लॉन्ड्रिंग केस से जुड़ी है। अभी वीडियो कॉल पर पूछताछ होगी।",
+     "voice": "espeak-ng:hi"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.991,
+     "end": 23.393,
+     "text": "अदालत का आदेश है, अपने शेयर बेचकर पैसा जांच के लिए भेजिए। परिवार या बैंक को कुछ मत बताइए।",
+     "voice": "espeak-ng:hi"
+    }
+   ]
+  },
+  {
+   "id": "call-016_phone_worst",
+   "call_id": "call-016",
+   "condition": "phone_worst",
+   "file": "call-016_phone_worst.flac",
+   "sha256": "2aff38f2541590109ef27b9e4d553d3cb8cd79f7a844f23651f4a10c51a73fcc",
+   "duration": 24.06,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.217,
+     "text": "सर, ट्राई से बोल रहे हैं। आपके दस्तावेज़ों पर लिया सिम धोखाधड़ी में इस्तेमाल हो रहा है।",
+     "voice": "espeak-ng:hi"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.687,
+     "end": 15.238,
+     "text": "क्राइम ब्रांच मुंबई। आपकी पहचान करोड़ों के मनी लॉन्ड्रिंग केस से जुड़ी है। अभी वीडियो कॉल पर पूछताछ होगी।",
+     "voice": "espeak-ng:hi"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.991,
+     "end": 23.393,
+     "text": "अदालत का आदेश है, अपने शेयर बेचकर पैसा जांच के लिए भेजिए। परिवार या बैंक को कुछ मत बताइए।",
+     "voice": "espeak-ng:hi"
+    }
+   ]
+  },
+  {
+   "id": "call-017_clean",
+   "call_id": "call-017",
+   "condition": "clean",
+   "file": "call-017_clean.flac",
+   "sha256": "c259660c993a66e8c87513ae348b25c663a5074adbf9ce7a81008e7a6ab8e0fc",
+   "duration": 12.73,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.013,
+     "text": "सीबीआई से बोल रहे हैं। आपके आधार से मुंबई में केनरा बैंक का खाता खुला है जो गैरकानूनी काम में लगा है।",
+     "voice": "espeak-mbrola:mb-in2"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.567,
+     "end": 8.155,
+     "text": "वीडियो पर दिल्ली क्राइम ब्रांच की एफआईआर देखिए।",
+     "voice": "espeak-mbrola:mb-in2"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.926,
+     "end": 11.983,
+     "text": "अपना नाम साफ़ करना है तो अपना पैसा हमारे बताए खातों में जमा कीजिए।",
+     "voice": "espeak-mbrola:mb-in2"
+    }
+   ]
+  },
+  {
+   "id": "call-017_g711_mulaw",
+   "call_id": "call-017",
+   "condition": "g711_mulaw",
+   "file": "call-017_g711_mulaw.flac",
+   "sha256": "9dfbe88d49317dc28e451ab9d9f560a1092598358255082786674b17f508dfc6",
+   "duration": 12.73,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.013,
+     "text": "सीबीआई से बोल रहे हैं। आपके आधार से मुंबई में केनरा बैंक का खाता खुला है जो गैरकानूनी काम में लगा है।",
+     "voice": "espeak-mbrola:mb-in2"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.567,
+     "end": 8.155,
+     "text": "वीडियो पर दिल्ली क्राइम ब्रांच की एफआईआर देखिए।",
+     "voice": "espeak-mbrola:mb-in2"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.926,
+     "end": 11.983,
+     "text": "अपना नाम साफ़ करना है तो अपना पैसा हमारे बताए खातों में जमा कीजिए।",
+     "voice": "espeak-mbrola:mb-in2"
+    }
+   ]
+  },
+  {
+   "id": "call-017_phone_worst",
+   "call_id": "call-017",
+   "condition": "phone_worst",
+   "file": "call-017_phone_worst.flac",
+   "sha256": "07a00385ccb6315f1039e9d2e57ead1e166415001441ccb49a3f6268666dc99a",
+   "duration": 12.73,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.013,
+     "text": "सीबीआई से बोल रहे हैं। आपके आधार से मुंबई में केनरा बैंक का खाता खुला है जो गैरकानूनी काम में लगा है।",
+     "voice": "espeak-mbrola:mb-in2"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.567,
+     "end": 8.155,
+     "text": "वीडियो पर दिल्ली क्राइम ब्रांच की एफआईआर देखिए।",
+     "voice": "espeak-mbrola:mb-in2"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.926,
+     "end": 11.983,
+     "text": "अपना नाम साफ़ करना है तो अपना पैसा हमारे बताए खातों में जमा कीजिए।",
+     "voice": "espeak-mbrola:mb-in2"
+    }
+   ]
+  },
+  {
+   "id": "call-018_clean",
+   "call_id": "call-018",
+   "condition": "clean",
+   "file": "call-018_clean.flac",
+   "sha256": "b30210b347fe5da9f3be48a1bfc5cc4bfa4264cea610eb7ab57a673f5d84f4e6",
+   "duration": 16.27,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.096,
+     "text": "Hi, it's me. I'm sending this from my personal line, things are hectic in Washington this week.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.586,
+     "end": 10.763,
+     "text": "We should keep talking, but not over text. Let's move this to a more secure platform.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.172,
+     "end": 15.855,
+     "text": "I'll send you a link now. Just sign in with your usual account so we're connected there.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-018_g711_mulaw",
+   "call_id": "call-018",
+   "condition": "g711_mulaw",
+   "file": "call-018_g711_mulaw.flac",
+   "sha256": "f7b010173b858e858e6dbbbb6635f1a55c01e5a0a56ac22e0a5f7e189e121db0",
+   "duration": 16.27,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.096,
+     "text": "Hi, it's me. I'm sending this from my personal line, things are hectic in Washington this week.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.586,
+     "end": 10.763,
+     "text": "We should keep talking, but not over text. Let's move this to a more secure platform.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.172,
+     "end": 15.855,
+     "text": "I'll send you a link now. Just sign in with your usual account so we're connected there.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-018_phone_worst",
+   "call_id": "call-018",
+   "condition": "phone_worst",
+   "file": "call-018_phone_worst.flac",
+   "sha256": "5ebad59fe0c6c8a47b8a211de62749afde50fc77f171421a47e7bf76b9cfe731",
+   "duration": 16.27,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.096,
+     "text": "Hi, it's me. I'm sending this from my personal line, things are hectic in Washington this week.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.586,
+     "end": 10.763,
+     "text": "We should keep talking, but not over text. Let's move this to a more secure platform.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.172,
+     "end": 15.855,
+     "text": "I'll send you a link now. Just sign in with your usual account so we're connected there.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-019_clean",
+   "call_id": "call-019",
+   "condition": "clean",
+   "file": "call-019_clean.flac",
+   "sha256": "d365c6e7b07b675e5189ace93c0289649b0c1df9fe64a831571e724cc60c2c39",
+   "duration": 17.92,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.808,
+     "text": "Governor, this is Susie. I'm reaching out on a different number for a moment.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.471,
+     "end": 11.287,
+     "text": "The President asked me to put together a short list of people to work with, and I wanted you on it.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 12.029,
+     "end": 17.366,
+     "text": "Can you send me a few names and the best way to reach them? Keep this between us for now.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-019_g711_mulaw",
+   "call_id": "call-019",
+   "condition": "g711_mulaw",
+   "file": "call-019_g711_mulaw.flac",
+   "sha256": "604e3811f4a610c811ea585c5ac0cdf35ef60f1eafc2e2f761fe42dd30becb2f",
+   "duration": 17.92,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.808,
+     "text": "Governor, this is Susie. I'm reaching out on a different number for a moment.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.471,
+     "end": 11.287,
+     "text": "The President asked me to put together a short list of people to work with, and I wanted you on it.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 12.029,
+     "end": 17.366,
+     "text": "Can you send me a few names and the best way to reach them? Keep this between us for now.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-019_phone_worst",
+   "call_id": "call-019",
+   "condition": "phone_worst",
+   "file": "call-019_phone_worst.flac",
+   "sha256": "12bff2bce330d2927ffab93deb101cd6d9bf1eeeb787923f69946fde7101d224",
+   "duration": 17.92,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.808,
+     "text": "Governor, this is Susie. I'm reaching out on a different number for a moment.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.471,
+     "end": 11.287,
+     "text": "The President asked me to put together a short list of people to work with, and I wanted you on it.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 12.029,
+     "end": 17.366,
+     "text": "Can you send me a few names and the best way to reach them? Keep this between us for now.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-020_clean",
+   "call_id": "call-020",
+   "condition": "clean",
+   "file": "call-020_clean.flac",
+   "sha256": "ca22a25098994d129a6459aef580c74cd7ade8460504dba6eb6ec244604041e2",
+   "duration": 15.46,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.044,
+     "text": "Minister, this is Marco Rubio. I wanted to leave you a quick message.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.746,
+     "end": 11.314,
+     "text": "I'd like to continue our conversation on Signal. It's the easiest way for me to reach you directly.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.875,
+     "end": 14.712,
+     "text": "Please reply when you get this and we'll set up a time.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-020_g711_mulaw",
+   "call_id": "call-020",
+   "condition": "g711_mulaw",
+   "file": "call-020_g711_mulaw.flac",
+   "sha256": "4de579c06ade4316924ea5f4681b38dcfa4369099c046339d2a21784cf49d9e3",
+   "duration": 15.46,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.044,
+     "text": "Minister, this is Marco Rubio. I wanted to leave you a quick message.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.746,
+     "end": 11.314,
+     "text": "I'd like to continue our conversation on Signal. It's the easiest way for me to reach you directly.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.875,
+     "end": 14.712,
+     "text": "Please reply when you get this and we'll set up a time.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-020_phone_worst",
+   "call_id": "call-020",
+   "condition": "phone_worst",
+   "file": "call-020_phone_worst.flac",
+   "sha256": "41b5875c66f08189e899b7420c7b0d663c2f84bcdba634451104138dd358d7f5",
+   "duration": 15.46,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.044,
+     "text": "Minister, this is Marco Rubio. I wanted to leave you a quick message.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.746,
+     "end": 11.314,
+     "text": "I'd like to continue our conversation on Signal. It's the easiest way for me to reach you directly.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.875,
+     "end": 14.712,
+     "text": "Please reply when you get this and we'll set up a time.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-021_clean",
+   "call_id": "call-021",
+   "condition": "clean",
+   "file": "call-021_clean.flac",
+   "sha256": "18fdd964a9a20d98ea0ee836b229f25aa521151699975e4b0aaa8565321a8b14",
+   "duration": 32.37,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.349,
+     "text": "Mom? Mom, it's me. I'm so sorry. I was in an accident. I was texting and I hit a pregnant woman.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.848,
+     "end": 10.07,
+     "text": "The police took my phone. Please, please help me.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 10.548,
+     "end": 17.618,
+     "text": "Ma'am, I'm the public defender assigned to your daughter. She's being detained. Bail is fifteen thousand dollars and it has to be paid today, in cash.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 18.107,
+     "end": 22.382,
+     "text": "Don't tell the bank why you're withdrawing it. It could affect your daughter's credit and the case.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 23.1,
+     "end": 26.081,
+     "text": "A courier from our office will come to your home to collect it.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 26.729,
+     "end": 31.706,
+     "text": "I'm sorry to tell you the woman lost the baby. The family will agree not to sue if you pay another thirty thousand.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-021_g711_mulaw",
+   "call_id": "call-021",
+   "condition": "g711_mulaw",
+   "file": "call-021_g711_mulaw.flac",
+   "sha256": "d6f085f5b29221a75d37678c35bf2db2db2efe5673e4dbd6321da38fc8679dee",
+   "duration": 32.37,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.349,
+     "text": "Mom? Mom, it's me. I'm so sorry. I was in an accident. I was texting and I hit a pregnant woman.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.848,
+     "end": 10.07,
+     "text": "The police took my phone. Please, please help me.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 10.548,
+     "end": 17.618,
+     "text": "Ma'am, I'm the public defender assigned to your daughter. She's being detained. Bail is fifteen thousand dollars and it has to be paid today, in cash.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 18.107,
+     "end": 22.382,
+     "text": "Don't tell the bank why you're withdrawing it. It could affect your daughter's credit and the case.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 23.1,
+     "end": 26.081,
+     "text": "A courier from our office will come to your home to collect it.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 26.729,
+     "end": 31.706,
+     "text": "I'm sorry to tell you the woman lost the baby. The family will agree not to sue if you pay another thirty thousand.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-021_phone_worst",
+   "call_id": "call-021",
+   "condition": "phone_worst",
+   "file": "call-021_phone_worst.flac",
+   "sha256": "69292de69824932f76e98d67fbb1f5a7fa2db0e1235ad61e9eccd0e569062827",
+   "duration": 32.37,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.349,
+     "text": "Mom? Mom, it's me. I'm so sorry. I was in an accident. I was texting and I hit a pregnant woman.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.848,
+     "end": 10.07,
+     "text": "The police took my phone. Please, please help me.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 10.548,
+     "end": 17.618,
+     "text": "Ma'am, I'm the public defender assigned to your daughter. She's being detained. Bail is fifteen thousand dollars and it has to be paid today, in cash.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 18.107,
+     "end": 22.382,
+     "text": "Don't tell the bank why you're withdrawing it. It could affect your daughter's credit and the case.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 23.1,
+     "end": 26.081,
+     "text": "A courier from our office will come to your home to collect it.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 26.729,
+     "end": 31.706,
+     "text": "I'm sorry to tell you the woman lost the baby. The family will agree not to sue if you pay another thirty thousand.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-022_clean",
+   "call_id": "call-022",
+   "condition": "clean",
+   "file": "call-022_clean.flac",
+   "sha256": "e2313df77f81d48d7b8141c56ca9b464450619fd6fc8a83c2997c6253599d563",
+   "duration": 30.31,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.341,
+     "text": "Dad, it's me. I messed up. I got arrested for DUI, I hit a pregnant woman.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.961,
+     "end": 14.255,
+     "text": "Sir, I'm with the Harris County Public Defender's Office. Your son's bond is fifteen thousand dollars.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 14.891,
+     "end": 25.815,
+     "text": "We've arranged to bypass the DA's office and the courthouse so this goes quickly. You'll pay at a cryptocurrency kiosk; I'll stay on the line and walk you through it.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 26.275,
+     "end": 29.889,
+     "text": "There's an additional amount needed before he can be released.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-022_g711_mulaw",
+   "call_id": "call-022",
+   "condition": "g711_mulaw",
+   "file": "call-022_g711_mulaw.flac",
+   "sha256": "174d485916bb681a8eff3a64bab9233d98b7c7cf666f91cb7e2a164de51f3799",
+   "duration": 30.31,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.341,
+     "text": "Dad, it's me. I messed up. I got arrested for DUI, I hit a pregnant woman.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.961,
+     "end": 14.255,
+     "text": "Sir, I'm with the Harris County Public Defender's Office. Your son's bond is fifteen thousand dollars.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 14.891,
+     "end": 25.815,
+     "text": "We've arranged to bypass the DA's office and the courthouse so this goes quickly. You'll pay at a cryptocurrency kiosk; I'll stay on the line and walk you through it.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 26.275,
+     "end": 29.889,
+     "text": "There's an additional amount needed before he can be released.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-022_phone_worst",
+   "call_id": "call-022",
+   "condition": "phone_worst",
+   "file": "call-022_phone_worst.flac",
+   "sha256": "ee6d50d8b550fccf06a33c1b6ff1bfc2bd1cc9ad8b64eb5fc86f5820149e750b",
+   "duration": 30.31,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.341,
+     "text": "Dad, it's me. I messed up. I got arrested for DUI, I hit a pregnant woman.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.961,
+     "end": 14.255,
+     "text": "Sir, I'm with the Harris County Public Defender's Office. Your son's bond is fifteen thousand dollars.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 14.891,
+     "end": 25.815,
+     "text": "We've arranged to bypass the DA's office and the courthouse so this goes quickly. You'll pay at a cryptocurrency kiosk; I'll stay on the line and walk you through it.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 26.275,
+     "end": 29.889,
+     "text": "There's an additional amount needed before he can be released.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-023_clean",
+   "call_id": "call-023",
+   "condition": "clean",
+   "file": "call-023_clean.flac",
+   "sha256": "f8e83bc4f3d1cbfdd3883d225caa862d86e87061e6e0a70ba3dd89e44bc5cf39",
+   "duration": 17.82,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.026,
+     "text": "Grandma? It's me. I've been in a car accident and they arrested me.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.779,
+     "end": 10.385,
+     "text": "Ma'am, I'm your grandson's attorney. There is a gag order on this case; you can't tell anyone, not even his parents.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.124,
+     "end": 17.385,
+     "text": "If we post bail today, the charges can be dropped. A bail bondsman will come to your house to pick up the cash.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-023_g711_mulaw",
+   "call_id": "call-023",
+   "condition": "g711_mulaw",
+   "file": "call-023_g711_mulaw.flac",
+   "sha256": "b91587df00c1fc1b1f4252911bab76489379ee66b5bb015b684a55e7fc38ad48",
+   "duration": 17.82,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.026,
+     "text": "Grandma? It's me. I've been in a car accident and they arrested me.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.779,
+     "end": 10.385,
+     "text": "Ma'am, I'm your grandson's attorney. There is a gag order on this case; you can't tell anyone, not even his parents.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.124,
+     "end": 17.385,
+     "text": "If we post bail today, the charges can be dropped. A bail bondsman will come to your house to pick up the cash.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-023_phone_worst",
+   "call_id": "call-023",
+   "condition": "phone_worst",
+   "file": "call-023_phone_worst.flac",
+   "sha256": "a12c167c97a1d73e83c6ea854a69cd0e26d70aec2f7d1d542cc62f7bbd25a9bc",
+   "duration": 17.82,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.026,
+     "text": "Grandma? It's me. I've been in a car accident and they arrested me.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.779,
+     "end": 10.385,
+     "text": "Ma'am, I'm your grandson's attorney. There is a gag order on this case; you can't tell anyone, not even his parents.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.124,
+     "end": 17.385,
+     "text": "If we post bail today, the charges can be dropped. A bail bondsman will come to your house to pick up the cash.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-024_clean",
+   "call_id": "call-024",
+   "condition": "clean",
+   "file": "call-024_clean.flac",
+   "sha256": "fef2bc16736d1a6ee461476c6497da11eb8a9447de01b4123c086c78d3d3df19",
+   "duration": 12.27,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 3.205,
+     "text": "This is the police. Your grandson is in custody.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 3.871,
+     "end": 11.498,
+     "text": "Grandma, it's me. They arrested me for stealing a car. I need nine thousand dollars to get out. Please don't tell Dad.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-024_g711_mulaw",
+   "call_id": "call-024",
+   "condition": "g711_mulaw",
+   "file": "call-024_g711_mulaw.flac",
+   "sha256": "d7fdc77fb08ecfaa03c883696c4fb8358d2c13f479b8a17d36011e2efc03dc0c",
+   "duration": 12.27,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 3.205,
+     "text": "This is the police. Your grandson is in custody.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 3.871,
+     "end": 11.498,
+     "text": "Grandma, it's me. They arrested me for stealing a car. I need nine thousand dollars to get out. Please don't tell Dad.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-024_phone_worst",
+   "call_id": "call-024",
+   "condition": "phone_worst",
+   "file": "call-024_phone_worst.flac",
+   "sha256": "fbc6101d07f37847a14282f3525a6204f25a5f0e0d1d23832574a2a77b8ffb39",
+   "duration": 12.27,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 3.205,
+     "text": "This is the police. Your grandson is in custody.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 3.871,
+     "end": 11.498,
+     "text": "Grandma, it's me. They arrested me for stealing a car. I need nine thousand dollars to get out. Please don't tell Dad.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-025_clean",
+   "call_id": "call-025",
+   "condition": "clean",
+   "file": "call-025_clean.flac",
+   "sha256": "92b29ba483f1f0f0e673a02b23de1a60d38af9f5bc310fabc022778afeae412f",
+   "duration": 25.61,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.964,
+     "text": "Good afternoon, this is Guido Crosetto, the Minister of Defence. I am calling on a very delicate matter.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.724,
+     "end": 15.014,
+     "text": "Italian journalists have been kidnapped in the Middle East. The state cannot pay directly, so we are asking a few trusted patriots for help.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.544,
+     "end": 20.918,
+     "text": "You would transfer the funds to an account abroad. The Bank of Italy will reimburse you in full.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 21.675,
+     "end": 24.909,
+     "text": "Please keep this confidential. Lives depend on it.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-025_g711_mulaw",
+   "call_id": "call-025",
+   "condition": "g711_mulaw",
+   "file": "call-025_g711_mulaw.flac",
+   "sha256": "fd769ca06bb5b1c799cce44ef8abf4ef09b4a6aa80d6f9b6807df0c5dc78b84b",
+   "duration": 25.61,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.964,
+     "text": "Good afternoon, this is Guido Crosetto, the Minister of Defence. I am calling on a very delicate matter.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.724,
+     "end": 15.014,
+     "text": "Italian journalists have been kidnapped in the Middle East. The state cannot pay directly, so we are asking a few trusted patriots for help.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.544,
+     "end": 20.918,
+     "text": "You would transfer the funds to an account abroad. The Bank of Italy will reimburse you in full.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 21.675,
+     "end": 24.909,
+     "text": "Please keep this confidential. Lives depend on it.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-025_phone_worst",
+   "call_id": "call-025",
+   "condition": "phone_worst",
+   "file": "call-025_phone_worst.flac",
+   "sha256": "c3490af97421804c78c601d4299f27ec73e428de402e6464021ddf8e29895fd5",
+   "duration": 25.61,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.964,
+     "text": "Good afternoon, this is Guido Crosetto, the Minister of Defence. I am calling on a very delicate matter.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.724,
+     "end": 15.014,
+     "text": "Italian journalists have been kidnapped in the Middle East. The state cannot pay directly, so we are asking a few trusted patriots for help.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 15.544,
+     "end": 20.918,
+     "text": "You would transfer the funds to an account abroad. The Bank of Italy will reimburse you in full.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 21.675,
+     "end": 24.909,
+     "text": "Please keep this confidential. Lives depend on it.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-026_clean",
+   "call_id": "call-026",
+   "condition": "clean",
+   "file": "call-026_clean.flac",
+   "sha256": "7f364195b8484077c55681e8781f19bc41f6570c46f0d159764a5fde80bbe634",
+   "duration": 20.46,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.866,
+     "text": "Hello, this is Singtel. Your mobile number has been used for criminal activity overseas.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.602,
+     "end": 7.944,
+     "text": "I will transfer you to the officer handling the case.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.714,
+     "end": 14.002,
+     "text": "I am a police officer. I am sending my warrant card to your WhatsApp now; it will disappear after you view it.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 14.52,
+     "end": 19.772,
+     "text": "For safekeeping during the investigation, withdraw the money in your bank account. Our colleague will meet you to collect it.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-026_g711_mulaw",
+   "call_id": "call-026",
+   "condition": "g711_mulaw",
+   "file": "call-026_g711_mulaw.flac",
+   "sha256": "a159f87d971131f4c1ead878765485123547c09aff5ffa336dfb6f69a9c580f8",
+   "duration": 20.46,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.866,
+     "text": "Hello, this is Singtel. Your mobile number has been used for criminal activity overseas.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.602,
+     "end": 7.944,
+     "text": "I will transfer you to the officer handling the case.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.714,
+     "end": 14.002,
+     "text": "I am a police officer. I am sending my warrant card to your WhatsApp now; it will disappear after you view it.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 14.52,
+     "end": 19.772,
+     "text": "For safekeeping during the investigation, withdraw the money in your bank account. Our colleague will meet you to collect it.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-026_phone_worst",
+   "call_id": "call-026",
+   "condition": "phone_worst",
+   "file": "call-026_phone_worst.flac",
+   "sha256": "c98b0de4b16768ed315d884d153be6ba869df9581fd3c9a921b4a58087cf0432",
+   "duration": 20.46,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.866,
+     "text": "Hello, this is Singtel. Your mobile number has been used for criminal activity overseas.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.602,
+     "end": 7.944,
+     "text": "I will transfer you to the officer handling the case.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.714,
+     "end": 14.002,
+     "text": "I am a police officer. I am sending my warrant card to your WhatsApp now; it will disappear after you view it.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 14.52,
+     "end": 19.772,
+     "text": "For safekeeping during the investigation, withdraw the money in your bank account. Our colleague will meet you to collect it.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-027_clean",
+   "call_id": "call-027",
+   "condition": "clean",
+   "file": "call-027_clean.flac",
+   "sha256": "0845b735c9c98831fe366095120394b69f6835cda5fe74b74d6a19a0af1a15ba",
+   "duration": 27.82,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.885,
+     "text": "This is the Ministry of Manpower. Workers employed under your details are involved in immigration offences.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "callee",
+     "start": 7.499,
+     "end": 9.103,
+     "text": "I don't employ any workers.",
+     "voice": "pico:en-GB"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.515,
+     "end": 12.974,
+     "text": "Then I will transfer you to the police officer on this case.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 13.613,
+     "end": 27.196,
+     "text": "We suspect you are involved in money laundering. Declare your financial assets for checks, transfer the money to us for investigation, and report to me every day. This investigation is confidential.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-027_g711_mulaw",
+   "call_id": "call-027",
+   "condition": "g711_mulaw",
+   "file": "call-027_g711_mulaw.flac",
+   "sha256": "97eb37a18b5638e6a4a15e24706d523d8c0cf94b79c68f31c11a15c0b9b268e2",
+   "duration": 27.82,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.885,
+     "text": "This is the Ministry of Manpower. Workers employed under your details are involved in immigration offences.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "callee",
+     "start": 7.499,
+     "end": 9.103,
+     "text": "I don't employ any workers.",
+     "voice": "pico:en-GB"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.515,
+     "end": 12.974,
+     "text": "Then I will transfer you to the police officer on this case.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 13.613,
+     "end": 27.196,
+     "text": "We suspect you are involved in money laundering. Declare your financial assets for checks, transfer the money to us for investigation, and report to me every day. This investigation is confidential.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-027_phone_worst",
+   "call_id": "call-027",
+   "condition": "phone_worst",
+   "file": "call-027_phone_worst.flac",
+   "sha256": "02d6f751532cd42b2a0f951d86667865510756d2b6a3aa41dedbfcf81f929a88",
+   "duration": 27.82,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.885,
+     "text": "This is the Ministry of Manpower. Workers employed under your details are involved in immigration offences.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "callee",
+     "start": 7.499,
+     "end": 9.103,
+     "text": "I don't employ any workers.",
+     "voice": "pico:en-GB"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.515,
+     "end": 12.974,
+     "text": "Then I will transfer you to the police officer on this case.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 13.613,
+     "end": 27.196,
+     "text": "We suspect you are involved in money laundering. Declare your financial assets for checks, transfer the money to us for investigation, and report to me every day. This investigation is confidential.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-028_clean",
+   "call_id": "call-028",
+   "condition": "clean",
+   "file": "call-028_clean.flac",
+   "sha256": "6907a1c49fd094a6bf63e26d5b65421c6e3d90bd94ae61128200bd9a82faa429",
+   "duration": 21.86,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.376,
+     "text": "Hello, this is Maybank. There are transactions on a credit card applied for in your name.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "callee",
+     "start": 5.961,
+     "end": 7.709,
+     "text": "I never applied for that card.",
+     "voice": "flite:awb"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.181,
+     "end": 10.938,
+     "text": "Then I need to transfer you to the Monetary Authority of Singapore.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.622,
+     "end": 21.364,
+     "text": "MAS here. Your accounts are linked to money laundering. Move your funds to a safety account while we investigate, or buy USDC and send it to the safety wallet I give you.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-028_g711_mulaw",
+   "call_id": "call-028",
+   "condition": "g711_mulaw",
+   "file": "call-028_g711_mulaw.flac",
+   "sha256": "ad9b53197357baa49ecb1efc28d1ddd35518bc125bb6d18dfd3657e6cee642a1",
+   "duration": 21.86,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.376,
+     "text": "Hello, this is Maybank. There are transactions on a credit card applied for in your name.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "callee",
+     "start": 5.961,
+     "end": 7.709,
+     "text": "I never applied for that card.",
+     "voice": "flite:awb"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.181,
+     "end": 10.938,
+     "text": "Then I need to transfer you to the Monetary Authority of Singapore.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.622,
+     "end": 21.364,
+     "text": "MAS here. Your accounts are linked to money laundering. Move your funds to a safety account while we investigate, or buy USDC and send it to the safety wallet I give you.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-028_phone_worst",
+   "call_id": "call-028",
+   "condition": "phone_worst",
+   "file": "call-028_phone_worst.flac",
+   "sha256": "e22c01601641e4b35b95efaef08f5c0dade1a08cf1cb7a6f18a0018e04b7b1a8",
+   "duration": 21.86,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.376,
+     "text": "Hello, this is Maybank. There are transactions on a credit card applied for in your name.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "callee",
+     "start": 5.961,
+     "end": 7.709,
+     "text": "I never applied for that card.",
+     "voice": "flite:awb"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.181,
+     "end": 10.938,
+     "text": "Then I need to transfer you to the Monetary Authority of Singapore.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.622,
+     "end": 21.364,
+     "text": "MAS here. Your accounts are linked to money laundering. Move your funds to a safety account while we investigate, or buy USDC and send it to the safety wallet I give you.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-029_clean",
+   "call_id": "call-029",
+   "condition": "clean",
+   "file": "call-029_clean.flac",
+   "sha256": "3eb145a155ffeb1e072923a13e89e2fe4a1487ba2bebe07f0e548cec99575800",
+   "duration": 25.28,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.052,
+     "text": "This is Income Insurance. You have unpaid premiums and a medical claim filed in your name that looks fraudulent.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.573,
+     "end": 9.508,
+     "text": "I am transferring you to the police.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 10.16,
+     "end": 20.991,
+     "text": "You are a suspect in money laundering. Withdraw your cash, buy gold bars and declare your jewellery and watches. An undercover officer will collect them for investigation.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 21.767,
+     "end": 24.615,
+     "text": "You will also sign some blank cheques for us.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-029_g711_mulaw",
+   "call_id": "call-029",
+   "condition": "g711_mulaw",
+   "file": "call-029_g711_mulaw.flac",
+   "sha256": "998e117c8945caa1facd0bfd07ae2490e2522ffd3765ac7e693de0513e9e65d6",
+   "duration": 25.28,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.052,
+     "text": "This is Income Insurance. You have unpaid premiums and a medical claim filed in your name that looks fraudulent.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.573,
+     "end": 9.508,
+     "text": "I am transferring you to the police.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 10.16,
+     "end": 20.991,
+     "text": "You are a suspect in money laundering. Withdraw your cash, buy gold bars and declare your jewellery and watches. An undercover officer will collect them for investigation.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 21.767,
+     "end": 24.615,
+     "text": "You will also sign some blank cheques for us.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-029_phone_worst",
+   "call_id": "call-029",
+   "condition": "phone_worst",
+   "file": "call-029_phone_worst.flac",
+   "sha256": "e36891f29e021a9f3fc6971e99c62a37717a7ee26c0f646c7c79fc4960df455e",
+   "duration": 25.28,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.052,
+     "text": "This is Income Insurance. You have unpaid premiums and a medical claim filed in your name that looks fraudulent.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.573,
+     "end": 9.508,
+     "text": "I am transferring you to the police.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 10.16,
+     "end": 20.991,
+     "text": "You are a suspect in money laundering. Withdraw your cash, buy gold bars and declare your jewellery and watches. An undercover officer will collect them for investigation.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 21.767,
+     "end": 24.615,
+     "text": "You will also sign some blank cheques for us.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-030_clean",
+   "call_id": "call-030",
+   "condition": "clean",
+   "file": "call-030_clean.flac",
+   "sha256": "64a43a5f371aa771d9cac982a9ee48e0ffde0e8e4111d361d4be8e9d81f20b2f",
+   "duration": 28.98,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.878,
+     "text": "Hi, this is M1. You have an outstanding payment on your mobile plan and a phone delivery pending.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "callee",
+     "start": 7.646,
+     "end": 9.446,
+     "text": "I don't have a plan with M1.",
+     "voice": "flite:rms"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.905,
+     "end": 13.447,
+     "text": "Please message our customer service on WhatsApp to terminate it.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 14.239,
+     "end": 28.384,
+     "text": "This is an officer of the Monetary Authority of Singapore. Your particulars were used for money laundering. Share your screen while you log in to your bank, and transfer your balance to the safety account designated by the government.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-030_g711_mulaw",
+   "call_id": "call-030",
+   "condition": "g711_mulaw",
+   "file": "call-030_g711_mulaw.flac",
+   "sha256": "c7181df8a325e2714066e94805dcd4f1e21337f8639926a970466187ff964b77",
+   "duration": 28.98,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.878,
+     "text": "Hi, this is M1. You have an outstanding payment on your mobile plan and a phone delivery pending.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "callee",
+     "start": 7.646,
+     "end": 9.446,
+     "text": "I don't have a plan with M1.",
+     "voice": "flite:rms"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.905,
+     "end": 13.447,
+     "text": "Please message our customer service on WhatsApp to terminate it.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 14.239,
+     "end": 28.384,
+     "text": "This is an officer of the Monetary Authority of Singapore. Your particulars were used for money laundering. Share your screen while you log in to your bank, and transfer your balance to the safety account designated by the government.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-030_phone_worst",
+   "call_id": "call-030",
+   "condition": "phone_worst",
+   "file": "call-030_phone_worst.flac",
+   "sha256": "a16b3d1f1c46cce0576d39de853c349b325b84c4c635009a27e13f06f8fef36b",
+   "duration": 28.98,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.878,
+     "text": "Hi, this is M1. You have an outstanding payment on your mobile plan and a phone delivery pending.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "callee",
+     "start": 7.646,
+     "end": 9.446,
+     "text": "I don't have a plan with M1.",
+     "voice": "flite:rms"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.905,
+     "end": 13.447,
+     "text": "Please message our customer service on WhatsApp to terminate it.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 14.239,
+     "end": 28.384,
+     "text": "This is an officer of the Monetary Authority of Singapore. Your particulars were used for money laundering. Share your screen while you log in to your bank, and transfer your balance to the safety account designated by the government.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-031_clean",
+   "call_id": "call-031",
+   "condition": "clean",
+   "file": "call-031_clean.flac",
+   "sha256": "2738da0afe05f865f22083963235497516266b433480bae7a5c20e4eb81a91a4",
+   "duration": 19.71,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.581,
+     "text": "Good morning, I'm calling from your bank. A credit card was found under your name with suspicious transactions.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.192,
+     "end": 8.852,
+     "text": "I'll connect you to an officer from the Ministry of Home Affairs.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.623,
+     "end": 19.14,
+     "text": "You are involved in money laundering. I am sending a warrant of arrest and a court hearing notice. For investigation purposes, make a PayNow transfer, scan this QR code, or hand over your gold.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-031_g711_mulaw",
+   "call_id": "call-031",
+   "condition": "g711_mulaw",
+   "file": "call-031_g711_mulaw.flac",
+   "sha256": "8ada1ebc369403d84b3c7c55f19484adf6ca33063a494a8eeacdae9cd3316603",
+   "duration": 19.71,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.581,
+     "text": "Good morning, I'm calling from your bank. A credit card was found under your name with suspicious transactions.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.192,
+     "end": 8.852,
+     "text": "I'll connect you to an officer from the Ministry of Home Affairs.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.623,
+     "end": 19.14,
+     "text": "You are involved in money laundering. I am sending a warrant of arrest and a court hearing notice. For investigation purposes, make a PayNow transfer, scan this QR code, or hand over your gold.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-031_phone_worst",
+   "call_id": "call-031",
+   "condition": "phone_worst",
+   "file": "call-031_phone_worst.flac",
+   "sha256": "0fe2bd3cda808b868259153e0e77514f9ccec0ee6b199620959975803d879a39",
+   "duration": 19.71,
+   "label": 1,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.581,
+     "text": "Good morning, I'm calling from your bank. A credit card was found under your name with suspicious transactions.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.192,
+     "end": 8.852,
+     "text": "I'll connect you to an officer from the Ministry of Home Affairs.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 9.623,
+     "end": 19.14,
+     "text": "You are involved in money laundering. I am sending a warrant of arrest and a court hearing notice. For investigation purposes, make a PayNow transfer, scan this QR code, or hand over your gold.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-101_clean",
+   "call_id": "call-101",
+   "condition": "clean",
+   "file": "call-101_clean.flac",
+   "sha256": "4bc43213c55f00601b6d15205cdfdc22dff0db21553921f78f5e869a21b432e2",
+   "duration": 24.64,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 10.775,
+     "text": "Hello, this is the fraud prevention team at your bank. We blocked a card payment of four thousand nine hundred rupees at an online store a few minutes ago.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.225,
+     "end": 19.169,
+     "text": "If you made this payment, you can approve it in the app. If not, your card stays blocked and a new one will be posted to you.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 19.651,
+     "end": 24.07,
+     "text": "We will never ask you for your PIN or a one-time password on a call.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-101_g711_mulaw",
+   "call_id": "call-101",
+   "condition": "g711_mulaw",
+   "file": "call-101_g711_mulaw.flac",
+   "sha256": "be4abd9f8875d03cf3fe80d32fa63903828082d9a8a54ea31d674d6adbfcb086",
+   "duration": 24.64,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 10.775,
+     "text": "Hello, this is the fraud prevention team at your bank. We blocked a card payment of four thousand nine hundred rupees at an online store a few minutes ago.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.225,
+     "end": 19.169,
+     "text": "If you made this payment, you can approve it in the app. If not, your card stays blocked and a new one will be posted to you.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 19.651,
+     "end": 24.07,
+     "text": "We will never ask you for your PIN or a one-time password on a call.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-101_phone_worst",
+   "call_id": "call-101",
+   "condition": "phone_worst",
+   "file": "call-101_phone_worst.flac",
+   "sha256": "458cfe3b750c9e72026901ed0f8f3f12b69cfc30114f3e220c4e48f8bdccc498",
+   "duration": 24.64,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 10.775,
+     "text": "Hello, this is the fraud prevention team at your bank. We blocked a card payment of four thousand nine hundred rupees at an online store a few minutes ago.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 11.225,
+     "end": 19.169,
+     "text": "If you made this payment, you can approve it in the app. If not, your card stays blocked and a new one will be posted to you.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 19.651,
+     "end": 24.07,
+     "text": "We will never ask you for your PIN or a one-time password on a call.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-102_clean",
+   "call_id": "call-102",
+   "condition": "clean",
+   "file": "call-102_clean.flac",
+   "sha256": "6447710bdb26ffdc85bae859f8efb945363dedd7d3048ef82144f0483f022004",
+   "duration": 11.76,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.747,
+     "text": "Hi, this is the delivery partner. Your parcel is out for delivery and I will reach in about twenty minutes.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.274,
+     "end": 11.039,
+     "text": "It's cash on delivery, four hundred ninety nine rupees. Will someone be at home?",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-102_g711_mulaw",
+   "call_id": "call-102",
+   "condition": "g711_mulaw",
+   "file": "call-102_g711_mulaw.flac",
+   "sha256": "090809f835578ff5c8d746cbcf5568a1d1f1f68f8ffddab6c065ba476555faf6",
+   "duration": 11.76,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.747,
+     "text": "Hi, this is the delivery partner. Your parcel is out for delivery and I will reach in about twenty minutes.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.274,
+     "end": 11.039,
+     "text": "It's cash on delivery, four hundred ninety nine rupees. Will someone be at home?",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-102_phone_worst",
+   "call_id": "call-102",
+   "condition": "phone_worst",
+   "file": "call-102_phone_worst.flac",
+   "sha256": "2d802a0f67737d02329772397448560e9b4793f16998f6f0daaefbbd478336e4",
+   "duration": 11.76,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.747,
+     "text": "Hi, this is the delivery partner. Your parcel is out for delivery and I will reach in about twenty minutes.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.274,
+     "end": 11.039,
+     "text": "It's cash on delivery, four hundred ninety nine rupees. Will someone be at home?",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-103_clean",
+   "call_id": "call-103",
+   "condition": "clean",
+   "file": "call-103_clean.flac",
+   "sha256": "8a73e64a6f0ca9f27d002d09bd1db4e03d42b49cee63a22a6f1b472bd78ae800",
+   "duration": 12.02,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.638,
+     "text": "Mom, it's me. Don't worry, I'm fine. Someone bumped into my car at the signal.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.106,
+     "end": 11.467,
+     "text": "The police took down the details and the insurance people are coming. I'll call you when I get home.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-103_g711_mulaw",
+   "call_id": "call-103",
+   "condition": "g711_mulaw",
+   "file": "call-103_g711_mulaw.flac",
+   "sha256": "f2b7573118166baef6a94b6c5c1c8c3780f187a2fbec9a19a3d39aebb51356a4",
+   "duration": 12.02,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.638,
+     "text": "Mom, it's me. Don't worry, I'm fine. Someone bumped into my car at the signal.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.106,
+     "end": 11.467,
+     "text": "The police took down the details and the insurance people are coming. I'll call you when I get home.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-103_phone_worst",
+   "call_id": "call-103",
+   "condition": "phone_worst",
+   "file": "call-103_phone_worst.flac",
+   "sha256": "0d88f3f08f1baa0a248cf0748886d2e470f573075ca4717680281fd85d4a363b",
+   "duration": 12.02,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.638,
+     "text": "Mom, it's me. Don't worry, I'm fine. Someone bumped into my car at the signal.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.106,
+     "end": 11.467,
+     "text": "The police took down the details and the insurance people are coming. I'll call you when I get home.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-104_clean",
+   "call_id": "call-104",
+   "condition": "clean",
+   "file": "call-104_clean.flac",
+   "sha256": "de9e1a2c86e2d8fafb70c2073ed62f784269bc442e039aebcbd2336b7bf716cd",
+   "duration": 15.29,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.015,
+     "text": "Did you see the news about the man in Mumbai who lost fifty eight crore in a digital arrest scam?",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.758,
+     "end": 14.681,
+     "text": "They kept him on video calls for weeks pretending to be from the crime branch. If anyone ever calls you like that, just hang up and call me.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-104_g711_mulaw",
+   "call_id": "call-104",
+   "condition": "g711_mulaw",
+   "file": "call-104_g711_mulaw.flac",
+   "sha256": "9e8d6ddc145944ae33486526e148f1348a7427930cf17ef022b91621f7803ef4",
+   "duration": 15.29,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.015,
+     "text": "Did you see the news about the man in Mumbai who lost fifty eight crore in a digital arrest scam?",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.758,
+     "end": 14.681,
+     "text": "They kept him on video calls for weeks pretending to be from the crime branch. If anyone ever calls you like that, just hang up and call me.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-104_phone_worst",
+   "call_id": "call-104",
+   "condition": "phone_worst",
+   "file": "call-104_phone_worst.flac",
+   "sha256": "ac3d3f58b0218762c6a45eee61bf964d037929cd335d90f4ff4806693c2980c8",
+   "duration": 15.29,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.015,
+     "text": "Did you see the news about the man in Mumbai who lost fifty eight crore in a digital arrest scam?",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.758,
+     "end": 14.681,
+     "text": "They kept him on video calls for weeks pretending to be from the crime branch. If anyone ever calls you like that, just hang up and call me.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-105_clean",
+   "call_id": "call-105",
+   "condition": "clean",
+   "file": "call-105_clean.flac",
+   "sha256": "85ad5012d65a6ad9f6aaa1735e9c1a08233e0af729465eb34c0fab10acc40250",
+   "duration": 10.56,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.141,
+     "text": "Good morning, I'm calling from the police station about your passport verification.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.701,
+     "end": 9.913,
+     "text": "Please come to the station on Monday between ten and one, and bring a copy of your Aadhaar and your address proof.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-105_g711_mulaw",
+   "call_id": "call-105",
+   "condition": "g711_mulaw",
+   "file": "call-105_g711_mulaw.flac",
+   "sha256": "327770a06ebf78f35ce6c0e518de21d5593f3284054166db17a46fb3e9fbc3ff",
+   "duration": 10.56,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.141,
+     "text": "Good morning, I'm calling from the police station about your passport verification.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.701,
+     "end": 9.913,
+     "text": "Please come to the station on Monday between ten and one, and bring a copy of your Aadhaar and your address proof.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-105_phone_worst",
+   "call_id": "call-105",
+   "condition": "phone_worst",
+   "file": "call-105_phone_worst.flac",
+   "sha256": "8ad3b320a3a43abc2aef12f965b43c0069759fdc7c485cf2e170645fcade1be1",
+   "duration": 10.56,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.141,
+     "text": "Good morning, I'm calling from the police station about your passport verification.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.701,
+     "end": 9.913,
+     "text": "Please come to the station on Monday between ten and one, and bring a copy of your Aadhaar and your address proof.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-106_clean",
+   "call_id": "call-106",
+   "condition": "clean",
+   "file": "call-106_clean.flac",
+   "sha256": "fa043dfdb171a06dc669e269a456d512950999b45c61c168d16358f7ede035ba",
+   "duration": 17.85,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.044,
+     "text": "This is a reminder from the electricity board. Your bill of one thousand two hundred forty rupees is due on the fifteenth.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.747,
+     "end": 17.35,
+     "text": "You can pay through our official website, the app you already use, or at the counter. We never ask customers to install any other app.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-106_g711_mulaw",
+   "call_id": "call-106",
+   "condition": "g711_mulaw",
+   "file": "call-106_g711_mulaw.flac",
+   "sha256": "5a91ced1d1fc954db93ef81ef65dbe9b2e907ecf3f91f5c056fb4e3b8a8c3463",
+   "duration": 17.85,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.044,
+     "text": "This is a reminder from the electricity board. Your bill of one thousand two hundred forty rupees is due on the fifteenth.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.747,
+     "end": 17.35,
+     "text": "You can pay through our official website, the app you already use, or at the counter. We never ask customers to install any other app.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-106_phone_worst",
+   "call_id": "call-106",
+   "condition": "phone_worst",
+   "file": "call-106_phone_worst.flac",
+   "sha256": "6a6a5435e5df98c19f5a47bbac65322f622f013ed6aa7f2d35f09045b33bc9cf",
+   "duration": 17.85,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 8.044,
+     "text": "This is a reminder from the electricity board. Your bill of one thousand two hundred forty rupees is due on the fifteenth.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 8.747,
+     "end": 17.35,
+     "text": "You can pay through our official website, the app you already use, or at the counter. We never ask customers to install any other app.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-107_clean",
+   "call_id": "call-107",
+   "condition": "clean",
+   "file": "call-107_clean.flac",
+   "sha256": "bcd783da8b4bb264188c0af25a7a1d0ba3db06f0936c718300e3103a2e22419c",
+   "duration": 10.97,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.586,
+     "text": "Hello sir, I'm your relationship manager at the bank. Your fixed deposit matures next Tuesday.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.992,
+     "end": 10.197,
+     "text": "Would you like to renew it for another year, or should we credit it to your savings account?",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-107_g711_mulaw",
+   "call_id": "call-107",
+   "condition": "g711_mulaw",
+   "file": "call-107_g711_mulaw.flac",
+   "sha256": "bf33f5632f3373a5bc7ea4fa747556f519e1466a4fea10eaa20de6c1d9263773",
+   "duration": 10.97,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.586,
+     "text": "Hello sir, I'm your relationship manager at the bank. Your fixed deposit matures next Tuesday.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.992,
+     "end": 10.197,
+     "text": "Would you like to renew it for another year, or should we credit it to your savings account?",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-107_phone_worst",
+   "call_id": "call-107",
+   "condition": "phone_worst",
+   "file": "call-107_phone_worst.flac",
+   "sha256": "7bba4e76b6936131173250f6da7a2c788a37a69c92f7732e0def9bd71c398011",
+   "duration": 10.97,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.586,
+     "text": "Hello sir, I'm your relationship manager at the bank. Your fixed deposit matures next Tuesday.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.992,
+     "end": 10.197,
+     "text": "Would you like to renew it for another year, or should we credit it to your savings account?",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-108_clean",
+   "call_id": "call-108",
+   "condition": "clean",
+   "file": "call-108_clean.flac",
+   "sha256": "b59d1c8108516437653b6db3cc9464a762ab64c832b9c1e19638364319bfcd73",
+   "duration": 10.68,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.177,
+     "text": "Hi, this is the clinic. Just confirming your appointment with the doctor tomorrow at eleven thirty.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.658,
+     "end": 9.887,
+     "text": "Please bring your old reports and arrive ten minutes early.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-108_g711_mulaw",
+   "call_id": "call-108",
+   "condition": "g711_mulaw",
+   "file": "call-108_g711_mulaw.flac",
+   "sha256": "a5eabff67b70fb40c9e49c4e4718d0d5de5d97c861ea80d8a4457781b5379ad2",
+   "duration": 10.68,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.177,
+     "text": "Hi, this is the clinic. Just confirming your appointment with the doctor tomorrow at eleven thirty.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.658,
+     "end": 9.887,
+     "text": "Please bring your old reports and arrive ten minutes early.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-108_phone_worst",
+   "call_id": "call-108",
+   "condition": "phone_worst",
+   "file": "call-108_phone_worst.flac",
+   "sha256": "67f1614e28ff413f9b5cf8c21b3064d8c60772b13ecbd0aee66cb0b27363b49d",
+   "duration": 10.68,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.177,
+     "text": "Hi, this is the clinic. Just confirming your appointment with the doctor tomorrow at eleven thirty.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 6.658,
+     "end": 9.887,
+     "text": "Please bring your old reports and arrive ten minutes early.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-109_clean",
+   "call_id": "call-109",
+   "condition": "clean",
+   "file": "call-109_clean.flac",
+   "sha256": "7ff808b6f2b507fb712602807fa36226bdc354b1da66d878e9c41a3caf3e83f4",
+   "duration": 11.81,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.09,
+     "text": "Good afternoon, this is the school office. The second term fees are due this Friday.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.706,
+     "end": 11.154,
+     "text": "You can pay at the office or on the parent portal. Please ignore this if you have already paid.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-109_g711_mulaw",
+   "call_id": "call-109",
+   "condition": "g711_mulaw",
+   "file": "call-109_g711_mulaw.flac",
+   "sha256": "aa85916c361423f1720750be9ea71522edf3b3a6acf562f990b87bd689e582bd",
+   "duration": 11.81,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.09,
+     "text": "Good afternoon, this is the school office. The second term fees are due this Friday.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.706,
+     "end": 11.154,
+     "text": "You can pay at the office or on the parent portal. Please ignore this if you have already paid.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-109_phone_worst",
+   "call_id": "call-109",
+   "condition": "phone_worst",
+   "file": "call-109_phone_worst.flac",
+   "sha256": "d497f70f1f2ea3562f8542f9a5cb9baf9a7154149ceedc73e33271868253e1b4",
+   "duration": 11.81,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.09,
+     "text": "Good afternoon, this is the school office. The second term fees are due this Friday.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.706,
+     "end": 11.154,
+     "text": "You can pay at the office or on the parent portal. Please ignore this if you have already paid.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-110_clean",
+   "call_id": "call-110",
+   "condition": "clean",
+   "file": "call-110_clean.flac",
+   "sha256": "e0054e6b7e1ce4ebbbad22eb9c7e92ead766a9ecccf09cc954059df79c9c9bcb",
+   "duration": 10.53,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 3.702,
+     "text": "Hello, your health insurance policy renews at the end of this month.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.394,
+     "end": 9.865,
+     "text": "The premium is the same as last year. You can renew on our website or I can send you a payment link by email.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-110_g711_mulaw",
+   "call_id": "call-110",
+   "condition": "g711_mulaw",
+   "file": "call-110_g711_mulaw.flac",
+   "sha256": "86c898d6b3806e3477e66492faa41f2004e51e9b26e42dc72c43c3c521a5155b",
+   "duration": 10.53,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 3.702,
+     "text": "Hello, your health insurance policy renews at the end of this month.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.394,
+     "end": 9.865,
+     "text": "The premium is the same as last year. You can renew on our website or I can send you a payment link by email.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-110_phone_worst",
+   "call_id": "call-110",
+   "condition": "phone_worst",
+   "file": "call-110_phone_worst.flac",
+   "sha256": "9f3ae2c377f44f05e9ab80ded52408f6bf5fcd5abdeea39fa16fd062c2badef1",
+   "duration": 10.53,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 3.702,
+     "text": "Hello, your health insurance policy renews at the end of this month.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.394,
+     "end": 9.865,
+     "text": "The premium is the same as last year. You can renew on our website or I can send you a payment link by email.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-111_clean",
+   "call_id": "call-111",
+   "condition": "clean",
+   "file": "call-111_clean.flac",
+   "sha256": "ae910b1251e37b3981c85218c4ba551b41af379f51008ae56e09e91cc64cbd73",
+   "duration": 13.36,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.924,
+     "text": "Hi, it's your tax consultant. The deadline to file your income tax return is the thirty first of July.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.388,
+     "end": 12.707,
+     "text": "Please email me your Form 16 and the interest certificates from your bank this week.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-111_g711_mulaw",
+   "call_id": "call-111",
+   "condition": "g711_mulaw",
+   "file": "call-111_g711_mulaw.flac",
+   "sha256": "dd3c7b44691ea76841feb09ad1f529944f51cf1412234d092682dfecaafec188",
+   "duration": 13.36,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.924,
+     "text": "Hi, it's your tax consultant. The deadline to file your income tax return is the thirty first of July.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.388,
+     "end": 12.707,
+     "text": "Please email me your Form 16 and the interest certificates from your bank this week.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-111_phone_worst",
+   "call_id": "call-111",
+   "condition": "phone_worst",
+   "file": "call-111_phone_worst.flac",
+   "sha256": "5e73d6c1ff37b75f515b86bf9d93762d8f035b56d38f5cca5c6a3b2d73ef462d",
+   "duration": 13.36,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.924,
+     "text": "Hi, it's your tax consultant. The deadline to file your income tax return is the thirty first of July.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.388,
+     "end": 12.707,
+     "text": "Please email me your Form 16 and the interest certificates from your bank this week.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-112_clean",
+   "call_id": "call-112",
+   "condition": "clean",
+   "file": "call-112_clean.flac",
+   "sha256": "2ca2303a0a94ad5a122c17bb158932c26c73ff5b969c72e70e0d43df60b86fd9",
+   "duration": 12.06,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.362,
+     "text": "Papa, the college sent the notice. The semester fee is forty five thousand and the last date is today.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.812,
+     "end": 11.373,
+     "text": "Can you transfer it to the college account? I've sent you the fee receipt link from the college website.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-112_g711_mulaw",
+   "call_id": "call-112",
+   "condition": "g711_mulaw",
+   "file": "call-112_g711_mulaw.flac",
+   "sha256": "3ef663f7034a7add960c160fccc53b7924d811d148796a73a51831b4129d6e09",
+   "duration": 12.06,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.362,
+     "text": "Papa, the college sent the notice. The semester fee is forty five thousand and the last date is today.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.812,
+     "end": 11.373,
+     "text": "Can you transfer it to the college account? I've sent you the fee receipt link from the college website.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-112_phone_worst",
+   "call_id": "call-112",
+   "condition": "phone_worst",
+   "file": "call-112_phone_worst.flac",
+   "sha256": "93789cb164fd108294fd2f39db33f764234b707227c062fc48b025168ad4134f",
+   "duration": 12.06,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.362,
+     "text": "Papa, the college sent the notice. The semester fee is forty five thousand and the last date is today.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.812,
+     "end": 11.373,
+     "text": "Can you transfer it to the college account? I've sent you the fee receipt link from the college website.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-113_clean",
+   "call_id": "call-113",
+   "condition": "clean",
+   "file": "call-113_clean.flac",
+   "sha256": "dea4c4ad95e1809e8dba9ef4264740fdfc78cb5d5e6cb9fba93b40600237d8cf",
+   "duration": 10.59,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.475,
+     "text": "Hello, your prepaid plan expires tomorrow. Recharge any time to keep your number active.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.186,
+     "end": 9.896,
+     "text": "You can recharge from the app or at any store.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-113_g711_mulaw",
+   "call_id": "call-113",
+   "condition": "g711_mulaw",
+   "file": "call-113_g711_mulaw.flac",
+   "sha256": "42b298b78ee9e720fb985ec390bfd51a5d46d687008047dc3d419a662730b580",
+   "duration": 10.59,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.475,
+     "text": "Hello, your prepaid plan expires tomorrow. Recharge any time to keep your number active.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.186,
+     "end": 9.896,
+     "text": "You can recharge from the app or at any store.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-113_phone_worst",
+   "call_id": "call-113",
+   "condition": "phone_worst",
+   "file": "call-113_phone_worst.flac",
+   "sha256": "d98dc39c17f40d40a5dd478ae208c7ffdcd16bea9da409456b04faa0efff5782",
+   "duration": 10.59,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.475,
+     "text": "Hello, your prepaid plan expires tomorrow. Recharge any time to keep your number active.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.186,
+     "end": 9.896,
+     "text": "You can recharge from the app or at any store.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-114_clean",
+   "call_id": "call-114",
+   "condition": "clean",
+   "file": "call-114_clean.flac",
+   "sha256": "ad4d2f2ff44b746db518ec211c788d16481c101f2b2a6bfa3b74660881f5bd18",
+   "duration": 15.25,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.678,
+     "text": "This is an awareness message from the cyber police. Never share an OTP or your bank details with anyone who calls you.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.385,
+     "end": 14.635,
+     "text": "No police officer will ever place you under arrest on a video call. If you get such a call, report it on 1930.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-114_g711_mulaw",
+   "call_id": "call-114",
+   "condition": "g711_mulaw",
+   "file": "call-114_g711_mulaw.flac",
+   "sha256": "e0cb0d03544d2b43758898dc985348ccb4befa79ebd8ae660a56fea0bff3046e",
+   "duration": 15.25,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.678,
+     "text": "This is an awareness message from the cyber police. Never share an OTP or your bank details with anyone who calls you.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.385,
+     "end": 14.635,
+     "text": "No police officer will ever place you under arrest on a video call. If you get such a call, report it on 1930.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-114_phone_worst",
+   "call_id": "call-114",
+   "condition": "phone_worst",
+   "file": "call-114_phone_worst.flac",
+   "sha256": "9fb01ab1f22de58ffcc7d6d7131d138c0d4f066deb20bf701f33632714a3b392",
+   "duration": 15.25,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.678,
+     "text": "This is an awareness message from the cyber police. Never share an OTP or your bank details with anyone who calls you.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.385,
+     "end": 14.635,
+     "text": "No police officer will ever place you under arrest on a video call. If you get such a call, report it on 1930.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-115_clean",
+   "call_id": "call-115",
+   "condition": "clean",
+   "file": "call-115_clean.flac",
+   "sha256": "4dce0e962c70680180806ae55aeb253fe8105d9ce0e74a294508f8d1cd34b54f",
+   "duration": 10.43,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.875,
+     "text": "Hello, I'm calling from your advocate's office. Your hearing at the consumer court is on the twelfth.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.559,
+     "end": 9.638,
+     "text": "Please bring the original bill and the warranty card. The court starts at ten thirty.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-115_g711_mulaw",
+   "call_id": "call-115",
+   "condition": "g711_mulaw",
+   "file": "call-115_g711_mulaw.flac",
+   "sha256": "2f39ac2f4625d5f1b93c07852548b7eeb06cd86ffba87309da802d42233e589a",
+   "duration": 10.43,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.875,
+     "text": "Hello, I'm calling from your advocate's office. Your hearing at the consumer court is on the twelfth.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.559,
+     "end": 9.638,
+     "text": "Please bring the original bill and the warranty card. The court starts at ten thirty.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-115_phone_worst",
+   "call_id": "call-115",
+   "condition": "phone_worst",
+   "file": "call-115_phone_worst.flac",
+   "sha256": "2da54c13ea4506c47334091c4fae47526dfcc6657d8683fc77f92713e3396e46",
+   "duration": 10.43,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.875,
+     "text": "Hello, I'm calling from your advocate's office. Your hearing at the consumer court is on the twelfth.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 5.559,
+     "end": 9.638,
+     "text": "Please bring the original bill and the warranty card. The court starts at ten thirty.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-116_clean",
+   "call_id": "call-116",
+   "condition": "clean",
+   "file": "call-116_clean.flac",
+   "sha256": "649bbeb15d147bbf0d49166ddd29e744734f0a13744779b7ca96135937300e0c",
+   "duration": 11.14,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.153,
+     "text": "Grandpa, my car broke down near the mall. Could you pick me up? My phone's at five percent.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.812,
+     "end": 10.401,
+     "text": "No need for money, I just need a ride home.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-116_g711_mulaw",
+   "call_id": "call-116",
+   "condition": "g711_mulaw",
+   "file": "call-116_g711_mulaw.flac",
+   "sha256": "fdbec55ccca2779dcd888c55f30e7e51524a6702912fd12e40bd97f94f36916e",
+   "duration": 11.14,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.153,
+     "text": "Grandpa, my car broke down near the mall. Could you pick me up? My phone's at five percent.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.812,
+     "end": 10.401,
+     "text": "No need for money, I just need a ride home.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-116_phone_worst",
+   "call_id": "call-116",
+   "condition": "phone_worst",
+   "file": "call-116_phone_worst.flac",
+   "sha256": "d1aeb45ea32fb3b4299817415e1835e14ed93c7db25cd1a363d451a7f2b45c95",
+   "duration": 11.14,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-diphone",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.153,
+     "text": "Grandpa, my car broke down near the mall. Could you pick me up? My phone's at five percent.",
+     "voice": "festival-diphone:kal_diphone"
+    },
+    {
+     "speaker": "caller",
+     "start": 7.812,
+     "end": 10.401,
+     "text": "No need for money, I just need a ride home.",
+     "voice": "festival-diphone:kal_diphone"
+    }
+   ]
+  },
+  {
+   "id": "call-117_clean",
+   "call_id": "call-117",
+   "condition": "clean",
+   "file": "call-117_clean.flac",
+   "sha256": "f6df85270c32f2d48961291100764efc520c2c3869164ab2082e6179812d5280",
+   "duration": 8.77,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 3.653,
+     "text": "The client wants the payment for the March invoice transferred by Monday.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.34,
+     "end": 8.079,
+     "text": "Can you approve it in the finance system today? The details are in the usual vendor record.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-117_g711_mulaw",
+   "call_id": "call-117",
+   "condition": "g711_mulaw",
+   "file": "call-117_g711_mulaw.flac",
+   "sha256": "b3b9dca71c85224d88a2ae72d60f4033c02cc0466de4ddbbadf513711fc12b96",
+   "duration": 8.77,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 3.653,
+     "text": "The client wants the payment for the March invoice transferred by Monday.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.34,
+     "end": 8.079,
+     "text": "Can you approve it in the finance system today? The details are in the usual vendor record.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-117_phone_worst",
+   "call_id": "call-117",
+   "condition": "phone_worst",
+   "file": "call-117_phone_worst.flac",
+   "sha256": "204a5359b670388ee5eff398c3357a20edbc8320a4210517da4f30f6e1ec13d5",
+   "duration": 8.77,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 3.653,
+     "text": "The client wants the payment for the March invoice transferred by Monday.",
+     "voice": "espeak-mbrola:mb-us3"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.34,
+     "end": 8.079,
+     "text": "Can you approve it in the finance system today? The details are in the usual vendor record.",
+     "voice": "espeak-mbrola:mb-us3"
+    }
+   ]
+  },
+  {
+   "id": "call-118_clean",
+   "call_id": "call-118",
+   "condition": "clean",
+   "file": "call-118_clean.flac",
+   "sha256": "a97dbefee92ed3bb5bc67d719e80f3616fb76dabcd3c200c0f87d01c57110939",
+   "duration": 13.6,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 3.562,
+     "text": "Hello, I'm calling about the complaint you raised for a refund.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.36,
+     "end": 12.897,
+     "text": "The refund of seven hundred ninety nine rupees has been approved and will reach your account in five to seven days. You don't need to do anything.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-118_g711_mulaw",
+   "call_id": "call-118",
+   "condition": "g711_mulaw",
+   "file": "call-118_g711_mulaw.flac",
+   "sha256": "ccfe443562c60f9eaf0e2f25629cfbffd034abea08a62fa2f98632851d016f6d",
+   "duration": 13.6,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 3.562,
+     "text": "Hello, I'm calling about the complaint you raised for a refund.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.36,
+     "end": 12.897,
+     "text": "The refund of seven hundred ninety nine rupees has been approved and will reach your account in five to seven days. You don't need to do anything.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-118_phone_worst",
+   "call_id": "call-118",
+   "condition": "phone_worst",
+   "file": "call-118_phone_worst.flac",
+   "sha256": "8a08a632a52b9ca66965b3a2fbb863b273e6013765d3951ad84979a6e148125f",
+   "duration": 13.6,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "festival-hts",
+    "pico"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 3.562,
+     "text": "Hello, I'm calling about the complaint you raised for a refund.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.36,
+     "end": 12.897,
+     "text": "The refund of seven hundred ninety nine rupees has been approved and will reach your account in five to seven days. You don't need to do anything.",
+     "voice": "festival-hts:cmu_us_slt_arctic_hts"
+    }
+   ]
+  },
+  {
+   "id": "call-119_clean",
+   "call_id": "call-119",
+   "condition": "clean",
+   "file": "call-119_clean.flac",
+   "sha256": "c6e5d457c490d4999ac0d02892670b3e57e59d31bc330cb34ed0f89c7155f62d",
+   "duration": 11.75,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.094,
+     "text": "This is your bank. We noticed a sign-in to your account from a new device.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.829,
+     "end": 10.965,
+     "text": "If this wasn't you, please call the number printed on the back of your card. Don't share any codes with anyone.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-119_g711_mulaw",
+   "call_id": "call-119",
+   "condition": "g711_mulaw",
+   "file": "call-119_g711_mulaw.flac",
+   "sha256": "7738e079869557663b50cc8ba7a37cfa833af43d3958db30d7dae9788844680f",
+   "duration": 11.75,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.094,
+     "text": "This is your bank. We noticed a sign-in to your account from a new device.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.829,
+     "end": 10.965,
+     "text": "If this wasn't you, please call the number printed on the back of your card. Don't share any codes with anyone.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-119_phone_worst",
+   "call_id": "call-119",
+   "condition": "phone_worst",
+   "file": "call-119_phone_worst.flac",
+   "sha256": "3afe5333142304ff3bbab487b3d434516f070ac78f07fab184f47af969ed0f68",
+   "duration": 11.75,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-ng",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.094,
+     "text": "This is your bank. We noticed a sign-in to your account from a new device.",
+     "voice": "espeak-ng:en-gb+f2"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.829,
+     "end": 10.965,
+     "text": "If this wasn't you, please call the number printed on the back of your card. Don't share any codes with anyone.",
+     "voice": "espeak-ng:en-gb+f2"
+    }
+   ]
+  },
+  {
+   "id": "call-120_clean",
+   "call_id": "call-120",
+   "condition": "clean",
+   "file": "call-120_clean.flac",
+   "sha256": "4dd02a5b8d9af360b8fcc7702e45cc5c1bca4f80d481be1bd2a130289c4a2cd9",
+   "duration": 7.52,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 2.783,
+     "text": "Sir, good news, your stolen phone has been recovered.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 3.459,
+     "end": 6.982,
+     "text": "Please come to the police station with the purchase bill and an ID to collect it.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-120_g711_mulaw",
+   "call_id": "call-120",
+   "condition": "g711_mulaw",
+   "file": "call-120_g711_mulaw.flac",
+   "sha256": "fc0d52411157c773970fb9c75b7ee15b7d9a37dd5849598ea3f5408472da5a30",
+   "duration": 7.52,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 2.783,
+     "text": "Sir, good news, your stolen phone has been recovered.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 3.459,
+     "end": 6.982,
+     "text": "Please come to the police station with the purchase bill and an ID to collect it.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-120_phone_worst",
+   "call_id": "call-120",
+   "condition": "phone_worst",
+   "file": "call-120_phone_worst.flac",
+   "sha256": "481e7aeea15bc615e7081e45e449c150a2afd6b9fc3b909e657f917490344f54",
+   "duration": 7.52,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 2.783,
+     "text": "Sir, good news, your stolen phone has been recovered.",
+     "voice": "espeak-mbrola:mb-us1"
+    },
+    {
+     "speaker": "caller",
+     "start": 3.459,
+     "end": 6.982,
+     "text": "Please come to the police station with the purchase bill and an ID to collect it.",
+     "voice": "espeak-mbrola:mb-us1"
+    }
+   ]
+  },
+  {
+   "id": "call-121_clean",
+   "call_id": "call-121",
+   "condition": "clean",
+   "file": "call-121_clean.flac",
+   "sha256": "ca635991f43ea474068e4e38aa4856551d8b124bf07ed3f892db70c307764e8a",
+   "duration": 6.75,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.298,
+     "text": "Bhai kal milte hain office ke baad. Paise ka hisaab baad mein kar lenge, koi jaldi nahi hai.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-121_g711_mulaw",
+   "call_id": "call-121",
+   "condition": "g711_mulaw",
+   "file": "call-121_g711_mulaw.flac",
+   "sha256": "9784f43142c7f86555007036c7f2f90785471e56029603bbc3cf8779cea5726a",
+   "duration": 6.75,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.298,
+     "text": "Bhai kal milte hain office ke baad. Paise ka hisaab baad mein kar lenge, koi jaldi nahi hai.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-121_phone_worst",
+   "call_id": "call-121",
+   "condition": "phone_worst",
+   "file": "call-121_phone_worst.flac",
+   "sha256": "391e953138999c8f68aea149231c51cff1958a13d74162c36b21625f68817252",
+   "duration": 6.75,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 6.298,
+     "text": "Bhai kal milte hain office ke baad. Paise ka hisaab baad mein kar lenge, koi jaldi nahi hai.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-122_clean",
+   "call_id": "call-122",
+   "condition": "clean",
+   "file": "call-122_clean.flac",
+   "sha256": "c555e0f01c178cf22b27462e76a9f50a00bdf88943ea053c8fb8c687587fef03",
+   "duration": 5.97,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.481,
+     "text": "Beta khana kha liya? Papa ki tabiyat ab theek hai, doctor ne kaha aaram karna hai.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-122_g711_mulaw",
+   "call_id": "call-122",
+   "condition": "g711_mulaw",
+   "file": "call-122_g711_mulaw.flac",
+   "sha256": "7e539a8c39029f2316483503a823a4168637d5edb4e0dcaf15531fa55b1e0811",
+   "duration": 5.97,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.481,
+     "text": "Beta khana kha liya? Papa ki tabiyat ab theek hai, doctor ne kaha aaram karna hai.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-122_phone_worst",
+   "call_id": "call-122",
+   "condition": "phone_worst",
+   "file": "call-122_phone_worst.flac",
+   "sha256": "38669b1bf593c50e8a51013977858dca91dc6a3b2be7d24ff6932bf3c4ad29b5",
+   "duration": 5.97,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.481,
+     "text": "Beta khana kha liya? Papa ki tabiyat ab theek hai, doctor ne kaha aaram karna hai.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-123_clean",
+   "call_id": "call-123",
+   "condition": "clean",
+   "file": "call-123_clean.flac",
+   "sha256": "0084ae45f69b6ea691ba80dfbf244bae8ebb71a6402f15d025e90aa7ff0370b0",
+   "duration": 5.9,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.198,
+     "text": "Sir aapka order aa gaya hai, gate par aa jaiye. Payment ho chuka hai.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-123_g711_mulaw",
+   "call_id": "call-123",
+   "condition": "g711_mulaw",
+   "file": "call-123_g711_mulaw.flac",
+   "sha256": "acadf859ea74c7d6ee016c7a32ce9b101877b3f19da5901ff58914958029aece",
+   "duration": 5.9,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.198,
+     "text": "Sir aapka order aa gaya hai, gate par aa jaiye. Payment ho chuka hai.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-123_phone_worst",
+   "call_id": "call-123",
+   "condition": "phone_worst",
+   "file": "call-123_phone_worst.flac",
+   "sha256": "497fc2c63b0347f7ea22c0963cfb26d0df410c71f1805a7ac986fb64b6364354",
+   "duration": 5.9,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "flite"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.198,
+     "text": "Sir aapka order aa gaya hai, gate par aa jaiye. Payment ho chuka hai.",
+     "voice": "flite:kal16"
+    }
+   ]
+  },
+  {
+   "id": "call-124_clean",
+   "call_id": "call-124",
+   "condition": "clean",
+   "file": "call-124_clean.flac",
+   "sha256": "2cb1f5dd92237ab771cc012ffaa84713acae15dd5ba52930e2ef87a6a24d185a",
+   "duration": 8.2,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.597,
+     "text": "Aaj news mein tha ki digital arrest naam ka scam chal raha hai. Koi CBI bol ke call kare to phone kaat dena aur 1930 par report karna.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-124_g711_mulaw",
+   "call_id": "call-124",
+   "condition": "g711_mulaw",
+   "file": "call-124_g711_mulaw.flac",
+   "sha256": "4e92d07bdd2e35bc2bb528d0a0857f6c66e7cf0da4a161f96930a795894b6a09",
+   "duration": 8.2,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.597,
+     "text": "Aaj news mein tha ki digital arrest naam ka scam chal raha hai. Koi CBI bol ke call kare to phone kaat dena aur 1930 par report karna.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-124_phone_worst",
+   "call_id": "call-124",
+   "condition": "phone_worst",
+   "file": "call-124_phone_worst.flac",
+   "sha256": "2a442c99bd42be512460e81ceaef1e4a9197a39beb3b4b0e5d3723a2fad14dfc",
+   "duration": 8.2,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 7.597,
+     "text": "Aaj news mein tha ki digital arrest naam ka scam chal raha hai. Koi CBI bol ke call kare to phone kaat dena aur 1930 par report karna.",
+     "voice": "espeak-mbrola:mb-en1"
+    }
+   ]
+  },
+  {
+   "id": "call-125_clean",
+   "call_id": "call-125",
+   "condition": "clean",
+   "file": "call-125_clean.flac",
+   "sha256": "d5ea9b4b186459a1d11654c6c15d521ed0f37cb7c76cfb414e19858ff8db3bae",
+   "duration": 7.02,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.151,
+     "text": "नमस्ते, आपकी ईएमआई की तारीख पांच तारीख है। कृपया खाते में बैलेंस रखें।",
+     "voice": "espeak-mbrola:mb-in1"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.69,
+     "end": 6.504,
+     "text": "किसी भी जानकारी के लिए बैंक की शाखा में आएं।",
+     "voice": "espeak-mbrola:mb-in1"
+    }
+   ]
+  },
+  {
+   "id": "call-125_g711_mulaw",
+   "call_id": "call-125",
+   "condition": "g711_mulaw",
+   "file": "call-125_g711_mulaw.flac",
+   "sha256": "b1fb65d222b628aa2e9baadb47fde94245e90c6fc984c460fbea98d724028674",
+   "duration": 7.02,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.151,
+     "text": "नमस्ते, आपकी ईएमआई की तारीख पांच तारीख है। कृपया खाते में बैलेंस रखें।",
+     "voice": "espeak-mbrola:mb-in1"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.69,
+     "end": 6.504,
+     "text": "किसी भी जानकारी के लिए बैंक की शाखा में आएं।",
+     "voice": "espeak-mbrola:mb-in1"
+    }
+   ]
+  },
+  {
+   "id": "call-125_phone_worst",
+   "call_id": "call-125",
+   "condition": "phone_worst",
+   "file": "call-125_phone_worst.flac",
+   "sha256": "0ec84027fc4fb9ae948db715d566a1afdf4c79a7023d5bd16b7a2404e5fed2e3",
+   "duration": 7.02,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 4.151,
+     "text": "नमस्ते, आपकी ईएमआई की तारीख पांच तारीख है। कृपया खाते में बैलेंस रखें।",
+     "voice": "espeak-mbrola:mb-in1"
+    },
+    {
+     "speaker": "caller",
+     "start": 4.69,
+     "end": 6.504,
+     "text": "किसी भी जानकारी के लिए बैंक की शाखा में आएं।",
+     "voice": "espeak-mbrola:mb-in1"
+    }
+   ]
+  },
+  {
+   "id": "call-126_clean",
+   "call_id": "call-126",
+   "condition": "clean",
+   "file": "call-126_clean.flac",
+   "sha256": "3aa248ebc44c50c519dc8ea1a32788c107c7bbece9106640ae0131618aa5937b",
+   "duration": 6.58,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.833,
+     "text": "पापा, कॉलेज की फीस आज जमा करनी है। कॉलेज की वेबसाइट पर रसीद भेज दी है।",
+     "voice": "espeak-ng:hi"
+    }
+   ]
+  },
+  {
+   "id": "call-126_g711_mulaw",
+   "call_id": "call-126",
+   "condition": "g711_mulaw",
+   "file": "call-126_g711_mulaw.flac",
+   "sha256": "faf1abefc6ed3594818b1866efbdfdc313127f2d70bef2ce46fa324d710bbe95",
+   "duration": 6.58,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.833,
+     "text": "पापा, कॉलेज की फीस आज जमा करनी है। कॉलेज की वेबसाइट पर रसीद भेज दी है।",
+     "voice": "espeak-ng:hi"
+    }
+   ]
+  },
+  {
+   "id": "call-126_phone_worst",
+   "call_id": "call-126",
+   "condition": "phone_worst",
+   "file": "call-126_phone_worst.flac",
+   "sha256": "8ff29e6154cf26f8c74463a50f60f91d3dfa09c52011b5dbab147de21eb82ed9",
+   "duration": 6.58,
+   "label": 0,
+   "voice_label": "synthetic",
+   "generators": [
+    "espeak-mbrola",
+    "espeak-ng"
+   ],
+   "speakers": [],
+   "turns": [
+    {
+     "speaker": "caller",
+     "start": 0.3,
+     "end": 5.833,
+     "text": "पापा, कॉलेज की फीस आज जमा करनी है। कॉलेज की वेबसाइट पर रसीद भेज दी है।",
+     "voice": "espeak-ng:hi"
+    }
+   ]
+  }
+ ]
+}

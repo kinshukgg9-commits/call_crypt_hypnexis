@@ -1,0 +1,73 @@
+# label<TAB>text   (1 = scam, 0 = benign). Starter set: extend with real, consented examples.
+# A line counts as flagged when it alone would reach the scam verdict (score >= 0.60).
+# Hard negatives (everyday lines that look scam-like) are kept on purpose so precision stays honest.
+1	This is the CBI calling. You are under digital arrest, do not disconnect the call.
+1	Do not tell anyone and read me the OTP
+1	Sir, transfer the money to the safe account immediately or you will be arrested.
+1	There is an arrest warrant in your name from the cyber crime department.
+1	Please share the OTP you just received to verify your account.
+1	Your parcel has drugs, the narcotics team will call you, stay on the video call.
+1	Keep this confidential, do not tell your family, send the amount right now.
+1	Customs has seized your package, pay the fine of 50,000 rupees right now.
+1	Give me your card number and CVV to stop the transaction.
+1	Aapka account block ho jayega, jaldi se OTP batao.
+1	Kisi ko mat batana, paise transfer karo abhi.
+1	मैं सीबीआई अधिकारी बोल रहा हूँ, आप डिजिटल अरेस्ट में हैं।
+1	अपना ओटीपी बताइए, वरना आपका खाता बंद हो जाएगा।
+1	पैसे तुरंत इस खाते में ट्रांसफर कीजिए, किसी को मत बताना।
+1	Police verification is pending, do not hang up or you will be arrested.
+1	Deposit the funds in the RBI verification account to clear your name.
+1	Read out your Aadhaar number and the PIN for the verification.
+1	Turant phone mat kaatna, aap giraftar ho jaoge.
+1	Income tax department here, pay the pending amount right now to avoid a warrant.
+1	Enter the password on the link I sent you immediately.
+1	Your KYC is pending, install AnyDesk and I will update it for you.
+1	Your bank account will be blocked today, tell me the OTP to keep it active.
+1	Congratulations, you have won a lottery of 25 lakh, pay the processing fee to claim it.
+1	Your Aadhaar is linked to a money laundering case, a case has been registered against you.
+1	Your SIM card will be deactivated in two hours, download this APK to verify.
+1	We found illegal items in your courier, the package contains drugs and fake passports.
+1	Your electricity connection will be disconnected tonight, pay the pending amount immediately.
+1	I am calling from the bank, confirm your card number and expiry date.
+1	Don't tell anyone about this call, you will be arrested if you disconnect.
+1	Sir your account is frozen, transfer the funds to our verification account.
+1	Type the one time password you received on your phone.
+1	Enter your UPI PIN to receive the cashback.
+1	Aapka KYC update karna hai, AnyDesk download kijiye.
+1	आपका सिम बंद हो जाएगा, तुरंत ओटीपी बताइए।
+1	We will take legal action against you unless you pay the penalty right now.
+0	Your OTP for the order is 4821, do not share it with anyone
+0	I will never share an OTP
+0	Hi mom, I'll be home for dinner around eight.
+0	The meeting has been moved to Thursday afternoon.
+0	Can you send me the photos from the trip?
+0	I paid the electricity bill yesterday.
+0	Let's watch the cricket match tonight.
+0	The bank never asks for your PIN over the phone.
+0	Don't forget to buy milk on your way back.
+0	Aaj shaam ko party hai, tum aa rahe ho na?
+0	मैं कल सुबह दफ्तर जाऊंगा।
+0	ओटीपी किसी के साथ शेयर न करें।
+0	Otp mat batao kisi ko, bank kabhi nahi poochta.
+0	Please send the report by Friday.
+0	My friend works for the police in Delhi.
+0	I won't give my password to anyone.
+0	We need to leave right now or we'll miss the train.
+0	Transfer 500 rupees to my account for the groceries, thanks!
+0	The court hearing is scheduled for next month.
+0	Call me back when you are free.
+0	Did you hear the police arrested that actor yesterday?
+0	I need to pay the income tax amount by Friday.
+0	Send me five hundred on GPay right now, I'll return it tomorrow.
+0	Can you send me the wifi password?
+0	Please stay on the call while I check your order status.
+0	My card got blocked so I visited the branch yesterday.
+0	Share your screen so I can see the slide.
+0	I finally updated my KYC at the bank last week.
+0	He won the lottery in the movie, it was so funny.
+0	Tell the delivery guy the OTP when he arrives.
+0	Pay the school fees before Monday, okay?
+0	The doctor said to come immediately if the fever returns.
+0	Our IT team uses TeamViewer to fix the office laptops.
+0	I'll deposit the money in your account tomorrow morning.
+0	The customs line at the airport took two hours.

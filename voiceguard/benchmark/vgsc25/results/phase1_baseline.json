@@ -1,0 +1,11 @@
+{
+ "model": "antideepfake-w2v-small.onnx",
+ "date": "2026-10-25",
+ "eer": {
+  "all": 0.0,
+  "espeak": 0.0,
+  "festival": 0.0,
+  "flite": 0.0,
+  "pico": 0.0
+ }
+}
