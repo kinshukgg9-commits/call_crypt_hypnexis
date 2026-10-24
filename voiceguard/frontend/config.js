@@ -8,8 +8,10 @@
 //   window.VOICEGUARD_API = "https://your-backend.example.com";
 //
 // The WebSocket address (wss://...) is derived from it automatically.
-// On your own computer (run.bat) the page uses the local server; anywhere else, the hosted one.
-window.VOICEGUARD_API = ["localhost", "127.0.0.1"].includes(location.hostname) ? "" : "https://voiceguard-api-3x3m.onrender.com";
+// On your own computer (run.bat) or on Render itself (the Docker image serves this page) the page
+// uses the server it came from; anywhere else (e.g. Vercel), the hosted one.
+window.VOICEGUARD_API = ["localhost", "127.0.0.1"].includes(location.hostname) || location.hostname.endsWith(".onrender.com")
+  ? "" : "https://voiceguard-api-3x3m.onrender.com";
 
 // Open the DNS + TLS connection to the backend and start waking it while the rest of the page
 // loads: a sleeping free host needs every second it can get.

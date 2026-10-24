@@ -93,7 +93,8 @@ by one line.
 
 1. **Backend.** Two images are provided:
    - `Dockerfile.free` for free hosts with 512 MB of memory (Render's free plan: push the repo
-     to GitHub, then in Render choose New > Blueprint and pick it; `render.yaml` does the rest).
+     to GitHub, then in Render choose New > Blueprint and pick it; `render.yaml` at the
+     repository root does the rest).
      It uses the smallest speech model and peaked at about 425 MB under the heaviest test.
    - `Dockerfile` for hosts with 1 GB or more: the `small` speech model, more accurate.
 

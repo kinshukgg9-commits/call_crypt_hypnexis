@@ -1,0 +1,29 @@
+# Render blueprint: New > Blueprint > pick this repository. Free plan, 512 MB.
+# Lives at the repository root (Render only looks here); the app itself is in voiceguard/.
+services:
+  - type: web
+    name: voiceguard-api
+    runtime: docker
+    plan: free
+    # Both paths are relative to the repository root
+    dockerfilePath: ./voiceguard/Dockerfile.free
+    dockerContext: ./voiceguard
+    healthCheckPath: /health
+    # Singapore is the closest Render region to India: much shorter round trips than the US regions.
+    # (Render can't move an existing service: create a new one from this blueprint.)
+    region: singapore
+    # Only redeploy when the app changes, not the PDF or other files at the root
+    buildFilter:
+      paths:
+        - voiceguard/**
+      ignoredPaths:
+        - voiceguard/tests/**
+        - voiceguard/docs/**
+        - voiceguard/benchmark/**
+        - voiceguard/VGSC25-TestSet/**
+        - voiceguard/voiceguard-main/**
+    envVars:
+      - key: DATABASE_URL          # optional: mysql://user:pass@host:3306/voiceguard?ssl=true
+        sync: false
+      - key: STORAGE_ADMIN_TOKEN
+        generateValue: true
