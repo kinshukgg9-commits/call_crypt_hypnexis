@@ -1,1 +1,5 @@
 .DS_Store
+# Old copies kept on disk only, not uploaded
+voiceguard/voiceguard-main/
+voiceguard/VGSC25-TestSet/
+voiceguard/voiceguard-database.patch
